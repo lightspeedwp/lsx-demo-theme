@@ -769,6 +769,11 @@
 			"title": "Header with large title"
 		},
 		{
+			"area": "header",
+			"name": "lsx-header",
+			"title": "LSX Header"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
