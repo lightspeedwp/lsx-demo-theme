@@ -49,6 +49,6 @@ These fonts have been chosen to align with the theme niche which is thematically
 
 - **Added:**
   - Custom Shadow 'LSX Shadow' for buttons
-  - 'Dark Mode' style variation and color palette variation 
+  - 'Dark Mode' style variation and color palette variation
   - Lexend & Manrope variable fonts according to LSX Design System
   - 'LSX Header' template part following LSX Design System
