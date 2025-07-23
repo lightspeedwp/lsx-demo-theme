@@ -43,12 +43,12 @@ These fonts have been chosen to align with the theme niche which is thematically
 | Chrome Blue | Secondary accents / links | `#3895FF` |
 
 - **Deleted:**
-- All Style Variations that came with TT5 theme (except '01-evening')
-- Default fonts that came with TT5 theme
-- Section styles that came with TT5 theme
+  - All Style Variations that came with TT5 theme (except '01-evening')
+  - Default fonts that came with TT5 theme
+  - Section styles that came with TT5 theme
 
 - **Added:**
-- Custom Shadow 'LSX Shadow' for buttons
-- 'Dark Mode' style variation and color palette variation 
-- Lexend & Manrope variable fonts according to LSX Design System
-- 'LSX Header' template part following LSX Design System
+  - Custom Shadow 'LSX Shadow' for buttons
+  - 'Dark Mode' style variation and color palette variation 
+  - Lexend & Manrope variable fonts according to LSX Design System
+  - 'LSX Header' template part following LSX Design System
