@@ -49,6 +49,11 @@
 					"color": "#3895FF",
 					"name": "Accent 3",
 					"slug": "accent-3"
+				},
+				{
+					"color": "#ff007f",
+					"name": "Focus Ring",
+					"slug": "focus-ring"
 				}
 			]
 		},
@@ -157,37 +162,65 @@
 				{
 					"name": "xSmall",
 					"size": "1rem",
-					"slug": "x-small"
+					"slug": "x-small",
+					 "fluid": {
+						"min": "0.875rem",
+						"max": "1rem"
+					}
 				},
 				{
 					"name": "Small",
 					"size": "1.25rem",
-					"slug": "small"
+					"slug": "small",
+					"fluid": {
+						"min": "1rem",
+						"max": "1.25rem"
+					}
 				},
 				{
 					"name": "Medium",
 					"size": "1.5rem",
-					"slug": "medium"
+					"slug": "medium",
+					"fluid": {
+						"min": "1.25rem",
+						"max": "1.5rem"
+					}
 				},
 				{
 					"name": "Large",
 					"size": "2rem",
-					"slug": "large"
+					"slug": "large",
+					"fluid": {
+						"min": "1.375rem",
+						"max": "2rem"
+					}
 				},
 				{
 					"name": "X-Large",
 					"size": "2.5rem",
-					"slug": "x-large"
+					"slug": "x-large",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "2.5rem"
+					}
 				},
 				{
 					"name": "Huge",
 					"size": "3rem",
-					"slug": "huge"
+					"slug": "huge",
+					"fluid": {
+						"min": "2rem",
+						"max": "3rem"
+					}
 				},
 				{
 					"name": "Gigantic",
 					"size": "3.75rem",
-					"slug": "gigantic"
+					"slug": "gigantic",
+					"fluid": {
+						"min": "3rem",
+						"max": "3.75rem"
+					}
 				}
 			],
 			"writingMode": true
@@ -231,7 +264,7 @@
 			},
 			"core/buttons": {
 				"spacing": {
-					"blockGap": "16px"
+					"blockGap": "var(--wp--preset--spacing--small) 0"
 				}
 			},
 			"core/code": {
@@ -250,7 +283,7 @@
 			},
 			"core/columns": {
 				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--large)"
+					"blockGap": "var(--wp--preset--spacing--half) 0"
 				}
 			},
 			"core/comment-author-name": {
@@ -391,8 +424,13 @@
 					}
 				},
 				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--small)"
+					"blockGap": "var(--wp--preset--spacing--half)"
 				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-small)"
+				}
+			},
+			"core/navigation-link": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
@@ -480,12 +518,13 @@
 				},
 				"spacing": {
 					"padding": {
-						"bottom": "var(--wp--preset--spacing--small)",
-						"top": "var(--wp--preset--spacing--small)"
+						"bottom": "var(--wp--preset--spacing--x-small)",
+						"top": "var(--wp--preset--spacing--x-small)"
 					}
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--huge)",
+					"fontStyle": "normal",
 					"fontWeight": "300",
 					"lineHeight": "1.2"
 				}
@@ -519,22 +558,23 @@
 					}
 				},
 				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--small)",
+					"blockGap": "var(--wp--preset--spacing--half)",
 					"margin": {
 						"left": "0",
 						"right": "0"
 					},
 					"padding": {
-						"bottom": "var(--wp--preset--spacing--small)",
-						"left": "var(--wp--preset--spacing--small)",
-						"right": "var(--wp--preset--spacing--small)",
-						"top": "var(--wp--preset--spacing--small)"
+						"bottom": "var(--wp--preset--spacing--half)",
+						"left": "var(--wp--preset--spacing--half)",
+						"right": "var(--wp--preset--spacing--half)",
+						"top": "var(--wp--preset--spacing--half)"
 					}
 				},
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--manrope)",
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontStyle": "normal",
-					"fontWeight": "300"
+					"fontWeight": "400"
 				},
 				"variations": {
 					"plain": {
@@ -631,10 +671,12 @@
 		},
 		"elements": {
 			"button": {
-				":focus": {
+				":focus-visible": {
 					"outline": {
-						"color": "var(--wp--preset--color--accent-1)",
-						"offset": "2px"
+						"color": "var(--wp--preset--color--focus-ring)",
+						"style": "solid",
+						"width": "0.125rem",
+						"offset": "0.125rem"
 					}
 				},
 				":hover": {
@@ -733,6 +775,13 @@
 				}
 			},
 			"link": {
+				":focus-visible": {
+          			"outline": {
+					 "color": "var(--wp--preset--color--focus-ring)",
+					 "style": "0.125rem solid",
+         			 "offset": "0.125rem"
+					}
+       			},
 				":hover": {
 					"color": {
 						"text": "var(--wp--preset--color--accent-3)"

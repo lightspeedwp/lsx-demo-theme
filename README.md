@@ -46,9 +46,12 @@ These fonts have been chosen to align with the theme niche which is thematically
   - All Style Variations that came with TT5 theme (except '01-evening')
   - Default fonts that came with TT5 theme
   - Section styles that came with TT5 theme
+  - 'Focus' styles from styles.css (to accommodate custom styles in theme.json)
 
 - **Added:**
   - Custom Shadow 'LSX Shadow' for buttons
   - 'Dark Mode' style variation and color palette variation
   - Lexend & Manrope variable fonts according to LSX Design System
   - 'LSX Header' template part following LSX Design System
+  - 'Focus' styles for a11y in theme.json
+  - Fluid typography settings based on LSX Style Guide (Viewport: 320-1600px | Typescale: 1.2)
