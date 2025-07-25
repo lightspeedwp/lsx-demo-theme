@@ -74,11 +74,6 @@
 			"defaultSpacingSizes": false,
 			"spacingSizes": [
 				{
-					"name": "None",
-					"size": "0rem",
-					"slug": "none"
-				},
-				{
 					"name": "Half",
 					"size": "0.625rem",
 					"slug": "half"
