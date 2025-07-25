@@ -778,7 +778,8 @@
 				":focus-visible": {
           			"outline": {
 					 "color": "var(--wp--preset--color--focus-ring)",
-					 "style": "0.125rem solid",
+					 "style": "solid",
+					 "width": "0.125rem",
          			 "offset": "0.125rem"
 					}
        			},
