@@ -87,7 +87,7 @@ This document is split into two parts:
 - [ ] Create sample site locally → rebuild 2–3 layouts using **Grid block**.  
 
 ### 📤 Deliverables for Ash
-- [ ] Confirm **1Password** is running.  
+- [ x ] Confirm **1Password** is running.  
 - [ ] Share links to your **WordPress.org**, **GitHub**, and **Figma** profiles.  
 - [ ] Loom or screenshot of your **local WP** environment.  
 - [ ] Markdown **progress note** (courses done, DS patterns built, blockers).  
