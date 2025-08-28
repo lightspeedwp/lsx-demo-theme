@@ -24,15 +24,15 @@ This document is split into two parts:
 ## ✅ Actionable Tasks
 
 ### 🔒 Security
-- [ ] Install **1Password for Mac** → [Download](https://1password.com/downloads/mac)  
-- [ ] Set up 1Password on **Mac + iPhone**.  
-- [ ] Generate random passwords (don’t save in browsers).  
-- [ ] Turn on **passkeys** wherever available.  
+- [x] Install **1Password for Mac** → [Download](https://1password.com/downloads/mac)  
+- [x] Set up 1Password on **Mac + iPhone**.  
+- [x] Generate random passwords (don’t save in browsers).  
+- [x] Turn on **passkeys** wherever available.  
 - [ ] Check your email exposure → [Have I Been Pwned](https://haveibeenpwned.com/)  
 - [ ] Enable ongoing monitoring → [Mozilla Monitor](https://monitor.mozilla.org/)  
 
 ### 💻 Core Mac Setup
-- [ ] Sign in to Chrome and **sync bookmarks**.  
+- [x] Sign in to Chrome and **sync bookmarks**.  
 - [ ] Enable **macOS dictation** → [Guide](https://support.apple.com/en-ca/guide/mac-help/mh40584/mac)  
 - [ ] Install [Slack for Mac](https://slack.com/intl/en-gb/downloads/mac)  
 - [ ] Install [Google Drive for desktop](https://www.google.com/drive/download/)  
@@ -44,17 +44,17 @@ This document is split into two parts:
   - [ ] [Node.js](https://nodejs.org/en/download/)  
   - [ ] [Composer](https://getcomposer.org/download/)  
   - [ ] [GitHub Desktop](https://desktop.github.com/download/)  
-- [ ] Install helper tools: [Claude](https://claude.ai/download), [ChatGPT](https://chatgpt.com/download/), [Loom](https://www.loom.com/download), [CCleaner](https://www.ccleaner.com/)  
+- [x] Install helper tools: [Claude](https://claude.ai/download), [ChatGPT](https://chatgpt.com/download/), [Loom](https://www.loom.com/download), [CCleaner](https://www.ccleaner.com/)  
 - [ ] Install [Figma (standard + beta)](https://www.figma.com/downloads/)  
 
 ### 🌍 Accounts & Community
 - [ ] Create **WordPress.org account** → [Register](https://login.wordpress.org/register)  
-- [ ] Bookmark: [Patterns](https://wordpress.org/patterns/), [Photos](https://wordpress.org/photos/), [5ftF Example](https://wordpress.org/five-for-the-future/pledge/awesome-motive/)  
-- [ ] Explore example WP.org profiles:  
-  - [ ] [feedmymedia](https://profiles.wordpress.org/feedmymedia/)  
-  - [ ] [Rich Tabor](https://profiles.wordpress.org/richtabor/)  
-  - [ ] [lanche86](https://profiles.wordpress.org/lanche86/)  
-  - [ ] [John James Jacoby](https://profiles.wordpress.org/johnjamesjacoby/)  
+- [x] Bookmark: [Patterns](https://wordpress.org/patterns/), [Photos](https://wordpress.org/photos/), [5ftF Example](https://wordpress.org/five-for-the-future/pledge/awesome-motive/)  
+- [x] Explore example WP.org profiles:  
+  - [x] [feedmymedia](https://profiles.wordpress.org/feedmymedia/)  
+  - [x] [Rich Tabor](https://profiles.wordpress.org/richtabor/)  
+  - [x] [lanche86](https://profiles.wordpress.org/lanche86/)  
+  - [x] [John James Jacoby](https://profiles.wordpress.org/johnjamesjacoby/)  
 - [ ] Join **WordPress Community Slack** → [Join](https://wordpress.slack.com/)  
 - [ ] DM Ash (`feedmymedia`) a hello.  
 - [ ] Set up **GitHub profile** (README, photo, bio) → [Docs](https://docs.github.com/en/get-started/start-your-journey/setting-up-your-profile)  
@@ -62,7 +62,7 @@ This document is split into two parts:
 
 ### 🛠 Local WP Dev Tooling
 - [ ] Install and test [Studio](https://developer.wordpress.com/studio/) ([Docs](https://developer.wordpress.com/docs/))  
-- [ ] Install and test [Local WP](https://localwp.com/)  
+- [x] Install and test [Local WP](https://localwp.com/)  
 
 ### 📚 Learning Plan (Week 1)
 - [ ] Read → [FullSiteEditing.com](https://fullsiteediting.com/)  
@@ -87,7 +87,7 @@ This document is split into two parts:
 - [ ] Create sample site locally → rebuild 2–3 layouts using **Grid block**.  
 
 ### 📤 Deliverables for Ash
-- [ x ] Confirm **1Password** is running.  
+- [x] Confirm **1Password** is running.  
 - [ ] Share links to your **WordPress.org**, **GitHub**, and **Figma** profiles.  
 - [ ] Loom or screenshot of your **local WP** environment.  
 - [ ] Markdown **progress note** (courses done, DS patterns built, blockers).  
