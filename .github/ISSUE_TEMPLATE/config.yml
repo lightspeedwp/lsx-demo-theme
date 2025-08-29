@@ -23,3 +23,13 @@ labels:
     description: "Issues related to documentation for the LSX theme"
   - name: "Feature Request"
     description: "Requests for new features or enhancements in the LSX theme"
+issue_templates:
+  - name: "Bug report"
+    file: bug_report.md
+    about: "Report a bug"
+  - name: "Task"
+    file: task.md
+    about: "Track a straightforward, non-coding, non-bug task"
+  - name: "Coding Task"
+    file: coding_task.md
+    about: "Request a code change, feature, or refactor"
