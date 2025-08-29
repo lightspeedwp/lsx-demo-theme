@@ -63,6 +63,50 @@ Each week you are expected to:
 
 ---
 
+## 🧑‍💻 Development Guidelines
+
+### Version Control
+- Follow semantic versioning
+- Update changelog.md for all changes
+- Include proper commit messages
+
+### Security
+- Sanitize inputs
+- Escape outputs
+- Use nonces for forms
+- Check capabilities before actions
+
+### Performance
+- Optimize database queries
+- Load assets only when needed
+- Use WordPress core functions when available
+- Cache expensive operations
+
+### Accessibility
+- Follow WCAG 2.1 guidelines
+- Use proper ARIA attributes
+- Ensure keyboard navigation
+- Maintain proper color contrast
+
+#### Accessibility Reference
+- [WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/)
+
+---
+
+## Coding Standards
+
+When outputting or generating code, please follow these guidelines:
+
+- [PHP Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/)
+- [HTML Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/html/)
+- [JS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/)
+- [CSS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/)
+- [Markdown Style Guide](docs/coding-standards/styleguide.md)
+- [Accessibility Guide](docs/coding-standards/wordpress-coding-standards/accessibility.md)
+- [Idiomatic CSS](docs/coding-standards/idiomatic-css.md)
+
+---
+
 ## 🤝 Support
 
 You can ask questions in the LightSpeed Slack workspace in the `#lsx-demo-theme` channel.
