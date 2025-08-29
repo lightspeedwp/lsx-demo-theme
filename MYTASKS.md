@@ -33,19 +33,19 @@ This document is split into two parts:
 
 ### 💻 Core Mac Setup
 - [x] Sign in to Chrome and **sync bookmarks**.  
-- [ ] Enable **macOS dictation** → [Guide](https://support.apple.com/en-ca/guide/mac-help/mh40584/mac)  
-- [ ] Install [Slack for Mac](https://slack.com/intl/en-gb/downloads/mac)  
-- [ ] Install [Google Drive for desktop](https://www.google.com/drive/download/)  
-- [ ] Install dev essentials in this order:  
-  - [ ] [VS Code Insiders](https://code.visualstudio.com/insiders/)  
-  - [ ] [Xcode](https://developer.apple.com/xcode/)  
-  - [ ] [Git](https://git-scm.com/downloads/mac)  
-  - [ ] [Homebrew](https://brew.sh/)  
-  - [ ] [Node.js](https://nodejs.org/en/download/)  
-  - [ ] [Composer](https://getcomposer.org/download/)  
-  - [ ] [GitHub Desktop](https://desktop.github.com/download/)  
+- [x] Enable **macOS dictation** → [Guide](https://support.apple.com/en-ca/guide/mac-help/mh40584/mac)  
+- [x] Install [Slack for Mac](https://slack.com/intl/en-gb/downloads/mac)  
+- [x] Install [Google Drive for desktop](https://www.google.com/drive/download/)  
+- [x] Install dev essentials in this order:  
+  - [x] [VS Code Insiders](https://code.visualstudio.com/insiders/)  
+  - [x] [Xcode](https://developer.apple.com/xcode/)  
+  - [x] [Git](https://git-scm.com/downloads/mac)  
+  - [x] [Homebrew](https://brew.sh/)  
+  - [x] [Node.js](https://nodejs.org/en/download/)  
+  - [x] [Composer](https://getcomposer.org/download/)  
+  - [x] [GitHub Desktop](https://desktop.github.com/download/)  
 - [x] Install helper tools: [Claude](https://claude.ai/download), [ChatGPT](https://chatgpt.com/download/), [Loom](https://www.loom.com/download), [CCleaner](https://www.ccleaner.com/)  
-- [ ] Install [Figma (standard + beta)](https://www.figma.com/downloads/)  
+- [x] Install [Figma (standard + beta)](https://www.figma.com/downloads/)  
 
 ### 🌍 Accounts & Community
 - [ ] Create **WordPress.org account** → [Register](https://login.wordpress.org/register)  
@@ -57,11 +57,11 @@ This document is split into two parts:
   - [x] [John James Jacoby](https://profiles.wordpress.org/johnjamesjacoby/)  
 - [ ] Join **WordPress Community Slack** → [Join](https://wordpress.slack.com/)  
 - [ ] DM Ash (`feedmymedia`) a hello.  
-- [ ] Set up **GitHub profile** (README, photo, bio) → [Docs](https://docs.github.com/en/get-started/start-your-journey/setting-up-your-profile)  
-- [ ] Set up **Figma community profile** (photo, bio, bookmark LSX Design System).  
+- [x] Set up **GitHub profile** (README, photo, bio) → [Docs](https://docs.github.com/en/get-started/start-your-journey/setting-up-your-profile)  
+- [x] Set up **Figma community profile** (photo, bio, bookmark LSX Design System).  
 
 ### 🛠 Local WP Dev Tooling
-- [ ] Install and test [Studio](https://developer.wordpress.com/studio/) ([Docs](https://developer.wordpress.com/docs/))  
+- [x] Install and test [Studio](https://developer.wordpress.com/studio/) ([Docs](https://developer.wordpress.com/docs/))  
 - [x] Install and test [Local WP](https://localwp.com/)  
 
 ### 📚 Learning Plan (Week 1)
@@ -90,4 +90,4 @@ This document is split into two parts:
 - [x] Confirm **1Password** is running.  
 - [ ] Share links to your **WordPress.org**, **GitHub**, and **Figma** profiles.  
 - [ ] Loom or screenshot of your **local WP** environment.  
-- [ ] Markdown **progress note** (courses done, DS patterns built, blockers).  
+- [x] Markdown **progress note** (courses done, DS patterns built, blockers).  
