@@ -6,15 +6,9 @@ Record your activities, time spent and observations for the second week of the i
 
 _Summarise your progress, highlight what you learned and mention any blockers you encountered._
 
----
+## 2025‑09‑02
 
-## 2025‑09‑DD
-
-- **Hours:** _e.g. 4.0_
-- **Task:** _Describe the task or issue you worked on._
-- **Description:** _Explain what you did, resources used, obstacles encountered and how you resolved them._
-- **Next Steps:** _Outline what you plan to work on next._
-
----
-
-Continue adding daily sections for each day you work during Week 02.
+- **Hours:** 8 hours daily.
+- **Task:** Continued working on Copilot modules and explored more on the LSX Demo Theme project structure.
+- **Description:** I spent time understanding the LSX Demo Theme, including its use of `theme.json` for global settings and styles. I also reviewed the block patterns and templates used in the theme. This helped me connect the theoretical knowledge from the modules to the practical implementation in the project.
+- **Next Steps:** Dive deeper into the LSX Demo Theme and start identifying areas where I can contribute. Additionally, I will focus on improving my workflow by consistently logging time in Harvest.

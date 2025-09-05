@@ -6,11 +6,26 @@ This file is intended for your end‑of‑internship reflection. Use it to captu
 
 Consider addressing the following questions:
 
-- **What were your biggest achievements?** Describe the projects or tasks you completed and the skills you developed.
-- **What challenges did you face?** Reflect on obstacles and how you overcame them. What would you do differently next time?
-- **How did the tools and workflows support your work?** Comment on GitHub, Copilot, Figma, Playwright and other tools used during the internship.
-- **What feedback did you receive and how did you apply it?** Summarise constructive feedback and how it improved your work.
-- **What are your goals going forward?** Identify areas for further learning and how you plan to apply your new skills.
+- **What were your biggest achievements?**  
+  My biggest achievement was learning some fundamentals of Copilot and GitHub.
+
+- **What challenges did you face?**  
+  One challenge I faced was with my WordPress account, which was giving me problems. However, I resolved it, and otherwise, I didn’t encounter any other major struggles.
+
+- **How did the tools and workflows support your work?**  
+  The tools and workflows made some processes a lot easier. For example:  
+  - Creating Asana tasks via Slack was very efficient.  
+  - Copilot was an amazing assistant in all areas.  
+  - 1Password has been especially refreshing to use.
+
+- **What feedback did you receive and how did you apply it?**  
+  I received feedback from Ash about planning tasks and taking notes on critical information. This has been especially helpful because I can be forgetful, and applying this advice has improved my workflow.
+
+- **What are your goals going forward?**  
+  My goals are:  
+  - To master using Copilot as much as I possibly can.  
+  - To learn and be able to apply the standards at LightSpeed.  
+  - To get my knowledge to a point where I can start contributing to company projects.
 
 ## Structure
 

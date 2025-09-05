@@ -8,13 +8,9 @@ _Write a short paragraph summarising your progress, what you learned, challenges
 
 ---
 
-## 2025‑09‑DD
+## 2025‑08‑25
 
-- **Hours:** _e.g. 3.5_
-- **Task:** _Describe the task or issue you worked on._
-- **Description:** _Explain what you did, resources used, obstacles encountered and how you resolved them._
-- **Next Steps:** _Outline what you plan to work on next._
-
----
-
-Repeat the daily section for each day you work during Week 01.
+- **Hours:** 8 hours daily
+- **Task:** Modified all my profiles and added required information. Also completed modules and tasks I created on Asana.
+- **Description:** I learnt about the block theme and the LSX Demo Theme. I used GitHub to start my courses and then moved over to Microsoft Learn. Some challenges I faced with the courses were that some activities required a paid Copilot version, like Agent Mode, for example.
+- **Next Steps:** Next steps are moving on to the next week's curriculum and doing those tasks. Along with that, I want to complete some more courses on Copilot and GitHub fundamentals.
