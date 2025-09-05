@@ -6,34 +6,34 @@ Below is a consolidated and actionable checklist for our team. Steps are clearly
 
 ## Action Items
 
-- [ ] **Install Productivity Tools**
-  - [ ] Install "Be Focused" app (for Pomodoro technique).
-  - [ ] Set up specific tasks within Be Focused for time tracking.
-  - [ ] Install and configure Harvest Chrome extension.
-  - [ ] Verify Harvest timer integration with Asana/GitHub.
+- [x] **Install Productivity Tools**
+  - [x] Install "Be Focused" app (for Pomodoro technique).
+  - [x] Set up specific tasks within Be Focused for time tracking.
+  - [x] Install and configure Harvest Chrome extension.
+  - [ ] Verify Harvest timer integration with Asana/GitHub. (Requires paid account)
 
-- [ ] **Coordinate Meeting Schedule**
-  - [ ] Poll team members for preferred meeting days/times.
-  - [ ] Decide and finalize a regular meeting schedule (daily or 2–3 times per week).
-  - [ ] Share calendar invite with the team.
+- [x] **Coordinate Meeting Schedule**
+  - [x] Poll team members for preferred meeting days/times.
+  - [x] Decide and finalize a regular meeting schedule (daily or 2–3 times per week).
+  - [x] Share calendar invite with the team.
 
-- [ ] **Daily Work Planning**
-  - [ ] Draft your work plan for the day by 8:30 AM.
-  - [ ] Post your daily work plan to the team Slack channel.
+- [x] **Daily Work Planning**
+  - [x] Draft your work plan for the day by 8:30 AM.
+  - [x] Post your daily work plan to the team Slack channel.
 
-- [ ] **Weekly Review and Reflection**
-  - [ ] Complete weekly reflection by lunchtime every Friday.
-  - [ ] Share your insights or blockers during the weekly review session.
+- [x] **Weekly Review and Reflection**
+  - [x] Complete weekly reflection by lunchtime every Friday.
+  - [x] Share your insights or blockers during the weekly review session.
 
 - [ ] **Demo Theme Improvements**
-  - [ ] Review all provided LSX demo theme zip files.
+  - [x] Review all provided LSX demo theme zip files. (Decide between, lsx-demo-theme-final/new)
   - [ ] Compare, list, and summarize improvements and differences.
   - [ ] Share findings with the team.
 
 - [ ] **Standardize Project Templates**
-  - [ ] Convert all existing issue templates to Markdown (`.md`) files.
-  - [ ] Organize templates in the correct project folder structure.
-  - [ ] Collaborate on improving and dividing template work (logs, issues, prompts, custom instructions).
+  - [ ] Convert all existing issue templates to Markdown (`.md`) files. (use Pull Request to Moves current 14 issue templates to docs/project) -Seren
+  - [ ] Organize templates in the correct project folder structure. 
+  - [ ] Collaborate on improving and dividing template work (logs, issues, prompts, custom instructions). (Add corrected ISSUE Templates using Pull Request).
   - [ ] Commit all template changes and document rationale.
 
 - [ ] **Team Week Planning**
@@ -41,7 +41,7 @@ Below is a consolidated and actionable checklist for our team. Steps are clearly
   - [ ] Commit planning documents to the team repository for visibility.
 
 - [ ] **Integrate Copilot**
-  - [ ] Integrate Copilot with the new planning template structure.
+  - [x] Integrate Copilot with the new planning template structure.
   - [ ] Test and document the integration process.
 
 ---
