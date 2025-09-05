@@ -37,7 +37,7 @@ Below is a consolidated and actionable checklist for our team. Steps are clearly
   - [ ] Commit all template changes and document rationale.
 
 - [ ] **Team Week Planning**
-  - [ ] Create weekly planning documents using provided templates.
+  - [ ] Create weekly planning documents using provided templates. (Use the weekly-plan.md template to create next weeks plan)
   - [ ] Commit planning documents to the team repository for visibility.
 
 - [ ] **Integrate Copilot**
