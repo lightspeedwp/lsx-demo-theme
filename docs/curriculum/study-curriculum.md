@@ -91,12 +91,12 @@ This three-month self-study curriculum is designed for junior developers prepari
 
 ### Submission Checklist
 
-- LocalWP installed, GitHub account created
-- Fork and clone starter repo
-- Markdown journal with 3+ entries
-- First GitHub PR with commit messages
-- Test markdown file committed to GitHub
-- GitHub Issues created for key study topics
+[x] LocalWP installed, GitHub account created
+[x] Fork and clone starter repo
+[x] Markdown journal with 3+ entries
+[x] First GitHub PR with commit messages
+[x] Test markdown file committed to GitHub
+[x] GitHub Issues created for key study topics
 
 ---
 
