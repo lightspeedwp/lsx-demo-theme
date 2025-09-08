@@ -73,181 +73,195 @@ This three-month self-study curriculum is designed for junior developers prepari
 
 ## Week 1: Environment & GitHub Basics
 
-## **Topics: **
+### Topics
 
-LocalWP setup & local development
-Git fundamentals & GitHub workflows
-Markdown usage & daily logs
-Repository management basics
+- LocalWP setup & local development
+- Git fundamentals & GitHub workflows
+- Markdown usage & daily logs
+- Repository management basics
 
 ### Resources
 
-LocalWP Setup
-Codecademy Git Course
-GitHub Markdown
-Getting Started with GitHub Copilot
-Introduction to Repository Management
-Communicate using Markdown
+- LocalWP Setup
+- Codecademy Git Course
+- GitHub Markdown
+- Getting Started with GitHub Copilot
+- Introduction to Repository Management
+- Communicate using Markdown
 
 ### Submission Checklist
 
-LocalWP installed, GitHub account created
-Fork and clone starter repo
-Markdown journal with 3+ entries
-First GitHub PR with commit messages
-Test markdown file committed to GitHub
-GitHub Issues created for key study topics
+- LocalWP installed, GitHub account created
+- Fork and clone starter repo
+- Markdown journal with 3+ entries
+- First GitHub PR with commit messages
+- Test markdown file committed to GitHub
+- GitHub Issues created for key study topics
+
+---
 
 ## Week 2: WordPress Block Themes & Site Editor
 
 ### Topics
 
-Site Editor basics
-Template parts & patterns
-Style variations via theme.json
-Exporting themes with Create Block Theme
-Block Pattern Directory usage
+- Site Editor basics
+- Template parts & patterns
+- Style variations via `theme.json`
+- Exporting themes with Create Block Theme
+- Block Pattern Directory usage
 
-## **Resources:**
+### Resources
 
-Block Themes Overview
-Create Block Theme Plugin
-Theme.json Reference
-Block Pattern Directory
+- Block Themes Overview
+- Create Block Theme Plugin
+- Theme.json Reference
+- Block Pattern Directory
 
 ### Submission Checklist
 
-Recreate a page using the Twenty Twenty-Five theme
-Export block theme changes via Create Block Theme
-Push exported theme to GitHub repo
-Updated[ README.md](http://readme.md/) with what was learned
-Screenshots of live preview
-Daily markdown entries
-Create Issues for bugs or feedback items
-Submit PR with working export and screenshots
+- Recreate a page using the Twenty Twenty-Five theme
+- Export block theme changes via Create Block Theme
+- Push exported theme to GitHub repo
+- Updated `README.md` with what was learned
+- Screenshots of live preview
+- Daily markdown entries
+- Create Issues for bugs or feedback items
+- Submit PR with working export and screenshots
+
+---
 
 ## Week 3: GitHub Copilot + Dev Practices
 
 ### Topics
 
-GitHub Copilot prompts & best practices
-Customising and extending Copilot Agents
-MCP workflows
-.[instructions.md](http://instructions.md/) and agent guides integration
+- GitHub Copilot prompts & best practices
+- Customising and extending Copilot Agents
+- MCP workflows
+- `instructions.md` and agent guides integration
 
-## **Resources:**
+### Resources
 
-Intro to GitHub Copilot
-Copilot Coding Agent Concepts
-MCP Agent Integration
-Customise the Agent Environment
-Extend Coding Agent with MCP
-Integrate MCP with Copilot
+- Intro to GitHub Copilot
+- Copilot Coding Agent Concepts
+- MCP Agent Integration
+- Customise the Agent Environment
+- Extend Coding Agent with MCP
+- Integrate MCP with Copilot
 
-## **Submission Checklist:**
+### Submission Checklist
 
-VS Code setup with Copilot enabled
-.[instructions.md](http://instructions.md/) file created and used
-Copilot project demo with .[instructions.md](http://instructions.md/)
-MCP prompts executed and reviewed
-GitHub issues + PRs for changes
-Reflection journal updated with what worked/didn’t
-Create Issues for any stuck points
+- VS Code setup with Copilot enabled
+- `instructions.md` file created and used
+- Copilot project demo with `instructions.md`
+- MCP prompts executed and reviewed
+- GitHub issues + PRs for changes
+- Reflection journal updated with what worked/didn’t
+- Create Issues for any stuck points
+
+---
 
 ## Week 4: Theme.json Deep Dive
 
 ### Topics
 
-Design tokens, spacing, colours, layouts
-WordPress template hierarchy
-Advanced theme.json configuration
+- Design tokens, spacing, colours, layouts
+- WordPress template hierarchy
+- Advanced `theme.json` configuration
 
 ### Resources
 
-Theme.json v3 Overview
-Template Hierarchy Guide
+- Theme.json v3 Overview
+- Template Hierarchy Guide
 
-## **Submission Checklist:**
+### Submission Checklist
 
-Custom theme.json with new layout & spacing system
-Demo theme with style variation
-Document design decisions in README
-Updated markdown log
+- Custom `theme.json` with new layout & spacing system
+- Demo theme with style variation
+- Document design decisions in README
+- Updated markdown log
 
+---
 
 # Month 2: Figma Design Systems & Block Pattern Development
 
 ## Week 5: Figma Dev Mode
 
-## **Topics:**
+### Topics
 
-Inspecting designs, measurements, linking resources
-DevMode status and workflow
+- Inspecting designs, measurements, linking resources
+- DevMode status and workflow
 
 ### Resources
 
-Figma Dev Mode Guide
-Figma for VSCode
+- Figma Dev Mode Guide
+- Figma for VSCode
 
 ### Submission Checklist
 
-Open and navigate LSX Design System file
-Annotate design elements
-Document measurement & variable use
+- Open and navigate LSX Design System file
+- Annotate design elements
+- Document measurement & variable use
+
+---
 
 ## Week 6: Design Tokens & Pattern Design
 
-## **Topics:**
+### Topics
 
-Figma variables
-Layout grid and block pattern alignment
-Pattern export best practices
+- Figma variables
+- Layout grid and block pattern alignment
+- Pattern export best practices
 
 ### Resources
 
-Variables in Dev Mode
-LSX and Tour Operator Design System files
+- Variables in Dev Mode
+- LSX and Tour Operator Design System files
 
 ### Submission Checklist
 
-Create 2 custom patterns based on design system
-Align pattern exports with Figma tokens
-Markdown reflection + visual screenshot grid
+- Create 2 custom patterns based on design system
+- Align pattern exports with Figma tokens
+- Markdown reflection + visual screenshot grid
+
+---
 
 ## Week 7: Building from Design to Theme
 
-## **Topics:**
+### Topics
 
-Translating Figma into a functioning block theme
-Code comments referencing Figma links
+- Translating Figma into a functioning block theme
+- Code comments referencing Figma links
 
-## **Resources:**
+### Resources
 
-Figma Inspect Tools
-
-## **Submission Checklist:**
-
-Page built using custom patterns and LSX-style system
-Final GitHub repo with README.md
-Code comments showing Figma links
-
-## Week 8: Client Projects & Support Tickets
-
-## **Topics:**
-
-Zendesk, Asana, LightSpeed support protocols
-Client communication and ticket simulation
-
-## **Resources:**
-
-Internal docs (Support Manual, Induction Handbook)
+- Figma Inspect Tools
 
 ### Submission Checklist
 
-Participate in 1–2 test tickets via mock support repo
-Log client-style responses via markdown
-Asana task and time tracking simulation
+- Page built using custom patterns and LSX-style system
+- Final GitHub repo with README.md
+- Code comments showing Figma links
 
+---
+
+## Week 8: Client Projects & Support Tickets
+
+### Topics
+
+- Zendesk, Asana, LightSpeed support protocols
+- Client communication and ticket simulation
+
+### Resources
+
+- Internal docs (Support Manual, Induction Handbook)
+
+### Submission Checklist
+
+- Participate in 1–2 test tickets via mock support repo
+- Log client-style responses via markdown
+- Asana task and time tracking simulation
+
+---
 
 # Month 3: Block Plugin Development & Advanced WordPress
 
@@ -255,90 +269,106 @@ Asana task and time tracking simulation
 
 ### Topics
 
-ACF blocks, block bindings, dynamic content
-Block bindings overview
+- ACF blocks, block bindings, dynamic content
+- Block bindings overview
 
-## **Resources:**
+### Resources
 
-ACF Blocks Docs
-Block Bindings Intro
-Block Bindings Overview
+- ACF Blocks Docs
+- Block Bindings Intro
+- Block Bindings Overview
 
-## **Submission Checklist:**
+### Submission Checklist
 
-Create an ACF-based custom block
-Add dynamic data via block bindings
-Push working demo + README
-ACF block prototype in custom theme or plugin
+- Create an ACF-based custom block
+- Add dynamic data via block bindings
+- Push working demo + README
+- ACF block prototype in custom theme or plugin
+
+---
 
 ## Week 10: WooCommerce Block Integration
 
 ### Topics
 
-Product Collection Block
-Woo Blocks, design integration
-WooCommerce block layout in repo
+- Product Collection Block
+- Woo Blocks, design integration
+- WooCommerce block layout in repo
 
-## **Resources:**
+### Resources
 
-WooCommerce Blocks
-WooCommerce Blocks Dev Docs
-
-## **Submission Checklist:**
-
-WooCommerce dev store setup
-Custom template with Woo Blocks
-Screenshots + usage notes
-WooCommerce block layout pushed to repo
-
-## Week 11: Automated Testing with Playwright
-
-## **Topics:**
-
-Setup, writing basic tests, GitHub test workflows
-Introduction to automated testing
-
-## **Resources:**
-
-Playwright Docs
+- WooCommerce Blocks
+- WooCommerce Blocks Dev Docs
 
 ### Submission Checklist
 
-Playwright installed and one test created
-Basic test scenario implemented
-GitHub workflow configured
-Markdown journal entry on learning curve
-Final project repo submitted with test check-ins
+- WooCommerce dev store setup
+- Custom template with Woo Blocks
+- Screenshots + usage notes
+- WooCommerce block layout pushed to repo
+
+---
+
+## Week 11: Automated Testing with Playwright
+
+### Topics
+
+- Setup, writing basic tests, GitHub test workflows
+- Introduction to automated testing
+
+### Resources
+
+- Playwright Docs
+
+### Submission Checklist
+
+- Playwright installed and one test created
+- Basic test scenario implemented
+- GitHub workflow configured
+- Markdown journal entry on learning curve
+- Final project repo submitted with test check-ins
+
+---
+
 ## Week 12: Capstone Review
 
 ### Topics
 
-Final reflections, peer feedback, async PR walkthrough
-Personal retrospective log
+- Final reflections, peer feedback, async PR walkthrough
+- Personal retrospective log
 
-## Submission Checklist:
+### Submission Checklist
 
-Final themed site with GitHub repo
-Pull Request walkthrough video or markdown
-Personal retrospective log + goals for future
-Reflection log included in markdown format
+- Final themed site with GitHub repo
+- Pull Request walkthrough video or markdown
+- Personal retrospective log + goals for future
+- Reflection log included in markdown format
 
+---
 
 ## Weekly Submission Checklist
 
 Each week, the following must be submitted:
 
-Markdown log of what was learned (daily entries)
-GitHub issues to track progress
-PRs to showcase work
-README updated to reflect the week’s work
-Screenshots or screen recordings as needed
-Figma inspection and handoff notes where applicable
+- Markdown log of what was learned (daily entries)
+- GitHub issues to track progress
+- PRs to showcase work
+- README updated to reflect the week’s work
+- Screenshots or screen recordings as needed
+- Figma inspection and handoff notes where applicable
 
-## Notes:
+---
+
+## Notes
 
 All key concepts, resources, and checklist items from previous curriculum versions (including v1) have been integrated to ensure completeness.
-For coding, accessibility, and development guidelines, refer to:
-WordPress Coding Standards:[ https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/)
-WCAG 2.2 Quick Reference:[ https://www.w3.org/WAI/WCAG22/quickref/](https://www.w3.org/WAI/WCAG22/quickref/)
 
+For coding, accessibility, and development guidelines, refer to:
+
+- WordPress Coding Standards: [https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/)
+- WCAG 2.2 Quick Reference: [https://www.w3.org/WAI/WCAG22/quickref/](https://www.w3.org/WAI/WCAG22/quickref/)
+
+---
+
+> **Org Instructions:**  
+> [Organization Custom Instructions — Copilot Docs](https://docs.github.com/en/copilot/customizing-copilot/adding-organization-custom-instructions-for-github-copilot)
