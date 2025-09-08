@@ -7,4 +7,4 @@ Installed WPStudio, set up my first local WordPress site. Faced a permissions er
 Forked the starter repo and cloned it locally. The difference between forking and cloning is now clear to me. Used VS Code and terminal for the first time together.
 
 ## Entry 3: First Commit & Pull Request
-Edited README.md and added my first markdown file. Committed with a message describing the change, then pushed to my fork. Opened a pull request—felt accomplished! Noticed the importance of clear commit messages and PR descriptions.
+Edited README.md and added my first markdown file. Committed with a message describing the change, then pushed to my fork. Opened a pull request—felt accomplished! Noticed the importance of clear commit messages and PR descriptions
