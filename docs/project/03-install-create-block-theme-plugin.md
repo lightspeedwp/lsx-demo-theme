@@ -133,28 +133,11 @@ Once installed, the Create Block Theme plugin provides:
 - **Pattern Creation:** Save custom block patterns
 - **Style Management:** Manage theme variations
 
-## Troubleshooting
-
-**Plugin not found:**
-- Ensure you're searching for "Create Block Theme"
-- Check your internet connection
-- Try refreshing the plugin search page
-
-**Installation fails:**
-- Verify WordPress has write permissions
-- Check available disk space
-- Ensure WordPress is up to date
-
-**Tools menu missing:**
-- Try deactivating and reactivating the plugin
-- Clear any caching plugins
-- Check for plugin conflicts
-
 **Export option not working:**
 - Ensure you're using WordPress 6.0+
-- Verify the current theme is a block theme compatible
+- Verify the current theme is a compatible block theme
+- Ensure a block theme is active (Appearance > Themes)
 - Check for JavaScript errors in browser console
-
 ## Important Notes
 - **Don't export yet:** We'll do a proper export after customizations
 - **Keep plugin active:** Required for final theme submission

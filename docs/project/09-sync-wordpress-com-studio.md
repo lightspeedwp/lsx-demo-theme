@@ -1,10 +1,5 @@
----
-name: "Sync to WordPress.com with Studio"
-about: Sync your local WordPress Studio site to WordPress.com using Studio's sync feature
-title: "Sync to WordPress.com with Studio"
-labels: ["optional", "deployment"]
-assignees: []
----
+# Sync to WordPress.com with Studio
+Deploy your local WordPress Studio site to WordPress.com using Studio’s sync feature.
 
 ## Objective
 Use WordPress Studio's sync feature to deploy your customized LSX Demo Theme to a live WordPress.com site, creating a publicly accessible demonstration of your theme development skills.
@@ -335,4 +330,4 @@ How to present this work:
 5. **Plan improvements:** Note areas for future enhancement
 
 ---
-**Success!** You now have a live, professional demonstration of your WordPress block theme development skills accessible to employers, clients, and peers worldwide.
+**Success!** You now have a live, professional demonstration of your WordPress block theme development skills accessible to employers, clients, and peers worldwide.**Success!** You now have a live, professional demonstration of your WordPress block theme development skills accessible to employers, clients, and peers worldwide.

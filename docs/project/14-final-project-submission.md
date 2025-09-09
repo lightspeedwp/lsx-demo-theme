@@ -25,9 +25,8 @@ assignees: ["ashshaw"]
 
 ### Live Deployment
 - **WordPress.com Site:** [Live site URL if deployed]
-- **Admin Access:** [Credentials if sharing access]
-- **Demo Credentials:** [If demo login provided]
-
+- **Access Sharing:** Provide temporary reviewer access via a secure channel (e.g. 1Password share, OTP-based invite). Do not commit or paste credentials into the repository or issues.
+- **Demo Access (optional):** Time-bound, least-privilege reviewer account shared off-repo.
 ### Export Package
 - **Theme Export:** [Link to exported .zip file or location in repository]
 - **Export Date:** [When theme was exported]

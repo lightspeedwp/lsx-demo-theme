@@ -326,7 +326,36 @@ Choose 2-3 variations from these concepts:
   "settings": {
     "color": {
       "palette": [
-        // Color palette array from your main variation
+        {
+          "color": "#1a1a1a",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#666666",
+          "name": "Neutral",
+          "slug": "neutral"
+        },
+        {
+          "color": "#ffffff",
+          "name": "Light",
+          "slug": "light"
+        },
+        {
+          "color": "#FF5F1F",
+          "name": "Accent 1",
+          "slug": "accent-1"
+        },
+        {
+          "color": "#2563eb",
+          "name": "Accent 2",
+          "slug": "accent-2"
+        },
+        {
+          "color": "#0891b2",
+          "name": "Accent 3",
+          "slug": "accent-3"
+        }
       ]
     }
   }
