@@ -33,7 +33,6 @@ assignees: ''
 <!-- Describe what actually happened. -->
 
 ### **Additional context**
-<!-- Add any other relevant information, logs, screenshots, or examples to support your report. -->
-
+<!-- Add logs, screenshots, or examples. Do NOT include secrets/PII (API keys, tokens, passwords, full customer data). Mask/redact sensitive fields and rotate any exposed credentials immediately. Include only the minimum needed to diagnose. -->
 ### **Priority**
 <!-- How important is this issue? Choose one: Low, Medium, High -->

@@ -1,5 +1,5 @@
 ---
-applyTo: "**/*.json"
+applyTo: "**/theme.json"
 description: "Instructions for theme.json modifications"
 ---
 # Theme Instructions
@@ -16,8 +16,9 @@ This document provides detailed instructions for modifying the `theme.json` file
    - Create templates for common pages (e.g., homepage, archive, single post).
    - Use template parts for reusable components (e.g., header, footer).
 5. **Ensure accessibility compliance**:
-   - Use semantic HTML elements and ARIA roles where appropriate.
-   - Test color contrast ratios to meet WCAG AA standards.
+   - Prefer native semantic elements; add ARIA roles only when semantics are missing.
+   - Meet WCAG 2.1 AA contrast: ≥ 4.5:1 (normal text), ≥ 3:1 (≥ 24px or ≥ 18.66px bold).
+   - Ensure visible focus states (`:focus-visible`), keyboard navigation (Tab/Shift+Tab), and a skip-to-content link.
 6. **Implement responsive design**:
    - Use CSS media queries to ensure the theme is mobile-first.
    - Test on various devices and screen sizes.
@@ -32,12 +33,13 @@ This document provides detailed instructions for modifying the `theme.json` file
 10. **Submit for review**:
     - Create a pull request in your GitHub repository.
     - Request feedback from peers or mentors on your changes.
-
 ## Additional Resources
 - [WordPress Theme Handbook: theme.json](https://developer.wordpress.org/themes/advanced-topics/theme-json/)
 - [LSX Design System Documentation](https://lsx.design/docs/)
 - [Accessibility Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
 - [Responsive Web Design Basics](https://web.dev/responsive-web-design-basics/)
+- WordPress Font Library and self-hosting guidance (for registering fonts in block themes)
+- Official theme.json JSON Schema reference (for `$schema` and `version`)
 
 ## Conclusion
 Following these instructions will help you effectively modify the `theme.json` file for your WordPress block theme, ensuring it meets both functional and design standards. If you have any questions or need further assistance, please refer to the additional resources or reach out to your project mentor.

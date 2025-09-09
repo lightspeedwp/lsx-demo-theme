@@ -189,7 +189,8 @@ Key insights documented:
 ### Technical Support
 - [ ] **Code Review:** [Specific areas needing technical review]
 - [ ] **Best Practices:** [Guidance on WordPress/development standards]
-- [ ] **Troubleshooting:** [Current problems needing assistance]
+- [ ] **Troubleshooting:** [Current problems needing assistance]  
+> Do not share secrets or credentials here. Provide sensitive info via a private channel.
 - [ ] **Optimization:** [Performance or efficiency improvements]
 
 ### Learning Support
@@ -203,7 +204,6 @@ Key insights documented:
 - [ ] **Timeline Adjustment:** [Schedule modification if needed]
 - [ ] **Quality Standards:** [Expectations clarification]
 - [ ] **Final Preparation:** [Submission readiness planning]
-
 ---
 
 ## Demonstration Materials
@@ -219,10 +219,9 @@ Please include screenshots of:
 ### Live Demo
 **How to access for review:**
 1. [Step-by-step access instructions]
-2. [Login credentials if needed]
+2. [If auth is required, create a temporary reviewer account and share credentials privately; rotate after review]
 3. [Key features to examine]
 4. [Best way to test responsiveness]
-
 ### Repository Review
 **Key files to examine:**
 - `theme.json` - Enhanced configuration
