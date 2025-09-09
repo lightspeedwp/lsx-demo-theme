@@ -119,14 +119,14 @@ This three-month self-study curriculum is designed for junior developers prepari
 
 ### Submission Checklist
 
-- Recreate a page using the Twenty Twenty-Five theme
-- Export block theme changes via Create Block Theme
-- Push exported theme to GitHub repo
-- Updated `README.md` with what was learned
-- Screenshots of live preview
-- Daily markdown entries
-- Create Issues for bugs or feedback items
-- Submit PR with working export and screenshots
+- [x] Recreate a page using the Twenty Twenty-Five theme
+- [x] Export block theme changes via Create Block Theme
+- [x] Push exported theme to GitHub repo
+- [x] Updated `README.md` with what was learned
+- [x] Screenshots of live preview
+- [x] Daily markdown entries
+- [x] Create Issues for bugs or feedback items
+- [x] Submit PR with working export and screenshots
 
 ---
 
@@ -150,7 +150,7 @@ This three-month self-study curriculum is designed for junior developers prepari
 
 ### Submission Checklist
 
-- VS Code setup with Copilot enabled
+- [x] VS Code setup with Copilot enabled
 - `instructions.md` file created and used
 - Copilot project demo with `instructions.md`
 - MCP prompts executed and reviewed
