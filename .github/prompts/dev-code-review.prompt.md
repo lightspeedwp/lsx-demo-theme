@@ -1,6 +1,6 @@
 # Code Review Prompt for Junior Developers
 
-When reviewing code from junior developers working on the LSX Demo Theme, please provide structured feedback that is educational and constructive:
+When reviewing code from other developers working on the LSX Demo Theme, please provide structured feedback that is educational and constructive:
 
 ## Code Structure
 - Is the code organized logically and follows WordPress conventions?
