@@ -12,14 +12,4 @@ contact_links:
   - name: WordPress.org Support Forums
     url: https://wordpress.org/support/forum/themes-and-templates/
     about: Ask questions and find answers in the WordPress community forums
-labels:
-  - name: "Theme: LSX"
-    description: "Issues related to the LSX theme functionality and features"
-  - name: "Block Patterns"
-    description: "Issues related to block patterns in the LSX theme"
-  - name: "Block Styles"
-    description: "Issues related to block styles in the LSX theme"
-  - name: "Documentation"
-    description: "Issues related to documentation for the LSX theme"
-  - name: "Feature Request"
-    description: "Requests for new features or enhancements in the LSX theme"
+
