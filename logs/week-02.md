@@ -9,6 +9,8 @@ I knew how to use Ai in the general sense but before this week honestly to code 
 My pride was a bloker this week in not leaning into Ai more as I felt I was doing an injustice to my intelectual capacity however I have more time to do my courses now so I am thankful for that.
 
 My understanding of codespaces is now more broad and I a have now met with the capabilities of MCP I have Learnt about containers and how they work a bit still not too confident yet but the basics are there. I am growing in my confidence In what Workflows are and what they do.
+
+To follow MS Learn Journey https://learn.microsoft.com/en-us/users/serenvdmerwe/ 
 ---
 
 ## 2025‑09‑08
