@@ -121,6 +121,7 @@ Updated theme color palette aligned with LSX Design System:
 - Check WordPress [Block Theme Developer Handbook](https://developer.wordpress.org/themes/block-themes/)
 - Ask questions in the project Issues or team communication channels
 - Reference the Twenty Twenty-Five theme documentation for baseline functionality
+- **Mentors**: See the [LightSpeed Mentor Guide](docs/LightSpeed%20Mentor%20Guide.md) for comprehensive mentoring guidance
 
 ---
 

@@ -8,12 +8,13 @@ Whether you're joining as an intern or junior developer, you'll find structured 
 
 ## 📂 Contents
 
-- [Study Curriculum](study-curriculum/README.md)
+- [Study Curriculum](curriculum/README.md)
 - [GitHub & Tooling Guides](tooling/README.md)
-- [Project Brief](project/README.md)
+- [Intern Project](intern%20project/README.md)
 - [Interview & Hiring Process](interview/README.md)
 - [Time Tracking & Productivity](time-tracking/README.md)
 - [Evaluation & Mentorship](evaluation/README.md)
+- [**LightSpeed Mentor Guide**](LightSpeed%20Mentor%20Guide.md) ⭐
 
 ---
 For questions, please reach out via GitHub issues or Slack.
