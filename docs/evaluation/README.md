@@ -8,4 +8,6 @@ We use a structured approach to mentoring and evaluating progress.
 - Issue + PR reviews
 - Study logs in markdown
 
-See the [Evaluation Rubric →](rubric.md)
+## Documentation
+- [LightSpeed Mentor Tracking Sheet (Structure) →](LightSpeed%20Mentor%20Tracking%20Sheet%20(Structure).md)
+- [Evaluation Rubric →](rubric.md)
