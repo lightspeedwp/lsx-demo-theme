@@ -10,7 +10,7 @@ _Summarise your progress, highlight what you learned and mention any blockers yo
 
 ## 2025‑09‑08
 
-- **Hours:** 13:00
+- **Hours:** 13h 00m
 - **Task:** 
 - GitHub Skills Course communicate-using-markdown
 - MS Learn Course 
