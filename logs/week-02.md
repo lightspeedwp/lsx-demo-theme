@@ -8,12 +8,50 @@ _Summarise your progress, highlight what you learned and mention any blockers yo
 
 ---
 
-## 2025‑09‑DD
+## 2025‑09‑08
 
-- **Hours:** _e.g. 4.0_
-- **Task:** _Describe the task or issue you worked on._
-- **Description:** _Explain what you did, resources used, obstacles encountered and how you resolved them._
-- **Next Steps:** _Outline what you plan to work on next._
+- **Hours:** 13:00
+- **Task:** 
+- GitHub Skills Course communicate-using-markdown
+- MS Learn Course 
+- **Description:** 
+- **Next Steps:** 
+
+## 2025‑09‑09
+
+- **Hours:** 10:00
+- **Task:** 
+- GitHub Skills Course review-pull-requests + resolve-merge-conflicts.
+- MS Learn Course
+- **Description:** 
+- **Next Steps:** 
+
+## 2025‑09‑10
+
+- **Hours:** 9:48
+- **Task:** 
+- GitHub Skills Course getting-started-with-github-copilot + customize-your-github-copilot-experience + integrate-mcp-with-copilot + expand-your-team-with-copilot + modernize-your-legacy-code-with-github-copilot.
+- MS Learn Course 
+- **Description:** 
+- **Next Steps:** 
+
+## 2025‑09‑11
+
+- **Hours:** 7:00
+- **Task:** 
+- MS Learn Course
+- LSX Demo Theme ISSUE request CONTRIBUTOR.md
+- LSX Demo Theme RnD Contributors.md file change
+- **Description:** 
+- **Next Steps:** 
+
+## 2025‑09‑12
+
+- **Hours:** 00:00
+- **Task:** 
+- 
+- **Description:** 
+- **Next Steps:** 
 
 ---
 
