@@ -2,18 +2,18 @@
 
 Welcome to the LightSpeed contribution guide! This directory contains all the resources and documentation you need to contribute effectively and respectfully to the LightSpeed project.
 
+Contribution Workflow
+---------------------
 
-## Contribution Workflow
-
-- Use the appropriate [issue template](../../issues/new/choose) for bug reports, enhancements, or questions. Clearly describe the problem or idea.
-- Name your branch descriptively, using inline code format (e.g., `feature/short-description`, `bugfix/short-description`, `chore/short-description`).
-- Follow coding standards and style guides. Use ESLint, Prettier, PHPCS, and CodeRabbit.ai for automated checks.
-- When opening a pull request to the correct base branch, ensure:
-  - The PR links to a related GitHub issue.
-  - The description is clear and includes screenshots for any UI changes.
-  - All tests and automated checks pass.
-  - No tests are skipped unless justified.
-  - No secrets are committed.
+- Start with an Issue: Use the appropriate [issue template](../../issues/new/choose) for bug reports, enhancements, or questions. Clearly describe your problem or idea.
+- Branch Naming: Create a descriptive branch name (e.g., `feature/short-description`, `bugfix/short-description`, `chore/short-description`).
+- Development Standards: Follow our coding standards and style guides. Use tools like ESLint, Prettier, PHPCS, and CodeRabbit.ai for automated checks.
+- Pull Requests: Open a PR to the correct base branch. Every PR must:
+  - Link to a related GitHub Issue
+  - Include a clear description and screenshots for UI changes
+  - Pass all tests and automated checks
+  - Avoid skipped tests unless justified
+  - Not commit secrets
 
 See the [PULL_REQUEST_TEMPLATE.md](./PULL_REQUEST_TEMPLATE.md) for the required PR format.
 
