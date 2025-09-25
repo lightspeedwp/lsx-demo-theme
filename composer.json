@@ -1,4 +1,25 @@
 {
+    "_documentation": {
+        "description": "LSX Demo Theme - Composer Configuration for WordPress Block Theme Development",
+        "purpose": "Provides PHP linting, testing, and WordPress coding standards enforcement",
+        "usage": {
+            "setup": "Run 'composer install' to set up development tools",
+            "linting": "Run 'composer lint' to check code against WordPress standards",
+            "fixing": "Run 'composer lint:fix' to automatically fix coding violations",
+            "testing": "Run 'composer test' to execute WordPress theme unit tests"
+        },
+        "dependencies": {
+            "runtime": {
+                "php": "Minimum PHP 7.4 for WordPress 6.0+ compatibility"
+            },
+            "development": {
+                "phpcs": "PHP CodeSniffer for WordPress coding standards enforcement",
+                "wpcs": "WordPress Coding Standards ruleset for theme development",
+                "phpunit": "Unit testing framework with WordPress integration",
+                "php_compatibility": "WordPress PHP compatibility checking for hosting environments"
+            }
+        }
+    },
     "name": "lightspeedwp/lsx-demo-theme",
     "description": "Block theme development starter for LightSpeed",
     "type": "wordpress-theme",

@@ -1,159 +1,263 @@
-# 🧱 LSX Demo Theme Project
-Welcome to the LightSpeed LSX Demo Theme challenge! This repository forms the foundation of your WordPress Block Theme learning journey and serves as both a new hire onboarding project and ongoing development reference.
+# 🧱 LSX Demo Theme
+
+A modern WordPress block theme built with Full Site Editing (FSE) capabilities, enhanced with AI development tools and comprehensive testing. This theme serves as both a learning project and production-ready WordPress block theme template.
+
+[![WordPress](https://img.shields.io/badge/WordPress-6.0+-blue.svg)](https://wordpress.org/)
+[![Block Theme](https://img.shields.io/badge/Block%20Theme-FSE-green.svg)](https://developer.wordpress.org/themes/block-themes/)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![Testing](https://img.shields.io/badge/Testing-Playwright-red.svg)](https://playwright.dev/)
 
 ---
 
-## 🚀 Project Goals
+## 🚀 Quick Start
 
-- Build a functional and well-structured WordPress block theme using best practices
-- Learn to work with `theme.json`, block templates, and Figma design assets
-- Demonstrate proficiency in GitHub, VS Code, Copilot, and Studio or LocalWP
-- Document your process and track time using Harvest
-- Understand theme customization and maintenance workflows
+```bash
+# Clone the repository
+git clone https://github.com/lightspeedwp/lsx-demo-theme.git
+cd lsx-demo-theme
 
----
+# Install dependencies
+npm install
+composer install  # Optional, for PHP linting
 
-## 📖 About This Theme
+# Start development
+npm start
 
-This theme is based on the WordPress [Twenty Twenty-Five](https://make.wordpress.org/core/2024/08/15/introducing-twenty-twenty-five/) theme and is being used as a trial project for Lightspeed Agency. It's designed to be thematically 'contemporary' and 'post-modern' with custom styling and functionality.
+# Run tests
+npm test
+```
 
----
-
-## 🛠️ Tools Required
-
-- [VS Code](https://code.visualstudio.com/)
-- [GitHub Desktop or CLI](https://desktop.github.com/)
-- [LocalWP](https://localwp.com/) *or* [WordPress Studio](https://developer.wordpress.com/studio/)
-- [Create Block Theme Plugin](https://wordpress.org/plugins/create-block-theme/)
-- [Harvest Time Tracking](https://www.harvestapp.com/)
-- [Figma](https://figma.com) — Use our [LSX Design System](https://lsx.rocks/design-system)
+**[📖 Full Development Setup Guide →](./DEVELOPMENT.md)**
 
 ---
 
-## 🕒 Time Tracking
+## 🎯 Project Overview
 
-You are required to log your time with [Harvest](https://www.harvestapp.com/):
+### Built for Modern WordPress Development
 
-1. Sign up for a free account
-2. Install the [Harvest Chrome Extension](https://chrome.google.com/webstore/detail/harvest-time-tracking/)
-3. Log time via GitHub issues and link sessions to tasks
-4. Use the project name: `LSX Demo Theme`
-5. Time should be logged daily
+-   **Full Site Editing (FSE)** with comprehensive `theme.json` configuration
+-   **Block patterns and template parts** for rapid development
+-   **AI-enhanced development** with GitHub Copilot integration
+-   **Comprehensive testing** with Playwright and accessibility checks
+-   **WordPress coding standards** enforcement via automated linting
+-   **Performance optimized** for Core Web Vitals
+
+### Based on WordPress Twenty Twenty-Five
+
+This theme extends the WordPress [Twenty Twenty-Five](https://make.wordpress.org/core/2024/08/15/introducing-twenty-twenty-five/) theme with:
+
+-   **LSX Design System** integration with contemporary styling
+-   **Custom color palette** and typography (Lexend & Manrope fonts)
+-   **Accessibility-first** approach (WCAG 2.1 AA compliance)
+-   **Performance optimization** and modern build tools
+
+---
+
+## 🛠️ Technology Stack
+
+### Core Technologies
+
+-   **WordPress 6.0+** with Full Site Editing (FSE)
+-   **Node.js 18+** and npm for build tooling
+-   **@wordpress/scripts** for development workflow
+-   **Sass/SCSS** for stylesheets with PostCSS processing
+-   **Playwright** for end-to-end and accessibility testing
+
+### Development Tools
+
+-   **[VS Code](https://code.visualstudio.com/)** with WordPress-optimized configuration
+-   **[GitHub Copilot](https://github.com/features/copilot)** with AI-enhanced development
+-   **[WordPress Studio](https://developer.wordpress.com/studio/)** or [LocalWP](https://localwp.com/) for local development
+-   **[Figma](https://figma.com)** with [LSX Design System](https://lsx.rocks/design-system)
+
+### AI Development Features
+
+-   **150+ Specialized Assets** for WordPress development
+-   **GitHub Copilot Integration** with WordPress-specific context
+-   **Automated Code Review** with WordPress standards enforcement
+-   **AI Agents** for accessibility, performance, and security auditing
+
+---
+
+## 🏗️ Theme Architecture
+
+```
+├── 📁 .github/              # AI development assets & workflows
+│   ├── agents/             # Specialized AI agents (accessibility, performance, etc.)
+│   ├── chatmodes/          # Extended AI workflows (pattern wizard, test coach)
+│   ├── instructions/       # Auto-applied coding standards & best practices
+│   ├── prompts/            # Reusable development task templates
+│   └── workflows/          # CI/CD automation
+├── 📁 .vscode/              # VS Code configuration with AI enhancements
+│   ├── agent.json          # WordPress block theme AI assistant
+│   ├── configuration.md    # Development guidelines for Copilot
+│   ├── extensions.json     # WordPress development extensions
+│   └── settings.json       # WordPress-optimized editor settings
+├── 📁 patterns/            # Block patterns for content creation
+├── 📁 parts/               # Template parts (header, footer, etc.)
+├── 📁 templates/           # Block templates for FSE
+├── 📁 styles/              # Theme style variations
+├── 📁 e2e/                 # Playwright end-to-end tests
+├── 📁 src/                 # Source files (SCSS, JS)
+├── 📄 theme.json           # FSE configuration & design tokens
+└── 📄 functions.php        # Theme setup & enhancements
+```
 
 ## 🚀 Getting Started
 
-1. **Clone this repository** to your local development environment
-2. **Set up your WordPress development environment** using LocalWP or WordPress Studio
-3. **Install the theme** in your WordPress installation
-4. **Install recommended plugins** (Create Block Theme, etc.)
-5. **Review the Issues tab** for your first assigned tasks
-6. **Start time tracking** with Harvest for all development work
+### For Developers
+
+1. **Setup Development Environment**
+
+    ```bash
+    git clone https://github.com/lightspeedwp/lsx-demo-theme.git
+    cd lsx-demo-theme
+    npm install && npx playwright install
+    ```
+
+2. **Configure VS Code** (Recommended)
+
+    - Install recommended extensions when prompted
+    - Review `.vscode/README.md` for enhanced AI features
+    - Use GitHub Copilot with WordPress-specific context
+
+3. **Start Development**
+    ```bash
+    npm start          # Development with hot reload
+    npm test           # Run all tests
+    npm run lint:js    # Check code quality
+    ```
+
+### For Content Creators
+
+1. **Download the theme** from GitHub releases
+2. **Install in WordPress** via Appearance > Themes > Add New > Upload Theme
+3. **Activate the theme** and explore Full Site Editing features
+4. **Use block patterns** from the inserter for rapid content creation
+
+**[📖 Complete Development Guide →](./DEVELOPMENT.md)**
 
 ---
 
-## 📝 Development Workflow
+## 🧪 Testing & Quality Assurance
 
-1. **Create or select an issue** from the Issues tab. All tasks are managed as GitHub Issues added to a GitHub Project. Each issue represents a deliverable for a defined milestone.  
-Make regular commits with meaningful messages and close issues via PRs.
-2. **Create a branch** for your work (if working on significant changes)
-3. **Track your time** in Harvest while working
-4. **Make your changes** following WordPress block theme best practices
-5. **Test your changes** thoroughly in your local environment
-6. **Document any new customizations** in this README
-7. **Commit and push** your changes with clear commit messages
+### Automated Testing
 
----
+-   **✅ Playwright E2E Tests** - Full user journey testing
+-   **♿ Accessibility Testing** - WCAG 2.1 AA compliance with axe-core
+-   **🎨 Visual Regression** - Cross-browser screenshot comparison
+-   **📱 Responsive Testing** - Mobile, tablet, and desktop viewports
 
-## 🗂️ Project Tasks (Issues)
+### Code Quality
 
-All tasks are managed as GitHub issues. Each issue represents a specific learning milestone or development task. Check the [Issues tab](../../issues) for your assigned tasks and track your progress there.
+-   **WordPress Coding Standards** - PHPCS, ESLint, Stylelint enforcement
+-   **Security Scanning** - Automated vulnerability detection
+-   **Performance Monitoring** - Core Web Vitals tracking
+-   **AI Code Review** - GitHub Copilot and CodeRabbit integration
 
----
-
-## 🎨 Theme Customizations & Technical Documentation
-
-- Build a functional and well-structured WordPress block theme using best practices.
-- Learn to work with `theme.json`, block templates, and Figma design assets.
-- Demonstrate proficiency in GitHub, VS Code, Copilot, and Studio or LocalWP.
-- Document your process and track time using Harvest.
-
-These fonts have been chosen to align with the theme's 'contemporary' and 'post-modern' aesthetic:
-
-- **Secondary Font:** Manrope (Variable)
-  - Source: [Google Fonts](https://fonts.google.com/specimen/Manrope)
-  - Usage: Headers and display text
-
-### Font Size Presets
-
-Reconfigured font size presets for consistent typography:
-- **S:** 0.875rem
-- **M:** 1rem  
-- **L:** 1.25rem
-- **X-L:** 1.5rem
-- **XX-L:** 2rem
-
-### Color Palette
-
-Updated theme color palette aligned with LSX Design System:
-
-### Theme Modifications
-
-**Removed from Twenty Twenty-Five:**
-- All Style Variations (except '01-evening')
-- Default fonts that came with TT5 theme
-- Section styles that came with TT5 theme
-
-**Added Custom Elements:**
-- Custom Shadow 'LSX Shadow' for buttons
-- 'Dark Mode' style variation and color palette variation 
-- Lexend & Manrope variable fonts according to LSX Design System
-- Custom block styles and patterns
-
-### Images/Media
-
-*Documentation to be completed - please update as media assets are added*
+```bash
+# Run all quality checks
+npm test              # Playwright tests
+npm run lint:js       # JavaScript linting
+npm run lint:css      # CSS linting
+npm run lint:php      # PHP coding standards
+npm run format        # Auto-format code
+```
 
 ---
 
-## 🤝 Getting Help
+## 📚 Documentation & Resources
 
-- Review the [LSX Design System](https://lsx.rocks/design-system) for design guidelines
-- Check WordPress [Block Theme Developer Handbook](https://developer.wordpress.org/themes/block-themes/)
-- Ask questions in the project Issues or team communication channels
-- Reference the Twenty Twenty-Five theme documentation for baseline functionality
+### Project Documentation
 
----
+-   **[Development Guide](./DEVELOPMENT.md)** - Complete setup and workflow
+-   **[VS Code Configuration](./.vscode/README.md)** - Enhanced development environment
+-   **[AI Development Assets](./.github/)** - Copilot agents, instructions, and prompts
+-   **[Study Curriculum](./docs/)** - Learning resources and guides
 
-## 📋 Maintenance Notes
+### WordPress Resources
 
-This section tracks ongoing customizations and changes for future developers:
-
-*Update this section as you make significant theme modifications, including rationale for changes and any important technical details for future maintenance.*
-
-See [📌 Project Issue Board](./projects) for an overview. 
-
----
-
-## 📚 Study Curriculum
-
-Refer to the [/docs folder](https://github.com/lightspeedwp/lsx-demo-theme/tree/main/docs) for the 12-week study plan and further documentation.
+-   **[Block Theme Handbook](https://developer.wordpress.org/themes/block-themes/)** - Official WordPress documentation
+-   **[FSE Documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/full-site-editing/)** - Full Site Editing guide
+-   **[Theme.json Reference](https://developer.wordpress.org/block-editor/reference-guides/theme-json-reference/)** - Configuration reference
+-   **[LSX Design System](https://lsx.rocks/design-system)** - Design guidelines and assets
 
 ---
 
-## ✅ Weekly Deliverables
+## 🎨 Theme Features & Customizations
 
-Each week you are expected to:
+### Design System Integration
 
-- [ ] Log your progress in the templates provided in [/logs folder](https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs)
-- [ ] Push commits to your forked repo
-- [ ] Update `README.md` with changes and progress
-- [ ] Use Issues + PRs to manage and submit tasks
-- [ ] Sync your local site to your staging site using Studio and GitHub commits
+-   **Typography**: Lexend (body text) and Manrope (headings) variable fonts
+-   **Color Palette**: LSX Design System with contemporary and post-modern aesthetics
+-   **Spacing**: Fluid design tokens with consistent scale
+-   **Accessibility**: WCAG 2.1 AA compliant throughout
+
+### Enhanced from Twenty Twenty-Five
+
+**✅ Added:**
+
+-   Custom LSX Design System integration
+-   Dark mode style variation
+-   Enhanced accessibility features
+-   Performance optimizations
+-   AI development workflow integration
+-   Comprehensive testing suite
+
+**🗑️ Removed:**
+
+-   Default Twenty Twenty-Five style variations (kept '01-evening' only)
+-   Legacy font configurations
+-   Unused section styles
+
+### Font Configuration
+
+| Size | Value    | Usage                |
+| ---- | -------- | -------------------- |
+| S    | 0.875rem | Small text, captions |
+| M    | 1rem     | Body text            |
+| L    | 1.25rem  | Subheadings          |
+| X-L  | 1.5rem   | Headings             |
+| XX-L | 2rem     | Large headings       |
 
 ---
 
-## 🤝 Support
+## 🤝 Contributing & Support
 
-You can ask questions in the LightSpeed Slack workspace in the `#interns` channel.
+### For Contributors
 
-Good luck and have fun!
+1. **Fork the repository** and create a feature branch
+2. **Follow WordPress coding standards** (automated linting enforced)
+3. **Write tests** for new functionality (Playwright for E2E, unit tests for PHP)
+4. **Update documentation** for any new features or changes
+5. **Submit a pull request** with clear description and issue references
+
+### Getting Help
+
+-   **📖 Documentation**: Check [DEVELOPMENT.md](./DEVELOPMENT.md) for technical setup
+-   **🤖 AI Assistance**: Use GitHub Copilot with enhanced WordPress context
+-   **📋 Issues**: Create GitHub issues for bugs or feature requests
+-   **💬 Community**: WordPress.org forums and Slack communities
+-   **🎓 Learning**: Review [/docs](./docs/) for curriculum and resources
+
+### Issue Templates
+
+Use the provided issue templates in `.github/ISSUE_TEMPLATE/`:
+
+-   **🐛 Bug Report** - Report functionality issues
+-   **✨ Feature Request** - Suggest new features
+-   **📖 Documentation** - Request or improve documentation
+-   **⚡ Performance** - Report performance issues
+-   **♿ Accessibility** - Report accessibility concerns
+
+---
+
+## 📄 License & Credits
+
+-   **License**: GPL-2.0-or-later (inherited from WordPress)
+-   **Base Theme**: Twenty Twenty-Five by WordPress.org
+-   **Design System**: LSX Design System by LightSpeed
+-   **Typography**: [Lexend](https://fonts.google.com/specimen/Lexend) and [Manrope](https://fonts.google.com/specimen/Manrope) from Google Fonts
+-   **Testing**: Powered by [Playwright](https://playwright.dev/)
+
+**Built with ❤️ for the WordPress community**
