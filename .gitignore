@@ -105,4 +105,3 @@ theme.zip                    # Theme distribution package
 /playwright-report/          # HTML test reports
 /blob-report/                # Binary test artifacts
 /playwright/.cache/          # Playwright browser cache
-node_modules
