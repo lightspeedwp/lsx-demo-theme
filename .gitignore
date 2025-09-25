@@ -66,9 +66,6 @@ vendor/                      # Composer packages (PHPCS, PHPUnit)
 # =============================================================================
 
 # IDE and editor configurations - Personal development environment settings
-.vscode/                     # VS Code workspace settings (exclude personal configs)
-.idea/                       # JetBrains IDE settings
-*.code-workspace             # VS Code workspace files
 .devcontainer/.env           # Development container environment
 
 # =============================================================================
