@@ -55,7 +55,7 @@ build/                       # Webpack/build tool output
 
 # Composer PHP dependencies - WordPress coding standards tools
 vendor/                      # Composer packages (PHPCS, PHPUnit)
-composer.lock                # Lock file (exclude for themes, include for plugins)
+# Note: composer.lock is included for reproducible WordPress development builds
 
 # CSS/Sass build artifacts - Generated files from source
 *.css.map                    # Sass source maps for debugging

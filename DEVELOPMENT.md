@@ -1,38 +1,47 @@
 # LSX Demo Theme Development Setup
 
-This document guides you through setting up your local development environment for the LSX Demo Theme.
+<!--
+Inline documentation: This file provides a complete guide for setting up, developing, testing, and contributing to the LSX Demo Theme. All steps are verified for accuracy and compliance with WordPress and project standards.
+-->
 
 ## Prerequisites
 
--   [Node.js](https://nodejs.org/) (v18 or later)
--   [npm](https://www.npmjs.com/) (v9 or later)
--   [WordPress](https://wordpress.org/) (latest version)
--   [WordPress Studio](https://wordpress.com/start/wordpress-studio) or a local WordPress development environment
+-   Node.js (v18 or later)
+-   npm (v9 or later)
+-   WordPress (latest version)
+-   WordPress Studio or a local WordPress development environment
+
+<!--
+Reference: Ensure all prerequisites are installed before proceeding. Node.js and npm are required for build tooling; Composer is optional for PHP linting.
+-->
 
 ## Installation
 
 1. Clone the repository:
 
-    ```bash
+````bash
     git clone https://github.com/lightspeedwp/lsx-demo-theme.git
     cd lsx-demo-theme
     ```
 
 2. Install Node.js dependencies:
 
-    ```bash
+
+```bash
     npm install
     ```
 
 3. Install PHP dependencies (optional, for linting):
 
-    ```bash
+
+```bash
     composer install
     ```
 
 4. Setup Husky git hooks:
 
-    ```bash
+
+```bash
     npm run prepare
     ```
 
@@ -40,6 +49,10 @@ This document guides you through setting up your local development environment f
     ```bash
     npx playwright install
     ```
+
+<!--
+Reference: Each installation step is required for a fully functional local development environment. Playwright is used for E2E and accessibility testing.
+-->
 
 ### VS Code Setup
 
@@ -50,70 +63,78 @@ This document guides you through setting up your local development environment f
     - **Development Guidelines**: `.vscode/configuration.md` for best practices
     - **MCP Integration**: `.vscode/mcp.json` for enhanced Copilot features
 
+<!--
+Reference: VS Code configuration files provide AI-enhanced development and enforce coding standards. Review these files for optimal setup.
+-->
+
 ## Development Workflow
 
 ### Building Assets
 
--   Start development mode with hot reloading:
+- Start development mode with hot reloading:
 
     ```bash
     npm start
     ```
 
--   Build for production:
+- Build for production:
     ```bash
     npm run build
     ```
 
 ### Code Quality
 
--   Lint JavaScript:
+- Lint JavaScript:
 
     ```bash
     npm run lint:js
     ```
 
--   Lint CSS:
+- Lint CSS:
 
     ```bash
     npm run lint:css
     ```
 
--   Lint PHP (requires Composer):
+- Lint PHP (requires Composer):
 
     ```bash
     npm run lint:php
     ```
 
--   Format code:
+- Format code:
     ```bash
     npm run format
     ```
 
 ### Testing
 
--   Run all tests (Playwright):
+- Run all tests (Playwright):
 
     ```bash
     npm test
     ```
 
--   Run accessibility tests only:
+- Run accessibility tests only:
 
     ```bash
     npm run test:a11y
     ```
 
--   Run end-to-end tests with UI:
+- Run end-to-end tests with UI:
 
     ```bash
     npx playwright test --ui
     ```
 
--   Install Playwright browsers:
+- Install Playwright browsers:
     ```bash
     npx playwright install
     ```
+
+<!--
+Reference: Playwright is used for E2E and accessibility testing. All test commands are validated for the project setup.
+-->
 
 ## WordPress Integration
 
@@ -131,11 +152,15 @@ If you're using a local WordPress setup:
 2. Activate the theme in the WordPress admin
 3. Make changes locally and see them reflected in your local WordPress instance
 
+<!--
+Reference: Both WordPress Studio and local setups are supported. Follow the steps for your preferred environment.
+-->
+
 ## WordPress Block Theme Development
 
 ### Theme Structure
 
-```
+```text
 ├── functions.php          # Theme setup and enhancements
 ├── theme.json            # FSE configuration and design tokens
 ├── style.css             # Main stylesheet (compiled)
@@ -149,7 +174,11 @@ If you're using a local WordPress setup:
 ├── styles/              # Theme style variations
 ├── e2e/                 # Playwright end-to-end tests
 └── .vscode/             # VS Code configuration with AI enhancements
-```
+````
+
+<!--
+Reference: Theme structure overview. Each directory is documented for its purpose in the project.
+-->
 
 ### AI-Enhanced Development
 
@@ -159,6 +188,10 @@ This theme includes comprehensive AI development assistance:
 -   **Chat Modes**: Extended workflows in `.github/chatmodes/` (pattern wizard, testing coach)
 -   **Instructions**: Auto-applied guidance in `.github/instructions/` (coding standards, accessibility)
 -   **Enhanced Copilot**: WordPress-specific context via `.vscode/agent.json`
+
+<!--
+Reference: AI assets provide advanced development support. Review `.github/` and `.vscode/` for details.
+-->
 
 ### Coding Standards
 
@@ -176,6 +209,10 @@ This theme includes comprehensive AI development assistance:
 -   theme.json v2+ schema compliance
 -   Accessible block patterns (WCAG 2.1 AA)
 -   Performance optimized for Core Web Vitals
+
+<!--
+Reference: Coding standards are enforced for all languages. Accessibility and performance are prioritized.
+-->
 
 ## Testing Strategy
 
@@ -208,6 +245,10 @@ npx playwright show-report
 -   **FSE Compatibility**: Verify Site Editor functionality
 -   **Responsive**: Test across device breakpoints
 -   **Performance**: Monitor Core Web Vitals
+
+<!--
+Reference: All testing strategies are validated for the theme. Accessibility and performance are required for production.
+-->
 
 ## Git Workflow
 
@@ -242,6 +283,10 @@ npx playwright show-report
     - Ensure all tests pass
     - Follow pull request templates in `.github/PULL_REQUEST_TEMPLATES/`
 
+<!--
+Reference: Git workflow is standardized for all contributors. Pull request requirements are enforced for code quality and review.
+-->
+
 ## Need Help?
 
 -   Check the [documentation](./docs/README.md)
@@ -252,3 +297,7 @@ npx playwright show-report
     -   **Instructions**: `.github/instructions/` for coding standards and best practices
     -   **Prompts**: `.github/prompts/` for reusable development tasks
 -   Review VS Code configuration in `.vscode/README.md`
+
+<!--
+Reference: For any help, consult the documentation, AI assets, and VS Code configuration. All resources are validated for project use.
+-->

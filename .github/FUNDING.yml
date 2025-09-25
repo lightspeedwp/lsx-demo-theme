@@ -1,0 +1,40 @@
+# GitHub Sponsors Configuration for LSX Demo Theme
+# LightSpeed WordPress Development - Professional WordPress Agency
+#
+# PURPOSE:
+# - Provides funding options for supporting WordPress block theme development
+# - Links to LightSpeed's professional services and sponsorship opportunities
+# - Enables GitHub Sponsors integration for open source WordPress projects
+#
+# INTEGRATION:
+# - Appears in GitHub repository's "Sponsor this project" button
+# - Links to LightSpeed's official funding channels and services
+# - Supports sustainable WordPress development through commercial backing
+#
+# USAGE:
+# - GitHub automatically displays sponsor button when this file is present
+# - Users can support the project through listed funding platforms
+# - Connects community contributions with professional WordPress services
+
+# GitHub Sponsors (organizational sponsorship)
+github: lightspeedwp
+
+# Custom funding URL - LightSpeed Professional Services
+custom:
+    - 'https://lightspeedwp.agency/contact'
+    - 'https://lightspeedwp.agency/services'
+# Patreon sponsorship (if available)
+# patreon: lightspeedwp
+
+# Open Collective sponsorship (if available)
+# open_collective: lightspeedwp
+
+# Ko-fi sponsorship (if available)
+# ko_fi: lightspeedwp
+
+# Tidelift sponsorship for professional WordPress support
+# tidelift: npm/lightspeedwp
+
+# Community funding description
+# Support professional WordPress block theme development and open source contributions
+# by LightSpeed - a WordPress agency specializing in performance, accessibility, and FSE
