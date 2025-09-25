@@ -61,5 +61,6 @@
     "workbench.editor.enablePreview": false,
     "breadcrumbs.enabled": true,
     "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "git.ignoreLimitWarning": true
 }
