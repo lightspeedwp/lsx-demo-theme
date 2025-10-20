@@ -32,18 +32,123 @@
 				},
 				{
 					"color": "#FF5F1F",
-					"name": "Accent 1",
-					"slug": "accent-1"
+					"name": "Brand",
+					"slug": "brand"
 				},
 				{
 					"color": "#00FF85",
-					"name": "Accent 2",
-					"slug": "accent-2"
+					"name": "CTA",
+					"slug": "cta"
 				},
 				{
 					"color": "#3895FF",
-					"name": "Accent 3",
-					"slug": "accent-3"
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#5CA9FF",
+					"name": "Primary Light",
+					"slug": "primary-light"
+				},
+				{
+					"color": "#1F6FCC",
+					"name": "Primary Dark",
+					"slug": "primary-dark"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Neutral 100",
+					"slug": "neutral-100"
+				},
+				{
+					"color": "#F7F7F7",
+					"name": "Neutral 200",
+					"slug": "neutral-200"
+				},
+				{
+					"color": "#E4E4E4",
+					"name": "Neutral 300",
+					"slug": "neutral-300"
+				},
+				{
+					"color": "#CFCFCF",
+					"name": "Neutral 400",
+					"slug": "neutral-400"
+				},
+				{
+					"color": "#A8A8A8",
+					"name": "Neutral 500",
+					"slug": "neutral-500"
+				},
+				{
+					"color": "#7A7A7A",
+					"name": "Neutral 600",
+					"slug": "neutral-600"
+				},
+				{
+					"color": "#555555",
+					"name": "Neutral 700",
+					"slug": "neutral-700"
+				},
+				{
+					"color": "#2E2E2E",
+					"name": "Neutral 800",
+					"slug": "neutral-800"
+				},
+				{
+					"color": "#121212",
+					"name": "Neutral 900",
+					"slug": "neutral-900"
+				},
+				{
+					"color": "#FFF3EC",
+					"name": "Accent 100",
+					"slug": "accent-100"
+				},
+				{
+					"color": "#FFE3D3",
+					"name": "Accent 200",
+					"slug": "accent-200"
+				},
+				{
+					"color": "#FFD1B8",
+					"name": "Accent 300",
+					"slug": "accent-300"
+				},
+				{
+					"color": "#FFB894",
+					"name": "Accent 400",
+					"slug": "accent-400"
+				},
+				{
+					"color": "#FF5F1F",
+					"name": "Accent 500",
+					"slug": "accent-500"
+				},
+				{
+					"color": "#D94E15",
+					"name": "Accent 600",
+					"slug": "accent-600"
+				},
+				{
+					"color": "#B53F12",
+					"name": "Accent 700",
+					"slug": "accent-700"
+				},
+				{
+					"color": "#8F310E",
+					"name": "Accent 800",
+					"slug": "accent-800"
+				},
+				{
+					"color": "#6A230A",
+					"name": "Accent 900",
+					"slug": "accent-900"
 				}
 			]
 		},
@@ -240,7 +345,7 @@
 			},
 			"core/comment-author-name": {
 				"color": {
-					"text": "var(--wp--preset--color--accent-1)"
+					"text": "var(--wp--preset--color--brand)"
 				},
 				"elements": {
 					"link": {
@@ -250,7 +355,7 @@
 							}
 						},
 						"color": {
-							"text": "var(--wp--preset--color--accent-1)"
+							"text": "var(--wp--preset--color--brand)"
 						},
 						"typography": {
 							"textDecoration": "none"
@@ -406,7 +511,7 @@
 			},
 			"core/post-date": {
 				"color": {
-					"text": "var(--wp--preset--color--accent-1)"
+					"text": "var(--wp--preset--color--brand)"
 				},
 				"elements": {
 					"link": {
@@ -416,7 +521,7 @@
 							}
 						},
 						"color": {
-							"text": "var(--wp--preset--color--accent-1)"
+							"text": "var(--wp--preset--color--brand)"
 						},
 						"typography": {
 							"textDecoration": "none"
@@ -618,7 +723,7 @@
 			"button": {
 				":focus": {
 					"outline": {
-						"color": "var(--wp--preset--color--accent-1)",
+						"color": "var(--wp--preset--color--brand)",
 						"offset": "2px"
 					}
 				},
@@ -632,7 +737,7 @@
 					}
 				},
 				"color": {
-					"background": "var(--wp--preset--color--accent-2)",
+					"background": "var(--wp--preset--color--cta)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
@@ -707,7 +812,7 @@
 			},
 			"heading": {
 				"color": {
-					"text": "var(--wp--preset--color--accent-1)"
+					"text": "var(--wp--preset--color--brand)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--aleo)",
@@ -720,14 +825,14 @@
 			"link": {
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--accent-3)"
+						"text": "var(--wp--preset--color--primary)"
 					},
 					"typography": {
 						"textDecoration": "none"
 					}
 				},
 				"color": {
-					"text": "var(--wp--preset--color--accent-1)"
+					"text": "var(--wp--preset--color--brand)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--lexend)",
