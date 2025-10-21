@@ -17,8 +17,8 @@
 <div class="wp-block-group alignfull has-light-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
     <!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}},"layout":{"type":"default"}} -->
     <div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--60)">
-        <!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-        <h2 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php esc_html_e( 'Choose Your Perfect Plan', 'lsx-demo-theme' ); ?></h2>
+    <!-- wp:heading {"textAlign":"center","fontSize":"700"} -->
+    <h2 class="wp-block-heading has-text-align-center has-700-font-size"><?php esc_html_e( 'Choose Your Perfect Plan', 'lsx-demo-theme' ); ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center"} -->
@@ -39,12 +39,12 @@
                 </div>
                 <!-- /wp:html -->
 
-                <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"large"} -->
-                <h3 class="wp-block-heading has-text-align-center has-large-font-size"><?php esc_html_e( 'Basic', 'lsx-demo-theme' ); ?></h3>
+                <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"500"} -->
+                <h3 class="wp-block-heading has-text-align-center has-500-font-size"><?php esc_html_e( 'Basic', 'lsx-demo-theme' ); ?></h3>
                 <!-- /wp:heading -->
 
-                <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}},"fontSize":"x-large"} -->
-                <h4 class="wp-block-heading has-text-align-center has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)">$19<span style="font-size:var(--wp--preset--font-size--small)">/month</span></h4>
+                <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}},"fontSize":"700"} -->
+                <h4 class="wp-block-heading has-text-align-center has-700-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)">$19<span style="font-size:var(--wp--preset--font-size--300)">/month</span></h4>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
@@ -81,12 +81,12 @@
                 </div>
                 <!-- /wp:html -->
 
-                <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"large"} -->
-                <h3 class="wp-block-heading has-text-align-center has-large-font-size"><?php esc_html_e( 'Professional', 'lsx-demo-theme' ); ?></h3>
+                <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"500"} -->
+                <h3 class="wp-block-heading has-text-align-center has-500-font-size"><?php esc_html_e( 'Professional', 'lsx-demo-theme' ); ?></h3>
                 <!-- /wp:heading -->
 
-                <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}},"fontSize":"x-large"} -->
-                <h4 class="wp-block-heading has-text-align-center has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)">$49<span style="font-size:var(--wp--preset--font-size--small)">/month</span></h4>
+                <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}},"fontSize":"700"} -->
+                <h4 class="wp-block-heading has-text-align-center has-700-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)">$49<span style="font-size:var(--wp--preset--font-size--300)">/month</span></h4>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
@@ -124,12 +124,12 @@
                 </div>
                 <!-- /wp:html -->
 
-                <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"large"} -->
-                <h3 class="wp-block-heading has-text-align-center has-large-font-size"><?php esc_html_e( 'Enterprise', 'lsx-demo-theme' ); ?></h3>
+                <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"500"} -->
+                <h3 class="wp-block-heading has-text-align-center has-500-font-size"><?php esc_html_e( 'Enterprise', 'lsx-demo-theme' ); ?></h3>
                 <!-- /wp:heading -->
 
-                <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}},"fontSize":"x-large"} -->
-                <h4 class="wp-block-heading has-text-align-center has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)">$99<span style="font-size:var(--wp--preset--font-size--small)">/month</span></h4>
+                <!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}},"fontSize":"700"} -->
+                <h4 class="wp-block-heading has-text-align-center has-700-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)">$99<span style="font-size:var(--wp--preset--font-size--300)">/month</span></h4>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->

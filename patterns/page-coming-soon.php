@@ -25,8 +25,8 @@
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xx-large"} -->
-		<h3 class="wp-block-heading has-text-align-center has-xx-large-font-size"><?php esc_html_e( 'Something great is coming soon', 'lsx-demo-theme' ); ?></h3>
+		<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"800"} -->
+		<h3 class="wp-block-heading has-text-align-center has-800-font-size"><?php esc_html_e( 'Something great is coming soon', 'lsx-demo-theme' ); ?></h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center"} -->

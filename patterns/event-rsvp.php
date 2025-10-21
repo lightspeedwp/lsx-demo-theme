@@ -22,8 +22,8 @@
 		<div class="wp-block-column" style="flex-basis:66.66%">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 			<div class="wp-block-group">
-				<!-- wp:heading {"fontSize":"xx-large"} -->
-				<h2 class="wp-block-heading has-xx-large-font-size">
+				<!-- wp:heading {"fontSize":"800"} -->
+				<h2 class="wp-block-heading has-800-font-size">
 					<?php
 					echo wp_kses_post(
 						/* translators: This string contains the word "Stories" in four different languages with the first item in the locale's language. */
@@ -33,8 +33,8 @@
 				</h2>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"fontSize":"x-large"} -->
-				<p class="has-x-large-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'lsx-demo-theme' ); ?></p>
+				<!-- wp:paragraph {"fontSize":"700"} -->
+				<p class="has-700-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'lsx-demo-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:spacer {"height":"0px","style":{"layout":{"selfStretch":"fixed","flexSize":"140px"}}} -->
@@ -77,8 +77,8 @@
 				<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
-				<!-- wp:heading {"fontSize":"xx-large"} -->
-				<h2 class="wp-block-heading has-xx-large-font-size"><a href="#"><?php echo esc_html_x( 'RSVP', 'Abbreviation for "Please respond".', 'lsx-demo-theme' ); ?></a></h2>
+				<!-- wp:heading {"fontSize":"800"} -->
+				<h2 class="wp-block-heading has-800-font-size"><a href="#"><?php echo esc_html_x( 'RSVP', 'Abbreviation for "Please respond".', 'lsx-demo-theme' ); ?></a></h2>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:group -->
