@@ -77,24 +77,77 @@ All tasks are managed as GitHub issues. Each issue represents a specific learnin
 - Demonstrate proficiency in GitHub, VS Code, Copilot, and Studio or LocalWP.
 - Document your process and track time using Harvest.
 
-These fonts have been chosen to align with the theme's 'contemporary' and 'post-modern' aesthetic:
+### Fonts & Typography System
 
-- **Secondary Font:** Manrope (Variable)
-  - Source: [Google Fonts](https://fonts.google.com/specimen/Manrope)
-  - Usage: Headers and display text
+Current variable fonts:
+- **Lexend** (Primary UI / body) – Variable 400–800
+- **Manrope** (Secondary / UI details) – Variable 400–700
 
-### Font Size Presets
+Font families are registered via `theme.json` presets (see `settings.typography.fontFamilies`).
 
-Reconfigured font size presets for consistent typography:
-- **S:** 0.875rem
-- **M:** 1rem  
-- **L:** 1.25rem
-- **X-L:** 1.5rem
-- **XX-L:** 2rem
+#### Font Size Scale (New)
+We migrated from legacy named sizes (small, medium, large, x-large, xx-large, etc.) to a numeric semantic scale for clarity and future fluid design. Editor presets now appear with human‑friendly names mapped to numeric slugs:
 
-### Color Palette
+| Name      | Slug | Size (rem) | Typical Usage |
+|-----------|------|------------|---------------|
+| Tiny      | 100  | 0.75rem    | Micro labels, fine print |
+| Base      | 200  | 1rem       | Body paragraphs, default text |
+| Small     | 300  | 1.25rem    | Lead paragraphs, meta emphasis |
+| Medium    | 400  | 1.5rem     | Section subheadings, promo text |
+| Large     | 500  | 2rem       | H3/H4 replacements, feature callouts |
+| X-Large   | 600  | 2.5rem     | H2 scale, strong hero subheads |
+| Huge      | 700  | 3rem       | Primary hero headings |
+| Gigantic  | 800  | 4rem       | Large splash / marketing hero |
+| Colossal  | 900  | 5rem       | Limited-use hero / showcase titles |
 
-Updated theme color palette aligned with LSX Design System:
+### Color System
+
+Colors were consolidated into a semantic + tonal ladder strategy. The palette intentionally disables WordPress defaults (`defaultPalette: false`). Available tokens:
+
+Semantic base:
+- `base` (Primary text / dark surfaces)
+- `neutral` (Secondary text / subtle UI)
+- `light` (Base background)
+- `contrast` (High contrast background / text inverse)
+- `contrast-transparent` (Overlay / tinted backgrounds)
+
+Brand & functional:
+- `brand` (Primary brand accent)
+- `cta` (High‑attention action elements)
+- `primary` / `primary-light` / `primary-dark` (Supporting brand hue range)
+
+Tonal Neutrals (grayscale ladder): `neutral-100` → `neutral-900` (100 = lightest, 900 = darkest) for controlled elevation, borders, and subtle backgrounds.
+
+Tonal Accent (brand hue ladder): `accent-100` → `accent-900` (centered at accent-500 = brand core) used for hover states, tinted backgrounds, gradients, and contextual emphasis. Prefer moving up/down the ladder for interaction states rather than opacity mixing.
+
+Usage Guidelines:
+- Base text should use `base` or appropriate neutral step for contrast against backgrounds.
+- Large background fills: choose `light`, `contrast`, or a light accent step (100–300) with sufficient WCAG contrast for foreground text.
+- Buttons: `cta` background + `base` text (hover blends use color-mix for subtle transitions).
+- Borders/dividers: neutral ladder (400–600) avoiding pure black for softer UI.
+- Avoid raw hex colors in patterns — always reference `var(--wp--preset--color--<slug>)` for consistency and future theming.
+
+### Spacing Tokens
+Custom spacing presets (`spacingSizes`) provide a small set of named clamps for vertical rhythm:
+- Tiny (slug 20) – 10px fixed
+- X-Small (30) – 20px fixed
+- Small (40) – 30px fixed
+- Regular (50) – clamp(30px, 5vw, 50px)
+- Large (60) – clamp(30px, 7vw, 70px)
+- X-Large (70) – clamp(50px, 7vw, 90px)
+- XX-Large (80) – clamp(70px, 10vw, 140px)
+
+These are used through `var(--wp--preset--spacing--<slug>)`. A future `spacingScale` may be introduced; keep slugs unique if added.
+
+### Editor Mapping Quick Reference
+In the block editor preset pickers:
+- Font size dropdown shows new names (Tiny→Colossal). Choose numeric slugs for any new design work.
+- Color picker lists semantic & tonal tokens; select closest semantic before tonal when intent is content meaning rather than aesthetics.
+- Spacing controls (padding/margin) allow manual values; prefer presets for repeatable patterns.
+
+### Migration Notes
+- Patterns being refactored: legacy font size attributes/classes replaced with numeric slugs (e.g., `fontSize":"x-large"` → `fontSize":"700"`).
+- Do not introduce new patterns using legacy sizes.
 
 ### Theme Modifications
 
