@@ -5,14 +5,46 @@
 	"settings": {
 		"color": {
 			"palette": [
-				{"color": "#1B1B1B", "name": "Base", "slug": "base"},
-				{"color": "#F0F0F0", "name": "Contrast", "slug": "contrast"},
-        {"color": "#786D0A", "name": "Brand", "slug": "brand"},
-				{"color": "#442369", "name": "CTA", "slug": "cta"},
-				{"color": "#D1D0EA", "name": "Primary", "slug": "primary"},
-				{"color": "#CBCBCB", "name": "Accent 4", "slug": "accent-4"},
-				{"color": "#353535", "name": "Accent 5", "slug": "accent-5"},
-				{"color": "#FFFFFF33", "name": "Accent 6", "slug": "accent-6"}
+				{
+          "color": "#1B1B1B",
+          "name": "Base",
+          "slug": "base"
+        },
+				{
+          "color": "#F0F0F0",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#786D0A",
+          "name": "Brand",
+          "slug": "brand"
+        },
+				{
+          "color": "#442369",
+          "name": "CTA",
+          "slug": "cta"
+        },
+				{
+          "color": "#D1D0EA",
+          "name": "Primary",
+          "slug": "primary"
+        },
+				{
+          "color": "#CBCBCB",
+          "name": "Accent 4",
+          "slug": "accent-4"
+        },
+				{
+          "color": "#353535",
+          "name": "Accent 5",
+          "slug": "accent-5"
+        },
+				{
+          "color": "#FFFFFF33",
+          "name": "Accent 6",
+          "slug": "accent-6"
+        }
 			]
 		}
 	},

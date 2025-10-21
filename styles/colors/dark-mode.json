@@ -5,12 +5,36 @@
 	"settings": {
 		"color": {
 			"palette": [
-				{"color": "#000000", "name": "Base", "slug": "base"},
-				{"color": "#2C2C2C", "name": "Neutral", "slug": "neutral"},
-				{"color": "#B3B3B3", "name": "Light", "slug": "light"},
-				{"color": "#FF7847", "name": "Brand", "slug": "brand"},
-				{"color": "#00D173", "name": "CTA", "slug": "cta"},
-				{"color": "#66B2FF", "name": "Primary", "slug": "primary"}
+				{
+          "color": "#000000",
+          "name": "Base",
+          "slug": "base"
+        },
+				{
+          "color": "#2C2C2C",
+          "name": "Neutral",
+          "slug": "neutral"
+        },
+				{
+          "color": "#B3B3B3",
+          "name": "Light",
+          "slug": "light"
+        },
+				{
+          "color": "#FF7847",
+          "name": "Brand",
+          "slug": "brand"
+        },
+				{
+          "color": "#00D173",
+          "name": "CTA",
+          "slug": "cta"
+        },
+				{
+          "color": "#66B2FF",
+          "name": "Primary",
+          "slug": "primary"
+        }
 			]
 		}
 	},
