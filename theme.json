@@ -804,10 +804,20 @@
 			"link": {
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--primary)"
+						"text": "var(--wp--preset--color--primary-light)"
 					},
 					"typography": {
 						"textDecoration": "none"
+					}
+				},
+        ":active": {
+					"color": {
+						"text": "var(--wp--preset--color--primary-dark)"
+					}
+				},
+        ":focus": {
+					"color": {
+						"text": "var(--wp--preset--color--primary-light)"
 					}
 				},
 				"color": {
