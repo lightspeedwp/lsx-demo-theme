@@ -36,6 +36,11 @@
 					"slug": "brand"
 				},
 				{
+					"color": "#B8390A",
+					"name": "Brand Dark",
+					"slug": "brand-dark"
+				},
+				{
 					"color": "#00FF85",
 					"name": "CTA",
 					"slug": "cta"
@@ -324,7 +329,7 @@
 			},
 			"core/comment-author-name": {
 				"color": {
-					"text": "var(--wp--preset--color--brand)"
+					"text": "var(--wp--preset--color--brand-dark)"
 				},
 				"elements": {
 					"link": {
@@ -334,7 +339,7 @@
 							}
 						},
 						"color": {
-							"text": "var(--wp--preset--color--brand)"
+							"text": "var(--wp--preset--color--brand-dark)"
 						},
 						"typography": {
 							"textDecoration": "none"
@@ -490,7 +495,7 @@
 			},
 			"core/post-date": {
 				"color": {
-					"text": "var(--wp--preset--color--brand)"
+					"text": "var(--wp--preset--color--brand-dark)"
 				},
 				"elements": {
 					"link": {
@@ -500,7 +505,7 @@
 							}
 						},
 						"color": {
-							"text": "var(--wp--preset--color--brand)"
+							"text": "var(--wp--preset--color--brand-dark)"
 						},
 						"typography": {
 							"textDecoration": "none"
