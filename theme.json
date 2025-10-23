@@ -254,15 +254,60 @@
 				}
 			],
 			"fontSizes": [
-				{ "slug": "100", "name": "Tiny", "size": "0.75rem", "fluid": true },
-				{ "slug": "200", "name": "Base", "size": "1rem", "fluid": true },
-				{ "slug": "300", "name": "Small", "size": "1.25rem", "fluid": true },
-				{ "slug": "400", "name": "Medium", "size": "1.5rem", "fluid": true },
-				{ "slug": "500", "name": "Large", "size": "2rem", "fluid": true },
-				{ "slug": "600", "name": "X-Large", "size": "2.5rem", "fluid": true },
-				{ "slug": "700", "name": "Huge", "size": "3rem", "fluid": true },
-				{ "slug": "800", "name": "Gigantic", "size": "4rem", "fluid": true },
-				{ "slug": "900", "name": "Colossal", "size": "5rem", "fluid": true }
+				{
+					"slug": "100",
+					"name": "Tiny",
+					"size": "0.75rem",
+					"fluid": true
+				},
+				{
+					"slug": "200",
+					"name": "Base",
+					"size": "1rem",
+					"fluid": true
+				},
+				{
+					"slug": "300",
+					"name": "Small",
+					"size": "1.25rem",
+					"fluid": true
+				},
+				{
+					"slug": "400",
+					"name": "Medium",
+					"size": "1.5rem",
+					"fluid": true
+				},
+				{
+					"slug": "500",
+					"name": "Large",
+					"size": "2rem",
+					"fluid": true
+				},
+				{
+					"slug": "600",
+					"name": "X-Large",
+					"size": "2.5rem",
+					"fluid": true
+				},
+				{
+					"slug": "700",
+					"name": "Huge",
+					"size": "3rem",
+					"fluid": true
+				},
+				{
+					"slug": "800",
+					"name": "Gigantic",
+					"size": "4rem",
+					"fluid": true
+				},
+				{
+					"slug": "900",
+					"name": "Colossal",
+					"size": "5rem",
+					"fluid": true
+				}
 			],
 			"writingMode": true
 		},

@@ -36,7 +36,7 @@
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 		<div class="wp-block-buttons">
 			<!-- wp:button {"backgroundColor":"brand","textColor":"contrast","className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"borderColor":"brand"} -->
-			<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-contrast-color has-brand-background-color has-text-color has-background has-link-color has-border-color has-brand-border-color wp-element-button"><?php esc_html_e( 'Subscribe', 'lsx-demo-theme' ); ?></a></div>
+			<div class="wp-block-button is-style-fill"><a href="#" class="wp-block-button__link has-contrast-color has-brand-background-color has-text-color has-background has-link-color has-border-color has-brand-border-color wp-element-button"><?php esc_html_e( 'Subscribe', 'lsx-demo-theme' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->

@@ -26,7 +26,7 @@
 					<div class="wp-block-group alignwide">
 						<!-- wp:post-title {"level":1,"align":"wide","fontSize":"700"} /-->
 						<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"fontSize":"300","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-						<div class="wp-block-group has-small-font-size">
+						<div class="wp-block-group has-300-font-size">
 							<!-- wp:paragraph -->
 							<p><?php echo esc_html_x( 'by', 'Prefix before the author name. The post author name is displayed in a separate block.', 'lsx-demo-theme' ); ?></p>
 							<!-- /wp:paragraph -->
@@ -50,7 +50,7 @@
 				<!-- wp:column {"width":"100%"} -->
 				<div class="wp-block-column" style="flex-basis:100%">
 					<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"4px"}},"fontSize":"300","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-					<div class="wp-block-group alignwide has-small-font-size">
+					<div class="wp-block-group alignwide has-300-font-size">
 						<!-- wp:post-date /-->
 						<!-- wp:paragraph -->
 						<p><?php echo esc_html_x( '·', 'Separator between date and categories.', 'lsx-demo-theme' ); ?></p>

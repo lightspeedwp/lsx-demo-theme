@@ -2,6 +2,34 @@
 
 This document provides detailed descriptions and usage guidelines for all colors in the theme palette.
 
+## Where These Colors Are Defined
+
+All CSS variables (e.g., `var(--wp--preset--color--base)`) are automatically generated from the color palette defined in `theme.json`. Each color entry creates a corresponding CSS custom property.
+
+### Required theme.json Structure
+```json
+{
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#121212",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#B8390A", 
+          "name": "Brand Dark",
+          "slug": "brand-dark"
+        }
+      ]
+    }
+  }
+}
+```
+
+**Note**: If any CSS variable referenced in this guide doesn't resolve, ensure the corresponding color entry exists in your `theme.json` with the correct `slug` value. WordPress automatically converts `"slug": "brand-dark"` to `var(--wp--preset--color--brand-dark)`.
+
 ## Core Colors
 
 ### Base (#121212)
@@ -54,16 +82,31 @@ This document provides detailed descriptions and usage guidelines for all colors
 - **Description**: Primary action color and interactive elements
 - **Usage**: Links, primary buttons, interactive states
 - **CSS Variable**: `var(--wp--preset--color--primary)`
+- **Accessibility Rules**:
+  - **Normal Text (14px/400)**: ❌ NOT ALLOWED on Light (#F4F4F4, 2.76:1) or Contrast (#FFFFFF, 3.04:1) backgrounds
+  - **Large Text (18px/400 or 14px/600)**: ✅ ALLOWED on Contrast (#FFFFFF, 3.04:1) backgrounds
+  - **Any Text Size**: ✅ FULLY ACCESSIBLE on Base (#121212, 6.17:1) backgrounds
+  - **Recommended Usage**: Dark backgrounds only, or large text on white
 
 ### Primary Light (#5CA9FF)
 - **Description**: Light variant for hover and focus states
 - **Usage**: Link hover states, active elements
 - **CSS Variable**: `var(--wp--preset--color--primary-light)`
+- **Accessibility Rules**:
+  - **Normal Text (14px/400)**: ❌ NOT ALLOWED on Light (#F4F4F4, 2.23:1) or Contrast (#FFFFFF, 2.45:1) backgrounds
+  - **Large Text (18px/400 or 14px/600)**: ❌ NOT RECOMMENDED (below 3:1 threshold)
+  - **Any Text Size**: ✅ FULLY ACCESSIBLE on Base (#121212, 7.65:1) backgrounds
+  - **Recommended Usage**: Dark backgrounds only, avoid for text on light surfaces
 
 ### Primary Dark (#1F6FCC)
 - **Description**: Dark variant for pressed and active states
 - **Usage**: Link active states, pressed buttons
 - **CSS Variable**: `var(--wp--preset--color--primary-dark)`
+- **Accessibility Rules**:
+  - **Normal Text (14px/400)**: ✅ FULLY ACCESSIBLE on Light (#F4F4F4, 4.54:1) and Contrast (#FFFFFF, 5.00:1) backgrounds
+  - **Large Text (18px/400 or 14px/600)**: ✅ ALLOWED on Base (#121212, 3.75:1) backgrounds
+  - **Recommended Hover/Focus**: Use this variant for accessible text on light backgrounds
+  - **Best Practice**: Primary choice for readable text over Primary and Primary Light
 
 ## Neutral Scale (100-900)
 
@@ -150,34 +193,59 @@ Based on the brand orange (#FF5F1F), providing various tints and shades:
 
 ## Accessibility Guidelines
 
-### WCAG Compliance
+### WCAG 2.1/2.2 Compliance
 - **AA Normal Text**: 4.5:1 minimum contrast ratio
 - **AA Large Text**: 3:1 minimum contrast ratio
 - **AAA Normal Text**: 7:1 recommended contrast ratio
 
+*Note: APCA (WCAG 3 working material) uses a different perceptual contrast model, but this guide standardizes on WCAG 2.2 AA/AAA requirements for current compatibility.*
+
 ### Safe Color Combinations
-✅ **Fully Accessible**:
-- Base + Light/Contrast backgrounds
-- Brand Dark + Light/Contrast backgrounds
-- CTA + Base text
-- Neutral 700+ + Light backgrounds
+✅ **Fully Accessible (Normal Text)**:
+- Base + Light/Contrast backgrounds (17.03:1 / 18.73:1)
+- Brand Dark + Light/Contrast backgrounds (5.26:1 / 5.79:1)
+- Primary Dark + Light/Contrast backgrounds (4.54:1 / 5.00:1)
+- CTA + Base text (13.95:1)
+- Neutral 700+ + Light backgrounds (6.78:1+)
+- All Primary variants + Base backgrounds (3.75:1 to 7.65:1)
 
-⚠️ **Large Text Only**:
-- Brand + Light/Contrast backgrounds
-- Neutral 600 + Light backgrounds
+⚠️ **Large Text Only (18px/400 or 14px/600)**:
+- Brand + Light/Contrast backgrounds (2.76:1 / 3.04:1)
+- Primary + Contrast backgrounds (3.04:1)
+- Primary Dark + Base backgrounds (3.75:1)
+- Neutral 600 + Light backgrounds (3.90:1)
 
-❌ **Not Recommended**:
-- Neutral 500 and lighter + Light backgrounds for small text
+❌ **Not Recommended for Any Text**:
+- Primary + Light backgrounds (2.76:1)
+- Primary Light + Light/Contrast backgrounds (2.23:1 / 2.45:1)
+- Neutral 500 and lighter + Light backgrounds for small text (2.16:1 and below)
 
 ### Usage Recommendations
 
-1. **For Small Text**: Use Base, Neutral, Brand Dark, or Neutral 700+
-2. **For Large Text**: All colors are acceptable with proper contrast
-3. **For Buttons**: Use CTA with dark text or dark backgrounds with light text
-4. **For Links**: Use Brand Dark for accessibility, Brand for large headings only
-5. **For Backgrounds**: Use Light, Contrast, or dark neutrals (700+)
+1. **For Small Text (14px/400)**:
+   - ✅ **Safe on Light Backgrounds**: Base, Neutral, Brand Dark, Primary Dark, Neutral 700+
+   - ✅ **Safe on Dark Backgrounds**: All colors acceptable with Base/Neutral 800+ backgrounds
+
+2. **For Large Text (18px/400 or 14px/600)**:
+   - ✅ **Additional Options**: Brand, Primary (on white only), Primary Dark (on dark), Neutral 600
+
+3. **For Interactive Elements**:
+   - **Links (Normal Text)**: Primary Dark (#1F6FCC) - fully accessible on light backgrounds
+   - **Links (Large Text)**: Primary (#3895FF) acceptable on white backgrounds
+   - **Hover States**: Primary Light (#5CA9FF) only on dark backgrounds
+   - **Active/Pressed**: Primary Dark (#1F6FCC) recommended
+
+4. **For Buttons**: 
+   - **Primary CTA**: CTA background + Base text (13.95:1)
+   - **Secondary**: Primary Dark background + Contrast text
+   - **Avoid**: Primary/Primary Light backgrounds with light text
+
+5. **For Backgrounds**: 
+   - **Light Themes**: Light, Contrast, Neutral 100-200
+   - **Dark Themes**: Base, Neutral 800-900
+   - **Brand Sections**: Use Accent 100-300 for subtle brand backgrounds
 
 ---
 
 *Last updated: October 22, 2025*
-*Contrast ratios validated against WCAG 2.1 AA standards*
+*Contrast ratios validated against WCAG 2.1/2.2 AA standards*
