@@ -24,13 +24,13 @@
 				<div class="wp-block-column" style="flex-basis:40%">
 					<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group alignwide">
-						<!-- wp:post-title {"level":1,"align":"wide","fontSize":"x-large"} /-->
-						<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-						<div class="wp-block-group has-small-font-size">
+						<!-- wp:post-title {"level":1,"align":"wide","fontSize":"700"} /-->
+						<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"fontSize":"300","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+						<div class="wp-block-group has-300-font-size">
 							<!-- wp:paragraph -->
 							<p><?php echo esc_html_x( 'by', 'Prefix before the author name. The post author name is displayed in a separate block.', 'lsx-demo-theme' ); ?></p>
 							<!-- /wp:paragraph -->
-							<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /-->
+							<!-- wp:post-author-name {"isLink":true,"fontSize":"300"} /-->
 						</div>
 						<!-- /wp:group -->
 					</div>
@@ -49,8 +49,8 @@
 			<div class="wp-block-columns alignwide">
 				<!-- wp:column {"width":"100%"} -->
 				<div class="wp-block-column" style="flex-basis:100%">
-					<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"4px"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-					<div class="wp-block-group alignwide has-small-font-size">
+					<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"4px"}},"fontSize":"300","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+					<div class="wp-block-group alignwide has-300-font-size">
 						<!-- wp:post-date /-->
 						<!-- wp:paragraph -->
 						<p><?php echo esc_html_x( '·', 'Separator between date and categories.', 'lsx-demo-theme' ); ?></p>

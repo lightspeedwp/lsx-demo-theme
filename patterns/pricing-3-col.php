@@ -15,8 +15,8 @@
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:heading {"fontSize":"x-large"} -->
-		<h2 class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Choose your membership', 'lsx-demo-theme' ); ?></h2>
+		<!-- wp:heading {"fontSize":"700"} -->
+		<h2 class="wp-block-heading has-700-font-size"><?php esc_html_e( 'Choose your membership', 'lsx-demo-theme' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
@@ -33,12 +33,12 @@
 			<div class="wp-block-columns is-not-stacked-on-mobile" style="margin-top:0;margin-bottom:0">
 				<!-- wp:column {"width":"70%"} -->
 				<div class="wp-block-column" style="flex-basis:70%">
-					<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
-					<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Free', 'lsx-demo-theme' ); ?></h3>
+					<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"500"} -->
+					<h3 class="wp-block-heading has-500-font-size" style="margin-bottom:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Free', 'lsx-demo-theme' ); ?></h3>
 					<!-- /wp:heading -->
 
-					<!-- wp:paragraph {"fontSize":"small"} -->
-					<p class="has-small-font-size"><?php esc_html_e( 'Get access to our free articles and weekly newsletter.', 'lsx-demo-theme' ); ?></p>
+					<!-- wp:paragraph {"fontSize":"300"} -->
+					<p class="has-300-font-size"><?php esc_html_e( 'Get access to our free articles and weekly newsletter.', 'lsx-demo-theme' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:column -->
@@ -69,12 +69,12 @@
 			<div class="wp-block-columns is-not-stacked-on-mobile" style="margin-top:0;margin-bottom:0">
 				<!-- wp:column {"width":"70%"} -->
 				<div class="wp-block-column" style="flex-basis:70%">
-					<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
-					<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)"><?php echo esc_html_x( 'Single', 'Name of membership package.', 'lsx-demo-theme' ); ?></h3>
+					<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"500"} -->
+					<h3 class="wp-block-heading has-500-font-size" style="margin-bottom:var(--wp--preset--spacing--20)"><?php echo esc_html_x( 'Single', 'Name of membership package.', 'lsx-demo-theme' ); ?></h3>
 					<!-- /wp:heading -->
 
-					<!-- wp:paragraph {"fontSize":"small"} -->
-					<p class="has-small-font-size"><?php esc_html_e( 'Get access to our paid newsletter and a limited pass for one event.', 'lsx-demo-theme' ); ?></p>
+					<!-- wp:paragraph {"fontSize":"300"} -->
+					<p class="has-300-font-size"><?php esc_html_e( 'Get access to our paid newsletter and a limited pass for one event.', 'lsx-demo-theme' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:column -->
@@ -85,8 +85,8 @@
 					<h3 class="wp-block-heading has-text-align-right"><?php esc_html_e( '20€', 'lsx-demo-theme' ); ?></h3>
 					<!-- /wp:heading -->
 
-					<!-- wp:paragraph {"align":"right","style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"small"} -->
-					<p class="has-text-align-right has-small-font-size" style="margin-top:0"><?php esc_html_e( 'Month', 'lsx-demo-theme' ); ?></p>
+					<!-- wp:paragraph {"align":"right","style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"300"} -->
+					<p class="has-text-align-right has-300-font-size" style="margin-top:0"><?php esc_html_e( 'Month', 'lsx-demo-theme' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:column -->
@@ -109,12 +109,12 @@
 			<div class="wp-block-columns is-not-stacked-on-mobile" style="margin-top:0;margin-bottom:0">
 				<!-- wp:column {"width":"70%"} -->
 				<div class="wp-block-column" style="flex-basis:70%">
-					<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
-					<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)"><?php echo esc_html_x( 'Expert', 'Name of membership package.', 'lsx-demo-theme' ); ?></h3>
+					<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"500"} -->
+					<h3 class="wp-block-heading has-500-font-size" style="margin-bottom:var(--wp--preset--spacing--20)"><?php echo esc_html_x( 'Expert', 'Name of membership package.', 'lsx-demo-theme' ); ?></h3>
 					<!-- /wp:heading -->
 
-					<!-- wp:paragraph {"fontSize":"small"} -->
-					<p class="has-small-font-size"><?php esc_html_e( 'Get access to our paid newsletter and an unlimited pass.', 'lsx-demo-theme' ); ?></p>
+					<!-- wp:paragraph {"fontSize":"300"} -->
+					<p class="has-300-font-size"><?php esc_html_e( 'Get access to our paid newsletter and an unlimited pass.', 'lsx-demo-theme' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:column -->
@@ -125,8 +125,8 @@
 					<h3 class="wp-block-heading has-text-align-right"><?php esc_html_e( '40€', 'lsx-demo-theme' ); ?></h3>
 					<!-- /wp:heading -->
 
-					<!-- wp:paragraph {"align":"right","style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"small"} -->
-					<p class="has-text-align-right has-small-font-size" style="margin-top:0"><?php esc_html_e( 'Month', 'lsx-demo-theme' ); ?></p>
+					<!-- wp:paragraph {"align":"right","style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"300"} -->
+					<p class="has-text-align-right has-300-font-size" style="margin-top:0"><?php esc_html_e( 'Month', 'lsx-demo-theme' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:column -->
