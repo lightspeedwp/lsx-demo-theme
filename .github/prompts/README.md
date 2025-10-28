@@ -3,18 +3,6 @@
 This folder contains reusable prompts for common development and review tasks.
 To run a prompt, open the file or use `/filename` in Copilot Chat.
 
-## Available Prompts
-
-| File | Description |
-|------|-------------|
-| [`generate-pattern.prompt.md`](./generate-pattern.prompt.md) | Generate a WordPress block pattern using design tokens |
-| [`accessibility-audit.prompt.md`](./accessibility-audit.prompt.md) | Audit a template file for accessibility issues |
-| [`refactor-theme-types.prompt.md`](./refactor-theme-types.prompt.md) | Improve theme.json typography structure |
-| [`code-review.prompt.md`](./code-review.prompt.md) | Review pull request code for standards and style |
-| [`accessibility-review.md`](./accessibility-review.md) | Comprehensive accessibility review guidelines |
-| [`junior-dev-code-review.md`](./junior-dev-code-review.md) | Guidelines for providing feedback to junior developers |
-| [`pattern-generation.md`](./pattern-generation.md) | Template for creating new WordPress block patterns |
-
 ## How to Use
 
 1. Copy the content of the relevant prompt

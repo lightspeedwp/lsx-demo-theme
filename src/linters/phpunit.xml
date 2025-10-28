@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<phpunit
+    bootstrap="tests/phpunit/bootstrap.php"
+    backupGlobals="false"
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    >
+    <testsuites>
+        <testsuite name="LSX Theme Test Suite">
+            <directory suffix=".php">./tests/phpunit/</directory>
+        </testsuite>
+    </testsuites>
+    <coverage>
+        <include>
+            <directory suffix=".php">./</directory>
+        </include>
+        <exclude>
+            <directory>./tests</directory>
+            <directory>./vendor</directory>
+            <directory>./node_modules</directory>
+            <directory>./build</directory>
+        </exclude>
+    </coverage>
+    <php>
+        <env name="WP_PHPUNIT__TESTS_CONFIG" value="tests/phpunit/wp-config.php" />
+    </php>
+</phpunit>

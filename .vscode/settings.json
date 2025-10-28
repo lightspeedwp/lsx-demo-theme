@@ -1,0 +1,65 @@
+{
+    "mcp.enable": true,
+    "mcp.startOnStartup": true,
+    "mcp.servers.github.autoStart": true,
+    "mcp.servers.playwright.autoStart": false,
+    "mcp.authentication.github.type": "oauth",
+    "eslint.workingDirectories": ["./"],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+        "*.php": "php",
+        "*.html": "html",
+        "*.theme": "json"
+    },
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/logs": true,
+        "**/.DS_Store": true,
+        "**/vendor": true,
+        "**/*.map": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/logs": true,
+        "**/vendor": true
+    },
+    "css.validate": false,
+    "scss.validate": false,
+    "php.suggest.basic": false,
+    "php.validate.enable": true,
+    "html.suggest.html5": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "playwright.reuseBrowser": false,
+    "playwright.showTrace": false,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.editor.enablePreview": false,
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false
+}

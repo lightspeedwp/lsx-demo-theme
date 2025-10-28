@@ -1,25 +1,51 @@
-# Auto detect text files and ensure proper line endings
+# LSX Demo Theme - Git Attributes Configuration
+# WordPress Block Theme Development - Consistent file handling across platforms
+# Ensures proper line endings, encoding, and binary file detection for WordPress development
+
+# =============================================================================
+# TEXT FILE DETECTION AND LINE ENDINGS
+# =============================================================================
+
+# Auto-detect text files and normalize line endings for cross-platform compatibility
 * text=auto
 
-# Force LF (Unix) line endings for all common text-based files
-*.php text eol=lf
-*.js text eol=lf
-*.css text eol=lf
-*.scss text eol=lf
-*.json text eol=lf
-*.md text eol=lf
-*.html text eol=lf
-*.txt text eol=lf
-*.xml text eol=lf
-*.yml text eol=lf
-*.yaml text eol=lf
+# WordPress development files - Force Unix (LF) line endings for consistency
+# This ensures consistent behavior across Windows, macOS, and Linux development environments
+*.php     text eol=lf
+*.js      text eol=lf
+*.css     text eol=lf
+*.scss    text eol=lf
+*.json    text eol=lf
+*.md      text eol=lf
+*.html    text eol=lf
+*.txt     text eol=lf
+*.xml     text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
 
-# Treat images and fonts as binary
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.svg binary
-*.woff binary
-*.woff2 binary
-*.ttf binary
+# =============================================================================
+# BINARY FILES - WORDPRESS THEME ASSETS
+# =============================================================================
+
+# Mark binary files explicitly to prevent line ending conversion and text processing
+# WordPress theme assets should be handled as binary for proper functionality
+
+# Image formats - WordPress media and theme assets
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.svg     binary
+
+# Web font formats - WordPress theme typography
+*.woff    binary
+*.woff2   binary
+*.ttf     binary
+
+# Additional binary formats for WordPress development
+*.ico     binary
+*.pdf     binary
+*.zip     binary
+*.tar.gz  binary
+*.webp    binary
+*.avif    binary

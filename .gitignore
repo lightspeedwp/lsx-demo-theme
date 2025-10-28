@@ -1,29 +1,45 @@
-# macOS system files
+# LSX Demo Theme - Git Ignore Configuration
+# WordPress Block Theme Development - Exclude build artifacts, dependencies, and system files
+# Optimized for macOS/Windows/Linux development environments
+
+# =============================================================================
+# OPERATING SYSTEM FILES
+# =============================================================================
+
+# macOS system files - Exclude Finder and system metadata
 .DS_Store
 .AppleDouble
 .LSOverride
 Thumbs.db
 Icon?
 
-# Thumbnails
+# macOS thumbnails and caches
 ._*
 
-# macOS folder attributes
+# macOS system directories
 .Spotlight-V100
 .Trashes
 *.swp
 *.swo
 
-# WordPress core
+# =============================================================================
+# WORDPRESS CORE AND CONTENT
+# =============================================================================
+
+# WordPress core directories - Exclude if theme is in standalone repository
 /wp-admin/
 /wp-includes/
 wordpress/
 
-# WordPress uploads or cache (optional, if included)
+# WordPress content directories - Exclude user uploads and cache
 wp-content/uploads/
 wp-content/cache/
 
-# Node-related (if using build tools like npm, Gulp, etc.)
+# =============================================================================
+# NODE.JS AND BUILD SYSTEM
+# =============================================================================
+
+# Node.js dependencies and build artifacts - WordPress development tooling
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -33,34 +49,58 @@ build/
 .env
 .env.example
 
-# PHP dependency management
-vendor/
-composer.lock
+# =============================================================================
+# PHP DEPENDENCIES AND BUILD ARTIFACTS
+# =============================================================================
 
-# SASS / build artifacts (if applicable)
+# Composer PHP dependencies - WordPress coding standards tools
+vendor/
+# Note: composer.lock is included for reproducible WordPress development builds
+
+# CSS/Sass build artifacts - Generated files from source
 *.css.map
 *.scssc
 
-# VS Code and other editor config
+# =============================================================================
+# DEVELOPMENT TOOLS AND EDITORS
+# =============================================================================
+
+# IDE and editor configurations - Personal development environment settings
 .vscode/
 .idea/
 *.code-workspace
 .devcontainer/.env
 
-# Local dev
+# =============================================================================
+# LOCAL DEVELOPMENT ENVIRONMENTS
+# =============================================================================
+
+# WordPress local development tools
 .local/
 .localwp-site/
 
-# Temporary files
+# =============================================================================
+# TEMPORARY AND LOG FILES
+# =============================================================================
+
+# General temporary files
 *.log
 *.tmp
 *.bak
 
-# Theme-specific
+# =============================================================================
+# THEME-SPECIFIC BUILD ARTIFACTS
+# =============================================================================
+
+# WordPress theme build outputs
 style.css.map
 theme.zip
 
-# Playwright
+# =============================================================================
+# TESTING FRAMEWORKS
+# =============================================================================
+
+# Playwright end-to-end testing artifacts
 /test-results/
 /playwright-report/
 /blob-report/

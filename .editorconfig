@@ -1,30 +1,38 @@
-# EditorConfig is awesome: https://EditorConfig.org
+# EditorConfig Configuration for LSX Demo Theme
+# WordPress Coding Standards Compliance
+# EditorConfig helps maintain consistent coding styles across different editors
+# See: https://EditorConfig.org
 
-# top-most EditorConfig file
+# top-most EditorConfig file - no parent configs will be applied
 root = true
 
-# Unix-style newlines with a newline ending every file
+# Universal file settings for WordPress development
+# Ensures consistent line endings and encoding across all file types
 [*]
-end_of_line = lf
-insert_final_newline = true
-trim_trailing_whitespace = true
-charset = utf-8
+end_of_line = lf                    # Unix-style line endings (WordPress standard)
+insert_final_newline = true         # Add final newline (PSR-12 compliance)
+trim_trailing_whitespace = true     # Remove trailing spaces (clean code practice)
+charset = utf-8                     # UTF-8 encoding for WordPress internationalization
 
-# PHP files - WordPress coding standards use tabs
+# PHP files - WordPress Coding Standards (WPCS) compliance
+# WordPress core uses tabs for PHP indentation (not spaces)
 [*.php]
-indent_style = tab
-indent_size = 4
+indent_style = tab                  # Tabs for PHP (WordPress standard)
+indent_size = 4                     # 4-space tab width for readability
 
-# HTML files
+# HTML template files for WordPress block themes
+# Block templates and template parts use spaces for better readability
 [*.html]
-indent_style = space
-indent_size = 4
+indent_style = space               # Spaces for HTML block templates
+indent_size = 4                    # 4 spaces for WordPress block syntax
 
-# CSS, SCSS, JavaScript, and JSON files
+# Frontend asset files - CSS, SCSS, JavaScript, and JSON
+# Modern frontend tooling prefers 2-space indentation
 [*.{css,scss,js,json}]
-indent_style = space
-indent_size = 2
+indent_style = space               # Spaces for frontend assets
+indent_size = 2                    # 2 spaces for CSS/JS (standard practice)
 
-# Markdown files
+# Markdown documentation files
+# Preserve trailing whitespace for Markdown formatting (line breaks)
 [*.md]
-trim_trailing_whitespace = false
+trim_trailing_whitespace = false   # Preserve Markdown line break syntax

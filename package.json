@@ -1,33 +1,47 @@
 {
-  "name": "lsx-demo-theme",
-  "version": "1.0.0",
-  "description": "A modern WordPress block theme with Full Site Editing capabilities",
-  "scripts": {
-    "build:css": "sass src/scss/style.scss | postcss > assets/css/style.css && cat src/style-header.css assets/css/style.css > style.css",
-    "build:editor": "sass src/scss/editor.scss | postcss > assets/css/editor.css",
-    "watch:css": "concurrently \"sass --watch src/scss/style.scss:tmp/style.css\" \"postcss --watch tmp/style.css -o style.css\"",
-    "start": "wp-scripts start",
-    "build": "wp-scripts build && npm run build:css && npm run build:editor",
-    "format": "wp-scripts format",
-    "lint:css": "wp-scripts lint-style",
-    "lint:js": "wp-scripts lint-js",
-    "lint:php": "composer run-script lint",
-    "test": "playwright test",
-    "test:a11y": "playwright test tests/accessibility"
-  },
-  "devDependencies": {
-    "@playwright/test": "1.55.0",
-    "@types/node": "24.3.1",
-    "@wordpress/scripts": "^27.0.0",
-    "autoprefixer": "^10.4.14",
-    "hint": "7.1.13",
-    "postcss": "^8.4.24",
-    "postcss-cli": "^10.1.0",
-    "sass": "^1.69.0"
-  },
-  "browserslist": [
-    "extends @wordpress/browserslist-config"
-  ],
-  "author": "LightSpeed",
-  "license": "GPL-2.0-or-later"
+    "_documentation": {
+        "description": "LSX Demo Theme - npm Configuration for WordPress Block Theme Development",
+        "purpose": "Manages modern build tools, linting, and testing for WordPress FSE themes",
+        "workflow": {
+            "development": "npm start - Hot reload development server with @wordpress/scripts",
+            "building": "npm run build - Production build with CSS/JS optimization",
+            "testing": "npm test - Playwright e2e tests with accessibility validation",
+            "linting": "npm run lint:js|lint:css - WordPress coding standards enforcement"
+        },
+        "architecture": {
+            "build_system": "@wordpress/scripts for webpack configuration and WordPress standards",
+            "testing": "Playwright for cross-browser e2e testing with axe-core accessibility",
+            "styling": "Sass/SCSS with PostCSS and autoprefixer for WordPress themes",
+            "standards": "WordPress ESLint and Stylelint configurations for code quality"
+        }
+    },
+    "name": "lsx-demo-theme",
+    "version": "1.0.0",
+    "description": "A modern WordPress block theme with Full Site Editing capabilities",
+    "scripts": {
+        "start": "wp-scripts start",
+        "build": "wp-scripts build",
+        "format": "wp-scripts format",
+        "lint:css": "wp-scripts lint-style",
+        "lint:js": "wp-scripts lint-js",
+        "lint:php": "composer run-script lint",
+        "test": "playwright test",
+        "test:a11y": "playwright test tests/accessibility"
+    },
+    "devDependencies": {
+        "@axe-core/playwright": "4.10.2",
+        "@playwright/test": "1.55.0",
+        "@types/node": "24.3.1",
+        "@wordpress/scripts": "^27.0.0",
+        "autoprefixer": "^10.4.14",
+        "hint": "7.1.13",
+        "postcss": "^8.4.24",
+        "postcss-cli": "^10.1.0",
+        "sass": "^1.69.0"
+    },
+    "browserslist": [
+        "extends @wordpress/browserslist-config"
+    ],
+    "author": "LightSpeed",
+    "license": "GPL-2.0-or-later"
 }
