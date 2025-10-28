@@ -15,8 +15,8 @@
 <aside class="wp-block-group alignfull is-style-section-3" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 	<!-- wp:group {"style":{"dimensions":{"minHeight":"360px"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center","justifyContent":"center"}} -->
 	<div class="wp-block-group" style="min-height:360px;margin-top:0;margin-bottom:0">
-		<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size"><?php esc_html_e( 'Sign up to get daily stories', 'lsx-demo-theme' ); ?></h2>
+		<!-- wp:heading {"textAlign":"center","fontSize":"800"} -->
+		<h2 class="wp-block-heading has-text-align-center has-800-font-size"><?php esc_html_e( 'Sign up to get daily stories', 'lsx-demo-theme' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center","className":"is-style-text-subtitle"} -->

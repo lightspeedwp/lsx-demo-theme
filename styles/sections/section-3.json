@@ -10,7 +10,7 @@
 	],
 	"styles": {
 		"color": {
-			"background": "var:preset|color|accent-1",
+			"background": "var:preset|color|brand",
 			"text": "var:preset|color|contrast"
 		},
 		"blocks": {
