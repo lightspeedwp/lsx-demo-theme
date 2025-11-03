@@ -6,6 +6,7 @@ A modern WordPress block theme built with Full Site Editing (FSE) capabilities, 
 [![Block Theme](https://img.shields.io/badge/Block%20Theme-FSE-green.svg)](https://developer.wordpress.org/themes/block-themes/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![Testing](https://img.shields.io/badge/Testing-Playwright-red.svg)](https://playwright.dev/)
+[![Release](https://img.shields.io/github/v/release/lightspeedwp/lsx-demo-theme?include_prereleases)](https://github.com/lightspeedwp/lsx-demo-theme/releases)
 
 <!--
 README.md Inline Documentation
@@ -222,12 +223,16 @@ In the block editor preset pickers:
 Reference: Key documentation files are listed above. See each file for details on security, contributing, code of conduct, changelog, license, and support.
 -->
 
-## 📝 Changelog
+## 📝 Changelog & Releases
 
 See [CHANGELOG.md](./CHANGELOG.md) for a complete release history and notable changes.
 
+**Current Release**: [v1.0.0-beta](https://github.com/lightspeedwp/lsx-demo-theme/releases/tag/v1.0.0-beta)
+
+For information about release tags and how to view them, see [RELEASE-TAGS.md](./RELEASE-TAGS.md).
+
 <!--
-CHANGELOG.md documents all notable changes using Keep a Changelog format and semantic versioning. Review this file for release notes and upgrade guidance.
+CHANGELOG.md documents all notable changes using Keep a Changelog format and semantic versioning. Review this file for release notes and upgrade guidance. RELEASE-TAGS.md provides guidance on viewing and working with release tags.
 -->
 
 ## 🤝 Contributing & Support
