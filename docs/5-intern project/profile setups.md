@@ -78,7 +78,7 @@ Follow these steps in order. Early steps unlock later ones.
 
 ### 3.1 Step 1 — Security & Time Tracking
 
-**1Password**
+**[1Password](https://1password.com)**
 The first account you create.
 Used for storing:
 
@@ -87,7 +87,7 @@ Used for storing:
 -   Passkeys
 -   Secure notes
 
-**Harvest**
+**[Harvest](https://www.getharvest.com)**
 Start tracking:
 
 -   Study time
@@ -104,13 +104,13 @@ Your LightSpeed Google account is your primary identity.
 
 -   Add your photo and sync Gmail, Drive, Calendar and Docs.
 
-**Slack**
+**[Slack](https://slack.com)**
 Internal communication platform.
 
 -   Display name: First name
 -   Title: Intern – WordPress Block Themes
 
-**Asana**
+**[Asana](https://asana.com)**
 Task tracking and daily workflow.
 
 -   Display name: First name only
@@ -119,7 +119,7 @@ Task tracking and daily workflow.
 
 These profiles represent you publicly.
 
-**LinkedIn**
+**[LinkedIn](https://www.linkedin.com)**
 Your long-term career profile.
 
 -   Clean the URL and complete your About, Experience and Skills.
@@ -172,11 +172,11 @@ This ensures every intern has a real portfolio piece during (and after) the inte
 
 You must complete:
 
--   **WordPress.com** → used for login and Gravatar
--   **Gravatar** → sets your global avatar
--   **WordPress.org** → your official contributor identity
--   **WordPress Slack** → WordPress community chat
--   **Learn.WordPress.org** → your course achievements appear on your WP.org profile
+-   **[WordPress.com](https://wordpress.com)** → used for login and Gravatar
+-   **[Gravatar](https://gravatar.com)** → sets your global avatar
+-   **[WordPress.org](https://wordpress.org)** → your official contributor identity
+-   **[WordPress Slack](https://make.wordpress.org/chat/)** → WordPress community chat
+-   **[Learn.WordPress.org](https://learn.wordpress.org)** → your course achievements appear on your WP.org profile
 
 These profiles are essential for anyone building a career in WordPress.
 
@@ -186,47 +186,47 @@ These profiles are essential for anyone building a career in WordPress.
 
 These tools support collaboration, meetings, reporting and continued learning:
 
--   Fireflies.ai
--   Loom
--   BugHerd
--   Stark
--   Microsoft Live
--   Microsoft Learn
--   AI tools (ChatGPT, Claude, Gemini)
--   Coderabbit
--   YouTube (professional subscriptions only)
+-   [Fireflies.ai](https://fireflies.ai)
+-   [Loom](https://www.loom.com)
+-   [BugHerd](https://bugherd.com)
+-   [Stark](https://www.getstark.co)
+-   [Microsoft Live](https://www.microsoft.com/account)
+-   [Microsoft Learn](https://learn.microsoft.com)
+-   AI tools ([ChatGPT](https://chat.openai.com), [Claude](https://claude.ai), [Gemini](https://gemini.google.com))
+-   [CodeRabbit](https://coderabbit.ai)
+-   [YouTube](https://www.youtube.com) (professional subscriptions only)
 
 ---
 
 ## 7. Registration Table (With Direct Signup Links)
 
-| Service / Site      | Purpose                                           | When to Create  | Handle / Login Notes                               |
-| ------------------- | ------------------------------------------------- | --------------- | -------------------------------------------------- |
-| 1Password           | Store all credentials, passkeys and backup codes. | First           | Login via LightSpeed email. No custom handle.      |
-| Harvest             | Track study, project and meeting time.            | First           | Login with Google.                                 |
-| Google Account      | Core access: Gmail, Drive, Docs.                  | First           | Provided by LightSpeed; add photo.                 |
-| Slack               | Internal communication.                           | First           | Display name: First name.                          |
-| Asana               | Task & workflow management.                       | First           | Join via invite; display name: First name.         |
-| LinkedIn            | Public professional identity.                     | Week 1          | URL: /in/namesurname/.                             |
-| GitHub              | Code hosting & dev portfolio.                     | Week 1          | Username: namesurname.                             |
-| Figma               | Design portfolio + published work.                | Week 1          | Username matches GitHub; publish 1 portfolio file. |
-| WordPress.com       | Needed for Gravatar & WP.org.                     | Week 1          | Login with Google.                                 |
-| Gravatar            | Syncs avatar to WP.org.                           | After WP.com    | Fill all profile fields.                           |
-| WordPress.org       | Contributor identity.                             | Week 1–2        | Username: namesurname.                             |
-| WordPress Slack     | WordPress community chat.                         | After WP.org    | Login as yourusername@chat.wordpress.org.          |
-| Learn.WordPress.org | WordPress courses (show on WP.org).               | After WP.org    | Complete user/designer/dev pathways.               |
-| YouTube             | Professional subscriptions only.                  | Week 1          | Handle: @namesurname.                              |
-| Microsoft Live      | Access Microsoft ecosystem.                       | Month 1         | Use LightSpeed email.                              |
-| Microsoft Learn     | GitHub Foundations + Copilot courses.             | Month 1         | Sign in with Microsoft or GitHub.                  |
-| OllieWP Academy     | Block theme education.                            | Month 1         | Standard photo and handle.                         |
-| Fireflies.ai        | Meeting transcripts & notes.                      | When applicable | Google login.                                      |
-| BugHerd             | Visual website feedback.                          | When invited    | Display name: First name.                          |
-| Loom                | Video & screen recording.                         | Month 1         | Login with Google/Slack.                           |
-| Stark               | Accessibility tools for Figma & Chrome.           | Month 1         | Same photo and name.                               |
-| CodeRabbit          | Automated code review bot.                        | When requested  | Connect via GitHub.                                |
-| ChatGPT             | AI assistant for coding & docs.                   | Month 1         | Use LightSpeed email.                              |
-| Claude              | AI writing & planning assistant.                  | Month 1         | LightSpeed email.                                  |
-| Gemini              | Google ecosystem AI assistant.                    | Month 1         | LightSpeed Google account.                         |
+| Service / Site                                          | Purpose                                           | When to Create  | Handle / Login Notes                               |
+| ------------------------------------------------------- | ------------------------------------------------- | --------------- | -------------------------------------------------- |
+| [1Password](https://1password.com/sign-up)              | Store all credentials, passkeys and backup codes. | First           | Login via LightSpeed email. No custom handle.      |
+| [Harvest](https://www.getharvest.com/signup)            | Track study, project and meeting time.            | First           | Login with Google.                                 |
+| Google Account                                          | Core access: Gmail, Drive, Docs.                  | First           | Provided by LightSpeed; add photo.                 |
+| [Slack](https://slack.com/get-started)                  | Internal communication.                           | First           | Display name: First name.                          |
+| [Asana](https://asana.com/create-account)               | Task & workflow management.                       | First           | Join via invite; display name: First name.         |
+| [LinkedIn](https://www.linkedin.com/signup)             | Public professional identity.                     | Week 1          | URL: /in/namesurname/.                             |
+| [GitHub](https://github.com/signup)                     | Code hosting & dev portfolio.                     | Week 1          | Username: namesurname.                             |
+| [Figma](https://www.figma.com/signup)                   | Design portfolio + published work.                | Week 1          | Username matches GitHub; publish 1 portfolio file. |
+| [WordPress.com](https://wordpress.com/start)            | Needed for Gravatar & WP.org.                     | Week 1          | Login with Google.                                 |
+| [Gravatar](https://gravatar.com)                        | Syncs avatar to WP.org.                           | After WP.com    | Fill all profile fields.                           |
+| [WordPress.org](https://login.wordpress.org/register)   | Contributor identity.                             | Week 1–2        | Username: namesurname.                             |
+| [WordPress Slack](https://make.wordpress.org/chat/)     | WordPress community chat.                         | After WP.org    | Login as yourusername@chat.wordpress.org.          |
+| [Learn.WordPress.org](https://learn.wordpress.org)      | WordPress courses (show on WP.org).               | After WP.org    | Complete user/designer/dev pathways.               |
+| [YouTube](https://www.youtube.com)                      | Professional subscriptions only.                  | Week 1          | Handle: @namesurname.                              |
+| [Microsoft Live](https://account.microsoft.com/account) | Access Microsoft ecosystem.                       | Month 1         | Use LightSpeed email.                              |
+| [Microsoft Learn](https://learn.microsoft.com)          | GitHub Foundations + Copilot courses.             | Month 1         | Sign in with Microsoft or GitHub.                  |
+| [OllieWP Academy](https://olliewp.com/academy/)         | Block theme education.                            | Month 1         | Standard photo and handle.                         |
+| [Fireflies.ai](https://fireflies.ai)                    | Meeting transcripts & notes.                      | When applicable | Google login.                                      |
+| [BugHerd](https://bugherd.com)                          | Visual website feedback.                          | When invited    | Display name: First name.                          |
+| [Loom](https://www.loom.com/signup)                     | Video & screen recording.                         | Month 1         | Login with Google/Slack.                           |
+| [Stark](https://www.getstark.co)                        | Accessibility tools for Figma & Chrome.           | Month 1         | Same photo and name.                               |
+| [CodeRabbit](https://coderabbit.ai)                     | Automated code review bot.                        | When requested  | Connect via GitHub.                                |
+| [ChatGPT](https://chat.openai.com)                      | AI assistant for coding & docs.                   | Month 1         | Use LightSpeed email.                              |
+| [Claude](https://claude.ai)                             | AI writing & planning assistant.                  | Month 1         | LightSpeed email.                                  |
+| [Gemini](https://gemini.google.com)                     | Google ecosystem AI assistant.                    | Month 1         | LightSpeed Google account.                         |
 
 ---
 

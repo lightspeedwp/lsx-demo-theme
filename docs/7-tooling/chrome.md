@@ -29,38 +29,38 @@ Contents:
 
 ## Required Chrome Extensions
 
-| Extension                                 |                                             Purpose / Use | Login Required? |
-| ----------------------------------------- | --------------------------------------------------------: | --------------: |
-| 1Password – Password Manager              |            Securely save, generate and autofill passwords |             Yes |
-| Asana                                     |                        Create and search tasks in-browser |             Yes |
-| BugHerd                                   |                           Visual feedback & bug reporting |             Yes |
-| Awesome Screen Recorder & Screenshot      |                           Record screen; take screenshots |        Optional |
-| Fireflies.ai                              | AI meeting assistant; record, transcribe, summarise calls |             Yes |
-| Checkbot: SEO, Speed & Security Tester    |                             Analyse SEO, speed & security |              No |
-| Chrono Download Manager                   |                 Manage, schedule downloads and bulk saves |              No |
-| Colorblindly                              |               Simulate colour-blindness for accessibility |              No |
-| ColorZilla                                |            Eyedropper, colour picker & gradient generator |              No |
-| Enhanced GitHub                           |                         Repo/file enhancements for GitHub |              No |
-| Figma                                     |                  Quick access to Figma files and comments |             Yes |
-| Google Docs Offline                       |                        Work on Docs/Sheets/Slides offline |             Yes |
-| HeadingsMap                               |             Audit heading structure for SEO/accessibility |              No |
-| Image Downloader                          |                           Bulk download images from pages |              No |
-| Lighthouse                                |  Performance, SEO, accessibility audits; generates report |              No |
-| Lipsum Generator                          |                                 Generate lorem ipsum text |              No |
-| Loom – Screen Recorder & Screen Capture   |                   Record tab/camera, auto video summaries |             Yes |
-| Measure-it                                |             Draw ruler across web pages to measure layout |              No |
-| Office Editing for Docs/Sheets/Slides     |                          View/edit Office files in Chrome |              No |
-| RSS Subscription Extension (by Google)    |                               Quick RSS feed subscription |              No |
-| Save Image as Type                        |                           Save images as PNG, JPG or WebP |              No |
-| Save to Google Drive                      |            Save web content/screenshots directly to Drive |             Yes |
-| Stark Accessibility Checker               |                Automated accessibility checks/suggestions |             Yes |
-| SVG Export                                |                             Download SVGs as SVG/PNG/JPEG |              No |
-| taba11y – Tab Order Accessibility Testing |             Visualise tab order for accessibility testing |              No |
-| Tag Assistant                             |         Diagnose Google Tag Manager/gtag.js installations |   No (optional) |
-| WAVE Evaluation Tool                      |              Evaluate web accessibility and detect errors |              No |
-| Web Developer                             |                     Adds many developer toolbar utilities |              No |
-| WhatFont                                  |                               Identify fonts on web pages |              No |
-| ChatGPT Search                            |                      Set ChatGPT as default search engine |        Optional |
+| Extension                                                                                                                                       |                                             Purpose / Use | Login Required? |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------: | --------------: |
+| [1Password – Password Manager](https://chrome.google.com/webstore/detail/1password/aeblfdkhhhdcdjpifhhbdiojplfjncoa)                            |            Securely save, generate and autofill passwords |             Yes |
+| [Asana](https://chrome.google.com/webstore/detail/asana/ghaaifdpnohhmbdmlomcflbcnlhkjfcm)                                                       |                        Create and search tasks in-browser |             Yes |
+| [BugHerd](https://chrome.google.com/webstore/detail/bugherd/nfpkiihnipffghjlpgjdkknepkbohmbo)                                                   |                           Visual feedback & bug reporting |             Yes |
+| [Awesome Screen Recorder & Screenshot](https://chrome.google.com/webstore/detail/awesome-screenshot/nlipoenfbbikpbjkfpfillcgkoblgpmj)           |                           Record screen; take screenshots |        Optional |
+| [Fireflies.ai](https://chrome.google.com/webstore/detail/fireflies/mecafjcgjonnahhpbmgekbnlcljehaep)                                            | AI meeting assistant; record, transcribe, summarise calls |             Yes |
+| [Checkbot: SEO, Speed & Security Tester](https://chrome.google.com/webstore/detail/checkbot/dagohlmlhagincbfilmkadjgmdnkjinl)                   |                             Analyse SEO, speed & security |              No |
+| [Chrono Download Manager](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)                   |                 Manage, schedule downloads and bulk saves |              No |
+| [Colorblindly](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg)                                         |               Simulate colour-blindness for accessibility |              No |
+| [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)                                             |            Eyedropper, colour picker & gradient generator |              No |
+| [Enhanced GitHub](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd)                                   |                         Repo/file enhancements for GitHub |              No |
+| [Figma](https://chrome.google.com/webstore/detail/figma/nkkmamffkdimfohgdglbomgalkbbkkmf)                                                       |                  Quick access to Figma files and comments |             Yes |
+| [Google Docs Offline](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi)                           |                        Work on Docs/Sheets/Slides offline |             Yes |
+| [HeadingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)                                           |             Audit heading structure for SEO/accessibility |              No |
+| [Image Downloader](https://chrome.google.com/webstore/detail/image-downloader/cnpniohnfphhjihaiiggeabnkjhpaldj)                                 |                           Bulk download images from pages |              No |
+| [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)                                             |  Performance, SEO, accessibility audits; generates report |              No |
+| [Lipsum Generator](https://chrome.google.com/webstore/detail/lorem-ipsum-generator/pglahbfamjiifnafcicdibiiabpakkkb)                            |                                 Generate lorem ipsum text |              No |
+| [Loom – Screen Recorder & Screen Capture](https://chrome.google.com/webstore/detail/loom/liecbddmkiiihnedobmlmillhodjkdmb)                      |                   Record tab/camera, auto video summaries |             Yes |
+| [Measure-it](https://chrome.google.com/webstore/detail/measure-it/jocbgkoackihphodedlefohapackjmna)                                             |             Draw ruler across web pages to measure layout |              No |
+| [Office Editing for Docs/Sheets/Slides](https://chrome.google.com/webstore/detail/office-editing/gbkeegbaiigmenfmjfclcdgdpimamgkj)              |                          View/edit Office files in Chrome |              No |
+| [RSS Subscription Extension (by Google)](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmke)       |                               Quick RSS feed subscription |              No |
+| [Save Image as Type](https://chrome.google.com/webstore/detail/save-image-as-type/gabfmnliflodkdafenbcpjdlppllnemd)                             |                           Save images as PNG, JPG or WebP |              No |
+| [Save to Google Drive](https://chrome.google.com/webstore/detail/save-to-google-drive/gmbmikajjgmnabiglmofipeabaddhgne)                         |            Save web content/screenshots directly to Drive |             Yes |
+| [Stark Accessibility Checker](https://chrome.google.com/webstore/detail/stark/fkfaapnmianmaohooaeemgmamangpapj)                                 |                Automated accessibility checks/suggestions |             Yes |
+| [SVG Export](https://chrome.google.com/webstore/detail/svg-export/naeaaedieihlkmdajjefioajbbdbdjgp)                                             |                             Download SVGs as SVG/PNG/JPEG |              No |
+| [taba11y – Tab Order Accessibility Testing](https://chrome.google.com/webstore/detail/tab-order-accessibility/bljdhkjadfaeikhjpdiobhnkohepomfp) |             Visualise tab order for accessibility testing |              No |
+| [Tag Assistant](https://chrome.google.com/webstore/detail/tag-assistant/kejbdjndbnbjgmefkgdddjlbokphdefk)                                       |         Diagnose Google Tag Manager/gtag.js installations |   No (optional) |
+| [WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)                         |              Evaluate web accessibility and detect errors |              No |
+| [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)                                       |                     Adds many developer toolbar utilities |              No |
+| [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm)                                                 |                               Identify fonts on web pages |              No |
+| [ChatGPT Search](https://chrome.google.com/webstore/detail/chatgpt-search/fmiohfmfapchjghlfnjfmjecnlcaibdp)                                     |                      Set ChatGPT as default search engine |        Optional |
 
 ---
 
@@ -82,8 +82,8 @@ Contents:
 
 See these related guides:
 
--   AI Tools Guide
+-   [AI Tools Guide](AI-tools.md)
 -   Web Apps Guide (PWAs)
--   Mobile Apps Guide
+-   [Mobile Apps Guide](mobile-apps.md)
 
 By following this checklist, you ensure your browser is optimally equipped for agency-ready WordPress and web development at LightSpeed.

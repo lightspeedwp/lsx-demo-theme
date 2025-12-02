@@ -41,7 +41,7 @@ Workflow:
 
 -   Draft plan in GitHub: logs/weekNN/logs-weekNN-planning.md
 -   Reference the planning template:
-    https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-planning.md
+    [https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-planning.md](https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-planning.md)
 -   Push your plan to GitHub.
 -   Add the GitHub link as a comment in the Asana Weekly Planning task.
 
@@ -72,7 +72,7 @@ Process:
 Workflow:
 
 -   Use the reflection template:
-    https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-reflections.md
+    [https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-reflections.md](https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-reflections.md)
 -   Create/complete: logs/weekNN/logs-weekNN-reflections.md
 -   Push to GitHub and post the link in Asana.
 
@@ -102,7 +102,7 @@ Frequency:
 Workflow:
 
 -   Use the daily log template:
-    https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs/weekXX/logs-weekXX-dayX.md
+    [https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs/weekXX/logs-weekXX-dayX.md](https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs/weekXX/logs-weekXX-dayX.md)
 -   Create each daily log in the correct weekNN/ folder.
 -   Post the GitHub link as a comment in the Asana Logs task.
 
@@ -141,9 +141,9 @@ Best Practices:
 
 ## 6. Templates & Examples
 
--   Planning Template: https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-planning.md
--   Reflection Template: https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-reflections.md
--   Daily Log Example: https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs/weekXX/logs-weekXX-dayX.md
+-   Planning Template: [https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-planning.md](https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-planning.md)
+-   Reflection Template: [https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-reflections.md](https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-reflections.md)
+-   Daily Log Example: [https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs/weekXX/logs-weekXX-dayX.md](https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs/weekXX/logs-weekXX-dayX.md)
 
 ---
 

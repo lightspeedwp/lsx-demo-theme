@@ -1,6 +1,10 @@
 # LightSpeed Local Development Tooling Guide
 
-A unified guide for WordPress interns and junior contributors at LightSpeed. Covers required tools, local environment setup, browser extensions, PWAs, and workflow alignment with the Block Theme & Plugin Internship.
+4. Import Dummy Content (LSX Demo)
+
+    - Download [Gutenberg Test Data XML](https://raw.githubusercontent.com/WPTT/theme-unit-test/master/themeunittestdata.wordpress.xml).
+    - WP Admin → Tools → Import → WordPress Importer.
+    - Upload XML, assign posts to yourself, and select "Download & import file attachments."ified guide for WordPress interns and junior contributors at LightSpeed. Covers required tools, local environment setup, browser extensions, PWAs, and workflow alignment with the Block Theme & Plugin Internship.
 
 Always use your LightSpeed email or Google account.
 
@@ -25,7 +29,7 @@ LightSpeed uses WordPress Studio as the official local setup (no MAMP/LocalWP/ph
 
 1. Install Studio
 
-    - Download WordPress Studio for macOS/Windows and open it.
+    - Download [WordPress Studio](https://developer.wordpress.org/playground/wordpress-playground-for-web-browsers/) for macOS/Windows and open it.
 
 2. Create & Configure the Ollie Theme Site
 
@@ -61,33 +65,33 @@ LightSpeed uses WordPress Studio as the official local setup (no MAMP/LocalWP/ph
 
 ### Applications
 
-| Application          | Download / Notes                                                       |
-| -------------------- | ---------------------------------------------------------------------- |
-| WordPress Studio     | Local WP dev environment. No MAMP/phpMyAdmin needed.                   |
-| GitHub Desktop       | Branch/commit management; integrates with GitHub.                      |
-| Visual Studio Code   | Code editor. Recommended extensions: Prettier, ESLint, GitHub Copilot. |
-| Figma (Beta)         | UI/design; join LS libraries; use Stark plugin for accessibility.      |
-| Sublime Text         | Lightweight text editor.                                               |
-| Xcode                | iOS simulator / compilation (macOS only).                              |
-| 1Password            | Secure credential/API key manager. Use 2FA.                            |
-| Slack                | Team communication; join LS workspace.                                 |
-| Google Drive Desktop | File sync with cloud.                                                  |
-| Adobe Acrobat Reader | PDF viewer/annotation.                                                 |
-| CCleaner             | System performance/hygiene.                                            |
-| Loom                 | Screen recording (desktop/Chrome extension).                           |
-| Harvest              | Time tracking (Chrome extension).                                      |
-| Fireflies.ai         | AI meeting notes (Chrome extension).                                   |
-| BugHerd              | Website feedback tool (Chrome extension).                              |
-| VLC                  | Media player (audio/video).                                            |
+| Application                                                                                           | Download / Notes                                                       |
+| ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [WordPress Studio](https://developer.wordpress.org/playground/wordpress-playground-for-web-browsers/) | Local WP dev environment. No MAMP/phpMyAdmin needed.                   |
+| [GitHub Desktop](https://desktop.github.com/)                                                         | Branch/commit management; integrates with GitHub.                      |
+| [Visual Studio Code](https://code.visualstudio.com/)                                                  | Code editor. Recommended extensions: Prettier, ESLint, GitHub Copilot. |
+| [Figma (Beta)](https://www.figma.com/downloads/)                                                      | UI/design; join LS libraries; use Stark plugin for accessibility.      |
+| [Sublime Text](https://www.sublimetext.com/)                                                          | Lightweight text editor.                                               |
+| Xcode                                                                                                 | iOS simulator / compilation (macOS only).                              |
+| [1Password](https://1password.com/downloads/)                                                         | Secure credential/API key manager. Use 2FA.                            |
+| [Slack](https://slack.com/downloads/)                                                                 | Team communication; join LS workspace.                                 |
+| [Google Drive Desktop](https://www.google.com/drive/download/)                                        | File sync with cloud.                                                  |
+| [Adobe Acrobat Reader](https://get.adobe.com/reader/)                                                 | PDF viewer/annotation.                                                 |
+| [CCleaner](https://www.ccleaner.com/ccleaner/download)                                                | System performance/hygiene.                                            |
+| [Loom](https://www.loom.com/download)                                                                 | Screen recording (desktop/Chrome extension).                           |
+| [Harvest](https://www.getharvest.com/)                                                                | Time tracking (Chrome extension).                                      |
+| [Fireflies.ai](https://fireflies.ai/)                                                                 | AI meeting notes (Chrome extension).                                   |
+| [BugHerd](https://bugherd.com/)                                                                       | Website feedback tool (Chrome extension).                              |
+| [VLC](https://www.videolan.org/vlc/)                                                                  | Media player (audio/video).                                            |
 
 ### Browsers
 
--   Google Chrome — main dev browser (https://google.com/chrome)
--   Chrome Dev — for experimental API testing (https://google.com/chrome/dev)
+-   [Google Chrome](https://google.com/chrome) — main dev browser
+-   [Chrome Dev](https://google.com/chrome/dev) — for experimental API testing
 -   Safari — built-in macOS, for cross-browser testing
--   Edge — (https://microsoft.com/edge) — useful AI features
--   Opera — (https://opera.com/download) — VPN + alternative browser
--   Brave — (https://brave.com/download) — privacy-focused
+-   [Microsoft Edge](https://microsoft.com/edge) — useful AI features
+-   [Opera](https://opera.com/download) — VPN + alternative browser
+-   [Brave](https://brave.com/download) — privacy-focused
 -   Mobile browsers: Mobile Chrome, Mobile Edge, Mobile Opera, Mobile Brave, Mobile Safari — for mobile testing
 
 ---

@@ -30,7 +30,52 @@ These extensions form the standard toolset for WordPress interns. They support e
 
 -   Node Essentials (afractal.node-essentials) — Node.js dev tools: debugging, npm scripts, env variables, test runners
 -   Claude AI for Code (anthropic.claude-code) — Claude AI-powered coding and completion in VS Code
--   Markdown Preview GitHub Styles (bierner.markdown-preview-github-styles) — Markdown preview with GitHub’s CSS
+-   [Node Essentials](https://marketplace.visualstudio.com/items?itemName=afractal.node-essentials) (afractal.node-essentials) — Node.js dev tools: debugging, npm scripts, env variables, test runners
+-   [Claude AI for Code](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) (anthropic.claude-code) — Claude AI-powered coding and completion in VS Code
+-   [Markdown Preview GitHub Styles](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) (bierner.markdown-preview-github-styles) — Markdown preview with GitHub's CSS
+-   [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) (codeium.codeium) — Context-aware AI code completion
+-   [Dart Sass](https://marketplace.visualstudio.com/items?itemName=codelios.dartsass) (codelios.dartsass) — Compile SASS/SCSS files for theme styling
+-   [CodeRabbit](https://marketplace.visualstudio.com/items?itemName=coderabbit.coderabbit-vscode) (coderabbit.coderabbit-vscode) — AI-powered code review, explanation, and refactoring assistant
+-   [.gitignore Generator](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) (codezombiech.gitignore) — Quickly generate .gitignore files
+-   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (dbaeumer.vscode-eslint) — Real-time linting for JS/TS projects
+-   [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) (editorconfig.editorconfig) — Consistent coding styles via .editorconfig
+-   [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (esbenp.prettier-vscode) — Opinionated code formatting
+-   [Figma VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension) (figma.figma-vscode-extension) — Browse/comment Figma in VS Code
+-   [GitHub Classroom](https://marketplace.visualstudio.com/items?itemName=GitHub.classroom) (github.classroom) — Manage Classroom assignments
+-   [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces) (github.codespaces) — Cloud-based dev environments
+-   [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) (github.copilot) — AI pair-programming/code suggestions
+-   [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) (github.copilot-chat) — Chat interface for Copilot
+-   [GitHub RemoteHub](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) (github.remotehub) — Browse remote GitHub repos without cloning
+-   [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions) (github.vscode-github-actions) — See logs, trigger, debug Actions
+-   [GitHub PR & Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) (github.vscode-pull-request-github) — Manage PRs/Issues inside VS Code
+-   [Google Gemini Code Assist](https://marketplace.visualstudio.com/items?itemName=google.geminicodeassist) (google.geminicodeassist) — Gemini-powered AI assistant for code
+-   [TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) (gruntfuggly.todo-tree) — Highlights TODO/FIXME comments
+-   [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) (mechatroner.rainbow-csv) — Colourizes CSV/TSV columns
+-   [Code Beautifier](https://marketplace.visualstudio.com/items?itemName=michelemelluso.code-beautifier) (michelemelluso.code-beautifier) — Format/beautify code
+-   [dotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) (mikestead.dotenv) — .env syntax and IntelliSense
+-   [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss) (mrmlnc.vscode-scss) — SCSS/SASS navigation and completion
+-   [Azure Containers](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurecontainer) (ms-azuretools.vscode-containers) — View/manage containers
+-   [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) (ms-azuretools.vscode-docker) — Build/run/debug Docker
+-   [Edge DevTools](https://marketplace.visualstudio.com/items?itemName=ms-edgedevtools.vscode-edge-devtools) (ms-edgedevtools.vscode-edge-devtools) — In-editor Edge DevTools
+-   [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) (ms-vscode-remote.remote-containers) — Dev/debug inside containers
+-   [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) (ms-vscode-remote.remote-ssh) — Connect and dev via SSH
+-   [Remote - SSH Edit](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit) (ms-vscode-remote.remote-ssh-edit) — Edit single files via SSH
+-   [Remote Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) (ms-vscode-remote.vscode-remote-extensionpack) — Bundle of remote dev extensions
+-   [Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer) (ms-vscode.remote-explorer) — Explorer for remote containers, SSH, WSL
+-   [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories) (ms-vscode.remote-repositories) — Browse/edit remote repos
+-   [Remote Server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server) (ms-vscode.remote-server) — Self-hosted remote server support
+-   [VS Code Commander](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-commander) (ms-vscode.vscode-commander) — Command palette + UI for common tasks
+-   [Copilot Vision](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-copilot-vision) (ms-vscode.vscode-copilot-vision) — Adds vision features to Copilot
+-   [GitHub Issue Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-github-issue-notebooks) (ms-vscode.vscode-github-issue-notebooks) — Interactive issue-linked notebooks
+-   [VS Code Speech](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-speech) (ms-vscode.vscode-speech) — Voice dictation and commands
+-   [Speech Language Pack EN-GB](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-speech-language-pack-en-GB) (ms-vscode.vscode-speech-language-pack-en-gb) — EN-UK language pack
+-   [Web Search for Copilot](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-websearchforcopilot) (ms-vscode.vscode-websearchforcopilot) — Search web from Copilot Chat
+-   [Word Count](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount) (ms-vscode.wordcount) — Displays word count
+-   [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) (stylelint.vscode-stylelint) — Lint CSS/SCSS
+-   [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) (visualstudioexptteam.vscodeintellicode) — AI-based IntelliSense
+-   [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) (xdebug.php-debug) — Xdebug-based PHP debugger
+-   [PHP Pack](https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack) (xdebug.php-pack) — PHP dev tools including Xdebug
+-   [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense) (zobo.php-intellisense) — PHP completion and navigation
 -   Codeium (codeium.codeium) — Context-aware AI code completion
 -   Dart Sass (codelios.dartsass) — Compile SASS/SCSS files for theme styling
 -   CodeRabbit (coderabbit.coderabbit-vscode) — AI-powered code review, explanation, and refactoring assistant
@@ -79,13 +124,13 @@ These extensions form the standard toolset for WordPress interns. They support e
 
 ## 🤩 Recommended WordPress-Specific Extensions
 
--   WordPress VS Code Extension Pack (WordPressToolbox.wordpress-toolbox) — All-in-one bundle: snippets, coding standards, REST, docblocks
--   WordPress Snippets (wordpresstoolbox.wordpress-snippets) — WP core snippet collection with type hints
--   WordPress Development Toolbox (wordpresstoolbox.wordpress-toolbox) — Hundreds of WP-themed snippets
--   WooCommerce Snippets & Autocomplete (ClaudioSanches.woocommerce-snippets) — WooCommerce snippets
--   ACF-Snippet (anthonydiametrix.ACF-Snippet) — Snippets for Advanced Custom Fields
--   WordPress Playground for VS Code (WordPressPlayground.wp-playground-vscode) — Zero-config WP runtime inside VS Code
--   PHP Intelephense (bmewburn.vscode-intelephense-client) — Smart PHP language server
+-   [WordPress VS Code Extension Pack](https://marketplace.visualstudio.com/items?itemName=WordPressToolbox.wordpress-toolbox) (WordPressToolbox.wordpress-toolbox) — All-in-one bundle: snippets, coding standards, REST, docblocks
+-   [WordPress Snippets](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-snippets) (wordpresstoolbox.wordpress-snippets) — WP core snippet collection with type hints
+-   [WordPress Development Toolbox](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-toolbox) (wordpresstoolbox.wordpress-toolbox) — Hundreds of WP-themed snippets
+-   [WooCommerce Snippets & Autocomplete](https://marketplace.visualstudio.com/items?itemName=claudiosanches.woocommerce) (ClaudioSanches.woocommerce-snippets) — WooCommerce snippets
+-   [ACF-Snippet](https://marketplace.visualstudio.com/items?itemName=anthonydiametrix.ACF-Snippet) (anthonydiametrix.ACF-Snippet) — Snippets for Advanced Custom Fields
+-   [WordPress Playground for VS Code](https://marketplace.visualstudio.com/items?itemName=WordPressPlayground.wordpress-playground) (WordPressPlayground.wp-playground-vscode) — Zero-config WP runtime inside VS Code
+-   [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) (bmewburn.vscode-intelephense-client) — Smart PHP language server
 
 ---
 

@@ -83,7 +83,7 @@ How to Plan Your Week:
 
 Template (Required file structure)
 Use: logs/weekNN/logs-weekNN-planning.md
-Example path: https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-planning.md
+Example path: [Planning Template](https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-planning.md)
 
 ```md
 # Week NN Planning (YYYY-MM-DD to YYYY-MM-DD)
@@ -148,7 +148,7 @@ Example path: https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/week
 Daily Log Template
 
 -   Use files in this format: logs/weekNN/logs-weekNN-dayX.md
--   Example folder: https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs/weekXX/logs-weekXX-dayX.md
+-   Example folder: [Daily Log Template](https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs/weekXX/logs-weekXX-dayX.md)
 
 Suggested daily log sections:
 
@@ -228,14 +228,14 @@ You’ll interact with three tools:
 ## 8. Resources & Templates
 
 -   Weekly Planning Template:
-    https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-planning.md
+    [Planning Template](https://github.com/lightspeedwp/lsx-demo-theme/blob/main/logs/weekXX/logs-weekXX-planning.md)
 
 -   Daily Log Template:
-    https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs/weekXX/logs-weekXX-dayX.md
+    [Daily Log Template](https://github.com/lightspeedwp/lsx-demo-theme/tree/main/logs/weekXX/logs-weekXX-dayX.md)
 
--   Intern Study Curriculum Overview: ./intern_study_overview.md
+-   Intern Study Curriculum Overview: [./intern_study_overview.md](./intern_study_overview.md)
 
--   LSX Demo Theme Project Brief: ./lsx_demo_theme_brief.md
+-   LSX Demo Theme Project Brief: [./lsx_demo_theme_brief.md](./lsx_demo_theme_brief.md)
 
 ---
 

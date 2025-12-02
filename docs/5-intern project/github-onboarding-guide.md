@@ -155,9 +155,9 @@ Daily Stand-Up Example (in logs):
 
 ## 6. References & Resources
 
--   GitHub Copilot Custom Instructions
--   WCAG 2.2 Accessibility Guide
--   WordPress Coding Standards
+-   [GitHub Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
+-   [WCAG 2.2 Accessibility Guide](https://www.w3.org/WAI/WCAG22/quickref/)
+-   [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
 
 See /docs/resources.md for more learning links and /docs/faq.md for common questions.
 
@@ -166,12 +166,15 @@ See /docs/resources.md for more learning links and /docs/faq.md for common quest
 ## 7. Getting Started – Quick Steps
 
 1. Clone the repo:
-   git clone https://github.com/lightspeedwp/lsx-demo-theme.git
+
+    ```
+    git clone https://github.com/lightspeedwp/lsx-demo-theme.git
+    ```
 
 2. Read the /README.md — Get basic onboarding info.
 3. Browse the /docs/ folder — Understand the curriculum, find resources and FAQs.
 4. Explore .github/ISSUE_TEMPLATE/ — Familiarise yourself with task/plan templates.
-5. Use Copilot — Reference .github/copilot-custom-instructions.md for coding standards.
+5. Use [GitHub Copilot](https://github.com/features/copilot) — Reference .github/copilot-custom-instructions.md for coding standards.
 6. Track your work in /logs/ — Add weekly logs and reflections.
 7. Ask questions — Use issues, PRs, or reach out for help as needed.
 
@@ -180,7 +183,7 @@ See /docs/resources.md for more learning links and /docs/faq.md for common quest
 ## 8. FAQ Highlights (see /docs/faq.md for more)
 
 Q: How do I log hours?
-A: Use /logs/ markdown files each day; optionally use the Harvest app.
+A: Use /logs/ markdown files each day; optionally use the [Harvest](https://www.getharvest.com) app.
 
 Q: When do I submit work?
 A: End of each week, via a weekly issue using the submission template.
@@ -189,7 +192,7 @@ Q: Where do I find resources?
 A: /docs/resources.md, links in curriculum and onboarding docs.
 
 Q: How do I get feedback?
-A: PRs, issues, and in Slack/Asana stand-ups.
+A: PRs, issues, and in [Slack](https://slack.com)/[Asana](https://asana.com) stand-ups.
 
 Q: What if I am blocked?
 A: Record blockers in log; ask via issue/PR or in your stand-up.

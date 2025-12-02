@@ -96,8 +96,8 @@ Essential Issue Templates:
 -   Ensure every .yml and .md file in .github/ (templates, prompts, instructions, PR template) has valid YAML FrontMatter.
 -   Create issues for invalid or missing front matter.
 -   Reference:
-    -   https://jekyllrb.com/docs/front-matter/
-    -   https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/configuring-jekyll-in-your-site
+    -   [Jekyll Front Matter Documentation](https://jekyllrb.com/docs/front-matter/)
+    -   [GitHub Pages with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/configuring-jekyll-in-your-site)
 
 ### Mandatory Parent Issues
 
@@ -117,9 +117,9 @@ Key Steps:
 
 References:
 
--   https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/
--   https://playwright.dev/
--   https://www.browserstack.com/docs/automate/playwright
+-   [@wordpress/scripts Documentation](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/)
+-   [Playwright Documentation](https://playwright.dev/)
+-   [BrowserStack Playwright Guide](https://www.browserstack.com/docs/automate/playwright)
 
 ### Documentation & Contribution Guidelines
 
@@ -141,13 +141,13 @@ References:
 
 ### Instructions, Agents & Prompts
 
--   Reference: https://github.com/lightspeedwp/.github/blob/develop/.github/custom-instructions.md
--   Use organization-wide agents: https://github.com/lightspeedwp/.github/blob/develop/.github/agents/agent.md
+-   Reference: [Custom Instructions](https://github.com/lightspeedwp/.github/blob/develop/.github/custom-instructions.md)
+-   Use organization-wide agents: [Agent Documentation](https://github.com/lightspeedwp/.github/blob/develop/.github/agents/agent.md)
 -   Use prompts for accessibility, code review, block pattern suggestions, and documentation automation.
 
 ### Workspace Setup
 
--   Install recommended VS Code extensions: https://github.com/lightspeedwp/.github/blob/develop/.vscode/extensions.json
+-   Install recommended [VS Code](https://code.visualstudio.com) extensions: [Extensions](https://github.com/lightspeedwp/.github/blob/develop/.vscode/extensions.json)
 -   Apply workspace settings: .vscode/settings.json
 -   Enable Copilot Labs
 -   Configure Copilot to use LightSpeed org-level instructions
@@ -169,7 +169,7 @@ How:
 
 References:
 
--   https://github.com/lightspeedwp/.github/blob/develop/docs/figma-mcp.md
+-   [Figma MCP Documentation](https://github.com/lightspeedwp/.github/blob/develop/docs/figma-mcp.md)
 -   ./intern_study_curriculum.md
 
 ---
@@ -217,13 +217,13 @@ A: lightspeedwp/lsx-demo-theme repo.
 
 ## Reference Links
 
--   https://github.com/lightspeedwp/.github/blob/develop/.github/custom-instructions.md
--   https://github.com/lightspeedwp/.github/tree/develop/.github/PULL_REQUEST_TEMPLATE
--   https://github.com/lightspeedwp/.github/blob/develop/.github/agents/agent.md
--   https://github.com/lightspeedwp/.github/tree/develop/.github/prompts
--   https://github.com/lightspeedwp/.github/blob/develop/docs/figma-mcp.md
--   https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/
--   https://playwright.dev/
--   https://www.browserstack.com/docs/automate/playwright
+-   [Custom Instructions](https://github.com/lightspeedwp/.github/blob/develop/.github/custom-instructions.md)
+-   [Pull Request Template](https://github.com/lightspeedwp/.github/tree/develop/.github/PULL_REQUEST_TEMPLATE)
+-   [Agent Documentation](https://github.com/lightspeedwp/.github/blob/develop/.github/agents/agent.md)
+-   [Prompts](https://github.com/lightspeedwp/.github/tree/develop/.github/prompts)
+-   [Figma MCP Documentation](https://github.com/lightspeedwp/.github/blob/develop/docs/figma-mcp.md)
+-   [@wordpress/scripts Documentation](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/)
+-   [Playwright Documentation](https://playwright.dev/)
+-   [BrowserStack Playwright Guide](https://www.browserstack.com/docs/automate/playwright)
 
 This guide combines repo hygiene, documentation discipline, and advanced Copilot/MCP workflows to support production-ready work at LightSpeed.
