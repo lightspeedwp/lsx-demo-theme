@@ -164,8 +164,8 @@ _Sample lessons can be expanded as needed. See curriculum._
 | Data validation        | [Guides](https://developer.wordpress.org/apis/security/data-validation/)                          | Sanitize & validate guides   |
 | Nonces                 | [Nonces API](https://developer.wordpress.org/apis/security/nonces/)                               | Proper forms/requests        |
 | Roles & capabilities   | [User roles](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)        | Gate with current_user_can() |
-| Common vulnerabilities | (dev)                                                                                             | Review before shipping       |
-| Securing input plugins | (dev)                                                                                             | Connect to ACF block work    |
+| Common vulnerabilities | [WordPress Security - Common Vulnerabilities](https://developer.wordpress.org/plugins/security/common-vulnerabilities/) | Review before shipping       |
+| Securing input plugins | [Plugin Security Best Practices](https://developer.wordpress.org/plugins/security/)                                    | Connect to ACF block work    |
 
 ---
 
