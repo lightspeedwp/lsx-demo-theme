@@ -115,12 +115,6 @@ Each week includes:
 
 ---
 
-## Weekly Plan (High-Level)
-
-(See Week-by-Week for full detail. Additional information can be filled week by week as needed.)
-
----
-
 ## WordPress Learning
 
 ### [Learn.WordPress.org](https://learn.wordpress.org) — Courses
