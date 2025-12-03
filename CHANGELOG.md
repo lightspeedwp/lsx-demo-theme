@@ -464,7 +464,7 @@ This project is licensed under the GPL-2.0-or-later License - see the WordPress 
 
 ### Migration Guide- **Image optimization** guidelines and tooling
 
-This is an initial release, so no migration is required. For new installations:- **Lazy loading** implementation for media#### Performance Features
+This is an initial release, so no migration is required. For new installations:- **Lazy loading** implementation for media content and non-critical resources#### Performance Features
 
 1. Download or clone the theme repository- **Caching-friendly** structure for hosting environments
 
@@ -542,3 +542,17 @@ For support, please check the [documentation](./docs/) or create an issue using 
 ## License
 
 This project is licensed under the GPL-2.0-or-later License - see the WordPress theme licensing requirements.
+
+Changelog
+
+Added
+
+Comprehensive curriculum documentation for intern and junior developer onboarding, including week-by-week study plan, learning tracks for GitHub, Microsoft Learn, and web.dev, platform-specific resource tables, and global guidelines.
+
+Changed
+
+Expanded and reorganized documentation to improve onboarding workflow and study-track navigation.
+
+Removed
+
+Outdated onboarding/time-tracking documents, and legacy curriculum.
