@@ -23,8 +23,8 @@
 		<!-- /wp:heading -->
 	</div>
 	<!-- /wp:group -->
-	<!-- wp:heading {"textAlign":"center","align":"wide","fontSize":"xx-large"} -->
-	<h2 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size"><?php esc_html_e( 'Tell your story', 'lsx-demo-theme' ); ?></h2>
+	<!-- wp:heading {"textAlign":"center","align":"wide","fontSize":"800"} -->
+	<h2 class="wp-block-heading alignwide has-text-align-center has-800-font-size"><?php esc_html_e( 'Tell your story', 'lsx-demo-theme' ); ?></h2>
 	<!-- /wp:heading -->
 	<!-- wp:pattern {"slug":"lsx-demo-theme/template-query-loop-photo-blog"} /-->
 </main>

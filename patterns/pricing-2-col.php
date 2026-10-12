@@ -34,12 +34,12 @@
 			<h3 class="wp-block-heading" id="free"><?php esc_html_e( 'Free', 'lsx-demo-theme' ); ?></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"large"} -->
-			<p class="has-large-font-size"><?php esc_html_e( '0€', 'lsx-demo-theme' ); ?></p>
+			<!-- wp:paragraph {"fontSize":"500"} -->
+			<p class="has-500-font-size"><?php esc_html_e( '0€', 'lsx-demo-theme' ); ?></p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:list {"className":"is-style-checkmark-list","style":{"spacing":{"padding":{"left":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"fontSize":"small"} -->
-			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)" class="wp-block-list is-style-checkmark-list has-small-font-size">
+			<!-- wp:list {"className":"is-style-checkmark-list","style":{"spacing":{"padding":{"left":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"fontSize":"300"} -->
+			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)" class="wp-block-list is-style-checkmark-list has-300-font-size">
 				<!-- wp:list-item -->
 				<li><?php esc_html_e( 'Get access to our paid articles and weekly newsletter.', 'lsx-demo-theme' ); ?></li>
 				<!-- /wp:list-item -->
@@ -78,12 +78,12 @@
 			<h3 class="wp-block-heading" id="single"><?php echo esc_html_x( 'Single', 'Name of membership package.', 'lsx-demo-theme' ); ?></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"large"} -->
-			<p class="has-large-font-size"><?php esc_html_e( '20€/month', 'lsx-demo-theme' ); ?></p>
+			<!-- wp:paragraph {"fontSize":"500"} -->
+			<p class="has-500-font-size"><?php esc_html_e( '20€/month', 'lsx-demo-theme' ); ?></p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:list {"className":"is-style-checkmark-list","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"fontSize":"small"} -->
-			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)" class="wp-block-list is-style-checkmark-list has-small-font-size">
+			<!-- wp:list {"className":"is-style-checkmark-list","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"fontSize":"300"} -->
+			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)" class="wp-block-list is-style-checkmark-list has-300-font-size">
 				<!-- wp:list-item -->
 				<li><?php esc_html_e( 'Get access to our paid articles and weekly newsletter.', 'lsx-demo-theme' ); ?></li>
 				<!-- /wp:list-item -->

@@ -32,8 +32,8 @@
 			<h3 class="wp-block-heading"><?php esc_html_e( 'Collect', 'lsx-demo-theme' ); ?></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-medium-font-size"><?php esc_html_e( 'Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience', 'lsx-demo-theme' ); ?></p>
+			<!-- wp:paragraph {"fontSize":"400"} -->
+			<p class="has-400-font-size"><?php esc_html_e( 'Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience', 'lsx-demo-theme' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -50,8 +50,8 @@
 			<h3 class="wp-block-heading"><?php esc_html_e( 'Assemble', 'lsx-demo-theme' ); ?></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-medium-font-size"><?php esc_html_e( 'Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience', 'lsx-demo-theme' ); ?></p>
+			<!-- wp:paragraph {"fontSize":"400"} -->
+			<p class="has-400-font-size"><?php esc_html_e( 'Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience', 'lsx-demo-theme' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -68,8 +68,8 @@
 			<h3 class="wp-block-heading"><?php esc_html_e( 'Deliver', 'lsx-demo-theme' ); ?></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-medium-font-size"><?php esc_html_e( 'Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience', 'lsx-demo-theme' ); ?></p>
+			<!-- wp:paragraph {"fontSize":"400"} -->
+			<p class="has-400-font-size"><?php esc_html_e( 'Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience', 'lsx-demo-theme' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

@@ -26,8 +26,8 @@
 		<p><?php esc_html_e( 'Episode 1: Acoma Pueblo with Prof. Fiona Presley', 'lsx-demo-theme' ); ?></p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:paragraph {"fontSize":"small"} -->
-		<p class="has-small-font-size"><?php esc_html_e( 'Acoma Pueblo, in New Mexico, stands as a testament to the resilience and cultural heritage of the Acoma people', 'lsx-demo-theme' ); ?></p>
+		<!-- wp:paragraph {"fontSize":"300"} -->
+		<p class="has-300-font-size"><?php esc_html_e( 'Acoma Pueblo, in New Mexico, stands as a testament to the resilience and cultural heritage of the Acoma people', 'lsx-demo-theme' ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:audio -->

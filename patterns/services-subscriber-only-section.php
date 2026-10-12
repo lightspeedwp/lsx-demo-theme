@@ -17,30 +17,30 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:heading {"fontSize":"xx-large"} -->
-			<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Subscribe to get unlimited access', 'lsx-demo-theme' ); ?></h2>
+			<!-- wp:heading {"fontSize":"800"} -->
+			<h2 class="wp-block-heading has-800-font-size"><?php esc_html_e( 'Subscribe to get unlimited access', 'lsx-demo-theme' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:list {"className":"is-style-checkmark-list","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"padding":{"left":"var:preset|spacing|30"}}}} -->
 			<ul style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--30)" class="wp-block-list is-style-checkmark-list">
-				<!-- wp:list-item {"fontSize":"medium"} -->
-				<li class="has-medium-font-size"><?php esc_html_e( 'Get access to our paid articles and weekly newsletter.', 'lsx-demo-theme' ); ?></li>
+				<!-- wp:list-item {"fontSize":"400"} -->
+				<li class="has-400-font-size"><?php esc_html_e( 'Get access to our paid articles and weekly newsletter.', 'lsx-demo-theme' ); ?></li>
 				<!-- /wp:list-item -->
 
-				<!-- wp:list-item {"fontSize":"medium"} -->
-				<li class="has-medium-font-size"><?php esc_html_e( 'Join our IRL events.', 'lsx-demo-theme' ); ?></li>
+				<!-- wp:list-item {"fontSize":"400"} -->
+				<li class="has-400-font-size"><?php esc_html_e( 'Join our IRL events.', 'lsx-demo-theme' ); ?></li>
 				<!-- /wp:list-item -->
 
-				<!-- wp:list-item {"fontSize":"medium"} -->
-				<li class="has-medium-font-size"><?php esc_html_e( 'Get a free tote bag.', 'lsx-demo-theme' ); ?></li>
+				<!-- wp:list-item {"fontSize":"400"} -->
+				<li class="has-400-font-size"><?php esc_html_e( 'Get a free tote bag.', 'lsx-demo-theme' ); ?></li>
 				<!-- /wp:list-item -->
 
-				<!-- wp:list-item {"fontSize":"medium"} -->
-				<li class="has-medium-font-size"><?php esc_html_e( 'An elegant addition of home decor collection.', 'lsx-demo-theme' ); ?></li>
+				<!-- wp:list-item {"fontSize":"400"} -->
+				<li class="has-400-font-size"><?php esc_html_e( 'An elegant addition of home decor collection.', 'lsx-demo-theme' ); ?></li>
 				<!-- /wp:list-item -->
 
-				<!-- wp:list-item {"fontSize":"medium"} -->
-				<li class="has-medium-font-size"><?php esc_html_e( 'Join our forums.', 'lsx-demo-theme' ); ?></li>
+				<!-- wp:list-item {"fontSize":"400"} -->
+				<li class="has-400-font-size"><?php esc_html_e( 'Join our forums.', 'lsx-demo-theme' ); ?></li>
 				<!-- /wp:list-item -->
 			</ul>
 			<!-- /wp:list -->
@@ -57,8 +57,8 @@
 			</div>
 			<!-- /wp:buttons -->
 
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><?php esc_html_e( 'Cancel or pause anytime.', 'lsx-demo-theme' ); ?></p>
+			<!-- wp:paragraph {"fontSize":"300"} -->
+			<p class="has-300-font-size"><?php esc_html_e( 'Cancel or pause anytime.', 'lsx-demo-theme' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

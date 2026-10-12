@@ -22,14 +22,14 @@
 
 <!-- wp:post-terms {"term":"category","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
 
-<!-- wp:post-excerpt {"showMoreOnNewLine":false,"fontSize":"medium"} /-->
+<!-- wp:post-excerpt {"showMoreOnNewLine":false,"fontSize":"400"} /-->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.12em"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group">
-	<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"small"} -->
-	<p class="has-accent-4-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Written by', 'Prefix before the author name. The post author name is displayed in a separate block.', 'lsx-demo-theme' ); ?></p>
+	<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"300"} -->
+	<p class="has-accent-4-color has-text-color has-link-color has-300-font-size"><?php echo esc_html_x( 'Written by', 'Prefix before the author name. The post author name is displayed in a separate block.', 'lsx-demo-theme' ); ?></p>
 	<!-- /wp:paragraph -->
-	<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /-->
+	<!-- wp:post-author-name {"isLink":true,"fontSize":"300"} /-->
 </div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->

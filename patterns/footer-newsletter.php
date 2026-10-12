@@ -20,8 +20,8 @@
 		<h2 class="wp-block-heading" style="font-size:clamp(1rem, 380px, 24vw);font-style:normal;font-weight:600;letter-spacing:-0.02em"><?php esc_html_e( 'Stories', 'lsx-demo-theme' ); ?></h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:paragraph {"fontSize":"x-large"} -->
-		<p class="has-x-large-font-size"><?php esc_html_e( 'Receive our articles in your inbox.', 'lsx-demo-theme' ); ?></p>
+		<!-- wp:paragraph {"fontSize":"700"} -->
+		<p class="has-700-font-size"><?php esc_html_e( 'Receive our articles in your inbox.', 'lsx-demo-theme' ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons -->
@@ -38,11 +38,11 @@
 
 		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignfull">
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><?php esc_html_e( 'lsx-demo-theme', 'lsx-demo-theme' ); ?></p>
+			<!-- wp:paragraph {"fontSize":"300"} -->
+			<p class="has-300-font-size"><?php esc_html_e( 'lsx-demo-theme', 'lsx-demo-theme' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">
+			<!-- wp:paragraph {"fontSize":"300"} -->
+			<p class="has-300-font-size">
 				<?php
 					printf(
 						/* translators: Designed with WordPress. %s: WordPress link. */

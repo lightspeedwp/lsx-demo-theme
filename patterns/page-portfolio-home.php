@@ -23,8 +23,8 @@
 		<div class="wp-block-columns alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--50)">
 			<!-- wp:column {"width":"50%"} -->
 			<div class="wp-block-column" style="flex-basis:50%">
-				<!-- wp:heading {"align":"wide","fontSize":"x-large"} -->
-				<h2 class="wp-block-heading alignwide has-x-large-font-size"><?php esc_html_e( 'My name is Anna Möller and these are some of my photo projects.', 'lsx-demo-theme' ); ?></h2>
+				<!-- wp:heading {"align":"wide","fontSize":"700"} -->
+				<h2 class="wp-block-heading alignwide has-700-font-size"><?php esc_html_e( 'My name is Anna Möller and these are some of my photo projects.', 'lsx-demo-theme' ); ?></h2>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -222,11 +222,11 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 		<div class="wp-block-group alignwide">
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><?php esc_html_e( 'lsx-demo-theme', 'lsx-demo-theme' ); ?></p>
+			<!-- wp:paragraph {"fontSize":"300"} -->
+			<p class="has-300-font-size"><?php esc_html_e( 'lsx-demo-theme', 'lsx-demo-theme' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><?php esc_html_e( 'email@example.com', 'lsx-demo-theme' ); ?><br><?php echo esc_html_x( '+1 555 349 1806', 'Phone number.', 'lsx-demo-theme' ); ?></p>
+			<!-- wp:paragraph {"fontSize":"300"} -->
+			<p class="has-300-font-size"><?php esc_html_e( 'email@example.com', 'lsx-demo-theme' ); ?><br><?php echo esc_html_x( '+1 555 349 1806', 'Phone number.', 'lsx-demo-theme' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

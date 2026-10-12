@@ -25,8 +25,8 @@
 	<div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-	<p class="has-text-align-center has-small-font-size">
+	<!-- wp:paragraph {"align":"center","fontSize":"300"} -->
+	<p class="has-text-align-center has-300-font-size">
 		<?php
 		printf(
 			/* translators: Designed with WordPress. %s: WordPress link. */

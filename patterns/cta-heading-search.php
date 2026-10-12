@@ -14,8 +14,8 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|50","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:heading {"fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'What are you looking for?', 'lsx-demo-theme' ); ?></h2>
+		<!-- wp:heading {"fontSize":"800"} -->
+		<h2 class="wp-block-heading has-800-font-size"><?php esc_html_e( 'What are you looking for?', 'lsx-demo-theme' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:search {"label":"<?php echo esc_html_x( 'Search', 'Search form label.', 'lsx-demo-theme' ); ?>","showLabel":false,"placeholder":"<?php echo esc_attr_x( 'Type here...', 'Search input field placeholder text.', 'lsx-demo-theme' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'Button text. Verb.', 'lsx-demo-theme' ); ?>"} /-->

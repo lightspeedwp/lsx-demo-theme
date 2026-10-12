@@ -11,6 +11,6 @@
  */
 
 ?>
-<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"lsx-demo-theme/format"}}},"fontSize":"small"} -->
-<p class="has-small-font-size"></p>
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"lsx-demo-theme/format"}}},"fontSize":"300"} -->
+<p class="has-300-font-size"></p>
 <!-- /wp:paragraph -->
