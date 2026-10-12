@@ -16,8 +16,8 @@
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:heading {"fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'Agenda', 'lsx-demo-theme' ); ?></h2>
+		<!-- wp:heading {"fontSize":"800"} -->
+		<h2 class="wp-block-heading has-800-font-size"><?php esc_html_e( 'Agenda', 'lsx-demo-theme' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph -->
 		<p><?php esc_html_e( 'These are some of the upcoming events.', 'lsx-demo-theme' ); ?></p>
@@ -61,8 +61,8 @@
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->
-								<!-- wp:paragraph {"fontSize":"small"} -->
-								<p class="has-small-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'lsx-demo-theme' ) ); ?></p>
+								<!-- wp:paragraph {"fontSize":"300"} -->
+								<p class="has-300-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'lsx-demo-theme' ) ); ?></p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:group -->
@@ -93,8 +93,8 @@
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->
-								<!-- wp:paragraph {"fontSize":"small"} -->
-								<p class="has-small-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'lsx-demo-theme' ) ); ?></p>
+								<!-- wp:paragraph {"fontSize":"300"} -->
+								<p class="has-300-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'lsx-demo-theme' ) ); ?></p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:group -->
@@ -146,8 +146,8 @@
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->
-								<!-- wp:paragraph {"fontSize":"small"} -->
-								<p class="has-small-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'lsx-demo-theme' ) ); ?></p>
+								<!-- wp:paragraph {"fontSize":"300"} -->
+								<p class="has-300-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'lsx-demo-theme' ) ); ?></p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:group -->
@@ -178,8 +178,8 @@
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->
-								<!-- wp:paragraph {"fontSize":"small"} -->
-								<p class="has-small-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'lsx-demo-theme' ) ); ?></p>
+								<!-- wp:paragraph {"fontSize":"300"} -->
+								<p class="has-300-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'lsx-demo-theme' ) ); ?></p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:group -->

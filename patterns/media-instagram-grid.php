@@ -20,12 +20,12 @@
 		<div class="wp-block-group is-style-section-3" style="min-height:297px">
 			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center","justifyContent":"center"}} -->
 			<div class="wp-block-group" style="min-height:100%">
-				<!-- wp:heading {"fontSize":"large"} -->
-				<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Instagram', 'lsx-demo-theme' ); ?></h2>
+				<!-- wp:heading {"fontSize":"500"} -->
+				<h2 class="wp-block-heading has-500-font-size"><?php esc_html_e( 'Instagram', 'lsx-demo-theme' ); ?></h2>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-				<p class="has-text-align-center has-medium-font-size"><a href="#"><?php echo esc_html_x( '@example', 'Example username for social media account.', 'lsx-demo-theme' ); ?></a></p>
+				<!-- wp:paragraph {"align":"center","fontSize":"400"} -->
+				<p class="has-text-align-center has-400-font-size"><a href="#"><?php echo esc_html_x( '@example', 'Example username for social media account.', 'lsx-demo-theme' ); ?></a></p>
 				<!-- /wp:paragraph -->
 				</div>
 			<!-- /wp:group -->

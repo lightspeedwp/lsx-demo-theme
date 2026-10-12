@@ -43,8 +43,8 @@
 					<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/woman-splashing-water.webp" alt="<?php esc_attr_e( 'Woman on beach, splashing water.', 'lsx-demo-theme' ); ?>" style="aspect-ratio:3/4;object-fit:cover"/></figure>
 					<!-- /wp:image -->
 
-					<!-- wp:paragraph {"align":"right","style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
-					<p class="has-text-align-right has-x-large-font-size" style="line-height:1.2"><a href="#"><?php esc_html_e( 'Instagram', 'lsx-demo-theme' ); ?></a><br><a href="#"><?php esc_html_e( 'LinkedIn', 'lsx-demo-theme' ); ?></a><br><a href="#"><?php echo esc_html_x( 'Now', 'Link to a page with information about what the person is working on right now.', 'lsx-demo-theme' ); ?></a></p>
+					<!-- wp:paragraph {"align":"right","style":{"typography":{"lineHeight":"1.2"}},"fontSize":"700"} -->
+					<p class="has-text-align-right has-700-font-size" style="line-height:1.2"><a href="#"><?php esc_html_e( 'Instagram', 'lsx-demo-theme' ); ?></a><br><a href="#"><?php esc_html_e( 'LinkedIn', 'lsx-demo-theme' ); ?></a><br><a href="#"><?php echo esc_html_x( 'Now', 'Link to a page with information about what the person is working on right now.', 'lsx-demo-theme' ); ?></a></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->

@@ -17,8 +17,8 @@
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
-		<!-- wp:heading {"fontSize":"x-large"} -->
-		<h2 class="wp-block-heading has-x-large-font-size"><?php echo esc_html_x( 'Frequently Asked Questions', 'Heading of the FAQs pattern.', 'lsx-demo-theme' ); ?></h2>
+		<!-- wp:heading {"fontSize":"700"} -->
+		<h2 class="wp-block-heading has-700-font-size"><?php echo esc_html_x( 'Frequently Asked Questions', 'Heading of the FAQs pattern.', 'lsx-demo-theme' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->

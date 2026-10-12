@@ -7,7 +7,7 @@
 	"styles": {
 		"css": "width: fit-content",
 		"typography": {
-			"fontSize": "var:preset|font-size|small",
+			"fontSize": "var:preset|font-size|300",
 			"lineHeight": "1.5",
 			"letterSpacing": "normal"
 		},

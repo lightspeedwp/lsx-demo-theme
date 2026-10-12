@@ -38,8 +38,8 @@
 		<!-- /wp:column -->
 		<!-- wp:column {"width":"25%"} -->
 		<div class="wp-block-column" style="flex-basis:25%">
-			<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"1.6px"}},"fontSize":"small"} -->
-			<h2 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:1.6px;text-transform:uppercase"><?php esc_html_e( 'The Latest', 'lsx-demo-theme' ); ?></h2>
+			<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"1.6px"}},"fontSize":"300"} -->
+			<h2 class="wp-block-heading has-300-font-size" style="font-style:normal;font-weight:600;letter-spacing:1.6px;text-transform:uppercase"><?php esc_html_e( 'The Latest', 'lsx-demo-theme' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:spacer {"height":"var:preset|spacing|20"} -->
 			<div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
@@ -49,8 +49,8 @@
 				<!-- wp:post-template -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 					<div class="wp-block-group">
-						<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /-->
-						<!-- wp:post-date {"fontSize":"small","isLink":true} /-->
+						<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"500"} /-->
+						<!-- wp:post-date {"fontSize":"300","isLink":true} /-->
 					</div>
 					<!-- /wp:group -->
 					<!-- wp:spacer {"height":"var:preset|spacing|20"} -->
@@ -58,8 +58,8 @@
 					<!-- /wp:spacer -->
 				<!-- /wp:post-template -->
 				<!-- wp:query-no-results -->
-					<!-- wp:paragraph {"placeholder":"<?php esc_attr_e( 'Add text or blocks that will display when a query returns no results.', 'lsx-demo-theme' ); ?>","fontSize":"medium"} -->
-					<p class="has-medium-font-size"><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'lsx-demo-theme' ); ?></p>
+					<!-- wp:paragraph {"placeholder":"<?php esc_attr_e( 'Add text or blocks that will display when a query returns no results.', 'lsx-demo-theme' ); ?>","fontSize":"400"} -->
+					<p class="has-400-font-size"><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'lsx-demo-theme' ); ?></p>
 					<!-- /wp:paragraph -->
 				<!-- /wp:query-no-results -->
 			</div>
@@ -80,9 +80,9 @@
 				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group">
-						<!-- wp:post-title {"fontSize":"x-large"} /-->
-						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"wrap"}} -->
-						<div class="wp-block-group has-small-font-size">
+						<!-- wp:post-title {"fontSize":"700"} /-->
+						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"300","layout":{"type":"flex","flexWrap":"wrap"}} -->
+						<div class="wp-block-group has-300-font-size">
 							<!-- wp:post-terms {"term":"category","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
 							<!-- wp:paragraph -->
 							<p><?php echo esc_html_x( '·', 'Separator between date and categories.', 'lsx-demo-theme' ); ?></p>
@@ -107,7 +107,7 @@
 		<!-- /wp:post-template -->
 		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
-			<!-- wp:query-pagination {"fontSize":"medium","layout":{"type":"flex","justifyContent":"space-between"}} -->
+			<!-- wp:query-pagination {"fontSize":"400","layout":{"type":"flex","justifyContent":"space-between"}} -->
 				<!-- wp:query-pagination-previous /-->
 				<!-- wp:query-pagination-numbers /-->
 				<!-- wp:query-pagination-next /-->

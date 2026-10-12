@@ -47,8 +47,8 @@
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
-						<!-- wp:button {"fontSize":"small"} -->
-						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'lsx-demo-theme' ); ?></a></div>
+						<!-- wp:button {"fontSize":"300"} -->
+						<div class="wp-block-button has-custom-font-size has-300-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'lsx-demo-theme' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -85,8 +85,8 @@
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
-						<!-- wp:button {"fontSize":"small"} -->
-						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'lsx-demo-theme' ); ?></a></div>
+						<!-- wp:button {"fontSize":"300"} -->
+						<div class="wp-block-button has-custom-font-size has-300-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'lsx-demo-theme' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -116,8 +116,8 @@
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
-						<!-- wp:button {"fontSize":"small"} -->
-						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'lsx-demo-theme' ); ?></a></div>
+						<!-- wp:button {"fontSize":"300"} -->
+						<div class="wp-block-button has-custom-font-size has-300-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'lsx-demo-theme' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -154,8 +154,8 @@
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
-						<!-- wp:button {"fontSize":"small"} -->
-						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'lsx-demo-theme' ); ?></a></div>
+						<!-- wp:button {"fontSize":"300"} -->
+						<div class="wp-block-button has-custom-font-size has-300-font-size"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Buy Tickets', 'lsx-demo-theme' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->

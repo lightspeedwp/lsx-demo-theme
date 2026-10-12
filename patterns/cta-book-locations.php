@@ -23,8 +23,8 @@
 				<h2 class="wp-block-heading"><?php esc_html_e( 'International editions', 'lsx-demo-theme' ); ?></h2>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"fontSize":"medium"} -->
-				<p class="has-medium-font-size"><?php esc_html_e( 'The Stories Book will be available from these international retailers.', 'lsx-demo-theme' ); ?></p>
+				<!-- wp:paragraph {"fontSize":"400"} -->
+				<p class="has-400-font-size"><?php esc_html_e( 'The Stories Book will be available from these international retailers.', 'lsx-demo-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -39,48 +39,48 @@
 				<div class="wp-block-column">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
-						<h3 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Australia', 'lsx-demo-theme' ); ?></h3>
+						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"500"} -->
+						<h3 class="wp-block-heading has-500-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Australia', 'lsx-demo-theme' ); ?></h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:paragraph {"fontSize":"medium"} -->
-						<p class="has-medium-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
+						<!-- wp:paragraph {"fontSize":"400"} -->
+						<p class="has-400-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
-						<h3 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Brazil', 'lsx-demo-theme' ); ?></h3>
+						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"500"} -->
+						<h3 class="wp-block-heading has-500-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Brazil', 'lsx-demo-theme' ); ?></h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:paragraph {"fontSize":"medium"} -->
-						<p class="has-medium-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
+						<!-- wp:paragraph {"fontSize":"400"} -->
+						<p class="has-400-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
-						<h3 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Canada', 'lsx-demo-theme' ); ?></h3>
+						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"500"} -->
+						<h3 class="wp-block-heading has-500-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Canada', 'lsx-demo-theme' ); ?></h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:paragraph {"fontSize":"medium"} -->
-						<p class="has-medium-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
+						<!-- wp:paragraph {"fontSize":"400"} -->
+						<p class="has-400-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
-						<h3 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Japan', 'lsx-demo-theme' ); ?></h3>
+						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"500"} -->
+						<h3 class="wp-block-heading has-500-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Japan', 'lsx-demo-theme' ); ?></h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:paragraph {"fontSize":"medium"} -->
-						<p class="has-medium-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
+						<!-- wp:paragraph {"fontSize":"400"} -->
+						<p class="has-400-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -91,48 +91,48 @@
 				<div class="wp-block-column">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
-						<h3 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'New Zealand', 'lsx-demo-theme' ); ?></h3>
+						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"500"} -->
+						<h3 class="wp-block-heading has-500-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'New Zealand', 'lsx-demo-theme' ); ?></h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:paragraph {"fontSize":"medium"} -->
-						<p class="has-medium-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
+						<!-- wp:paragraph {"fontSize":"400"} -->
+						<p class="has-400-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
-						<h3 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Switzerland', 'lsx-demo-theme' ); ?></h3>
+						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"500"} -->
+						<h3 class="wp-block-heading has-500-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Switzerland', 'lsx-demo-theme' ); ?></h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:paragraph {"fontSize":"medium"} -->
-						<p class="has-medium-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
+						<!-- wp:paragraph {"fontSize":"400"} -->
+						<p class="has-400-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
-						<h3 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'United States', 'lsx-demo-theme' ); ?></h3>
+						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"500"} -->
+						<h3 class="wp-block-heading has-500-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'United States', 'lsx-demo-theme' ); ?></h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:paragraph {"fontSize":"medium"} -->
-						<p class="has-medium-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
+						<!-- wp:paragraph {"fontSize":"400"} -->
+						<p class="has-400-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
-						<h3 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'United Kingdom', 'lsx-demo-theme' ); ?></h3>
+						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"500"} -->
+						<h3 class="wp-block-heading has-500-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'United Kingdom', 'lsx-demo-theme' ); ?></h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:paragraph {"fontSize":"medium"} -->
-						<p class="has-medium-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
+						<!-- wp:paragraph {"fontSize":"400"} -->
+						<p class="has-400-font-size"><a href="#"><?php esc_html_e( 'Book Store', 'lsx-demo-theme' ); ?></a></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->

@@ -71,11 +71,11 @@
 
 		<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignfull">
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><?php esc_html_e( 'lsx-demo-theme', 'lsx-demo-theme' ); ?></p>
+			<!-- wp:paragraph {"fontSize":"300"} -->
+			<p class="has-300-font-size"><?php esc_html_e( 'lsx-demo-theme', 'lsx-demo-theme' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">
+			<!-- wp:paragraph {"fontSize":"300"} -->
+			<p class="has-300-font-size">
 				<?php
 				printf(
 					/* translators: Designed with WordPress. %s: WordPress link. */

@@ -16,8 +16,8 @@
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:heading {"fontSize":"x-large"} -->
-		<h2 class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Events', 'lsx-demo-theme' ); ?></h2>
+		<!-- wp:heading {"fontSize":"700"} -->
+		<h2 class="wp-block-heading has-700-font-size"><?php esc_html_e( 'Events', 'lsx-demo-theme' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
@@ -40,8 +40,8 @@
 				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'lsx-demo-theme' ); ?></h3>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"medium"} -->
-				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'lsx-demo-theme' ); ?></p>
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"400"} -->
+				<p class="has-accent-4-color has-text-color has-link-color has-400-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'lsx-demo-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -64,8 +64,8 @@
 				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'lsx-demo-theme' ); ?></h3>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"medium"} -->
-				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'lsx-demo-theme' ); ?></p>
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"400"} -->
+				<p class="has-accent-4-color has-text-color has-link-color has-400-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'lsx-demo-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -88,8 +88,8 @@
 				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'lsx-demo-theme' ); ?></h3>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"medium"} -->
-				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'lsx-demo-theme' ); ?></p>
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"400"} -->
+				<p class="has-accent-4-color has-text-color has-link-color has-400-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'lsx-demo-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

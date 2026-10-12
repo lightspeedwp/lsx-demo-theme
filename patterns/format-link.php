@@ -17,8 +17,8 @@
 	<p style="font-style:normal;font-weight:700"><?php esc_html_e( 'The Stories Book, a fine collection of moments in time featuring photographs from Louis Fleckenstein, Paul Strand and Asahachi Kōno, is available for pre-order', 'lsx-demo-theme' ); ?></p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:group {"fontSize":"medium","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-	<div class="wp-block-group has-medium-font-size">
+	<!-- wp:group {"fontSize":"400","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+	<div class="wp-block-group has-400-font-size">
 		<!-- wp:paragraph -->
 		<p><a href="#"><?php esc_html_e( 'https://example.com', 'lsx-demo-theme' ); ?></a></p>
 		<!-- /wp:paragraph -->

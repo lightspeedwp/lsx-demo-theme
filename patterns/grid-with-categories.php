@@ -18,8 +18,8 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
 		<div class="wp-block-group">
-			<!-- wp:heading {"fontSize":"x-large"} -->
-			<h2 class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Top Categories', 'lsx-demo-theme' ); ?></h2>
+			<!-- wp:heading {"fontSize":"700"} -->
+			<h2 class="wp-block-heading has-700-font-size"><?php esc_html_e( 'Top Categories', 'lsx-demo-theme' ); ?></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:group -->
